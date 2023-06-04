@@ -9,6 +9,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      no: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+      },
       name: {
         allowNull: false,
         type: Sequelize.STRING
@@ -21,7 +25,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      team: {
+      country: {
         allowNull: false,
         type: Sequelize.STRING
       },
@@ -32,17 +36,27 @@ module.exports = {
       bio: {
         type: Sequelize.TEXT
       },
-      imageUrl: {
+      bioAuthor: {
+        allowNull: false,
+        type: Sequelize.STRING,
+      },
+      smallImageUrl: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      largeImageUrl: {
         type: Sequelize.STRING,
         allowNull: false,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('now'),
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('now'),
       }
     });
   },
