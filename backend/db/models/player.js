@@ -14,11 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Player.init({
-    firstName: {
-      allowNull: false,
-      type: DataTypes.STRING,
-    },
-    lastName: {
+    name: {
       allowNull: false,
       type: DataTypes.STRING,
     },
@@ -34,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING,
     },
-    team: {
+    country: {
       allowNull: false,
       type: DataTypes.STRING,
     },
@@ -42,22 +38,26 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
-    achievements: {
+    bio: {
       type: DataTypes.TEXT
     },
-    imageUrl: {
+    smallImageUrl: {
+      allowNull: false,
+      type: DataTypes.STRING,
+    },
+    largeImageUrl: {
       allowNull: false,
       type: DataTypes.STRING,
     },
     createdAt: {
       allowNull: false,
-      type: sequelize.DATE,
-      defaultValue: sequelize.fn('now'),
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
     },
     updatedAt: {
       allowNull: false,
-      type: sequelize.DATE,
-      defaultValue: sequelize.fn('now'),
+      type: DataTypes.DATE,
+      defaultValue: DataTypes.NOW,
     }
   }, {
     sequelize,

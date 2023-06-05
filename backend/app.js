@@ -29,7 +29,7 @@ app.use(helmet({
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
 // Example route
-const router = express.Router();
+const router = require("./routes/index");
 router.get("/hello", (req, res) => {
   res.send("<h1>Test passed</h1>");
 });
