@@ -65,6 +65,26 @@ router.post("/players", async (req, res) => {
   }
 });
 
+// Update the player
+router.put("/players/:id", async (req, res) => {
+  const playerId = req.params.id;
+  const updatedPlayerData = req.body;
+
+  try {
+    const player = await Player.findByPk(playerId);
+
+    if (!player) {
+      return res.json(404).json({ message: "Player not found" });
+    }
+
+    await player.update(updatedPlayerData);
+    res.json(player);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ message: "Server Error" });
+  } 
+});
+
 // Delete the player
 router.delete("/players/:id", async (req, res) => {
   const playerId = req.params.id;
