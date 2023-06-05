@@ -14,9 +14,19 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Player.init({
+    id: {
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+      type: DataTypes.INTEGER
+    },
     name: {
       allowNull: false,
       type: DataTypes.STRING,
+    },
+    no: {
+      allowNull: false,
+      type: DataTypes.INTEGER,
     },
     age: {
       allowNull: false,
@@ -40,6 +50,10 @@ module.exports = (sequelize, DataTypes) => {
     },
     bio: {
       type: DataTypes.TEXT
+    },
+    bioAuthor: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     smallImageUrl: {
       allowNull: false,
