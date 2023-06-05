@@ -67,7 +67,15 @@ router.post("/players", async (req, res) => {
 
 // Delete the player
 router.delete("/players/:id", async (req, res) => {
+  const playerId = req.params.id;
   
+  const player = await Player.findByPk(playerId);
+  if (!player) {
+    return res.status(404).json({ message: "Player not found" });
+  }
+
+  await player.destroy();
+  res.json({ message: "Player deleted successfully" });
 })
 
 
