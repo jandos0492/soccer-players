@@ -24,7 +24,7 @@ module.exports = {
       "club": "Paris Saint-Germain",
       "smallImageUrl": "images/players/smallImage/2.svg",
       "largeImageUrl": "images/players/largeImage/2.svg",
-      "bio": "This was the year that confirmed that The Age of Mbappé has already begun. No one in Europe’s leading divisions came close to his 44 goals in 43 club games, before a hat-trick in the final helped the France forward top the World Cup scoring charts with eight. Although signs of growing self-importance are a concern, an increasingly ruthless and commanding Mbappé was routinely unplayable in 2022, regardless of the competition. Each year since his 2017 emergence has seen Mbappé’s game authoritatively ease up a gear. Barely 24, the likely continuation of that upward curve is at once a thrilling and terrifying prospect. Adam White",
+      "bio": "This was the year that confirmed that The Age of Mbappé has already begun. No one in Europe’s leading divisions came close to his 44 goals in 43 club games, before a hat-trick in the final helped the France forward top the World Cup scoring charts with eight. Although signs of growing self-importance are a concern, an increasingly ruthless and commanding Mbappé was routinely unplayable in 2022, regardless of the competition. Each year since his 2017 emergence has seen Mbappé’s game authoritatively ease up a gear. Barely 24, the likely continuation of that upward curve is at once a thrilling and terrifying prospect.",
       "bioAuthor": "Adam White"
     }, 
     {
@@ -36,7 +36,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/3.svg",
       "largeImageUrl": "images/players/largeImage/3.svg",
-      "bio": "“K9 is Superman,” Iker Casillas said. “K9 is Wolverine. K9 is your best friend. K9 is your grandmother. K9 is the parachute instructor you throw yourself out of an aircraft with. K9 is your guardian angel. K9 is God.” K9, in short, is our No 3 – and he may consider that low, injury and absence from the World Cup denying him (and perhaps France?) the chance to reach the very top. Top scorer in La Liga and the Champions League, scoring three against PSG, three against Manchester City and four against Chelsea, he was deservedly the runaway Ballon d’Or winner. Sid Lowe",
+      "bio": "“K9 is Superman,” Iker Casillas said. “K9 is Wolverine. K9 is your best friend. K9 is your grandmother. K9 is the parachute instructor you throw yourself out of an aircraft with. K9 is your guardian angel. K9 is God.” K9, in short, is our No 3 – and he may consider that low, injury and absence from the World Cup denying him (and perhaps France?) the chance to reach the very top. Top scorer in La Liga and the Champions League, scoring three against PSG, three against Manchester City and four against Chelsea, he was deservedly the runaway Ballon d’Or winner.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -48,7 +48,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/4.svg",
       "largeImageUrl": "images/players/largeImage/4.svg",
-      "bio": "New league, same old Haaland. Any fears that a move to the Premier League from the Bundesliga would slow down the goalscoring prowess of the 22-year-old Norwegian vanished within a few weeks of the 2022-23 season. At the time of writing he has 25 goals in 19 English top-flight games and a further five in four Champions League fixtures. Norway not qualifying for the World Cup gave him a rest but one wonders how high he would have finished on this list with a good showing in Qatar. Haaland moves into our top five for the first time but did finish more than 600 points behind Karim Benzema in third. Marcus Christenson",
+      "bio": "New league, same old Haaland. Any fears that a move to the Premier League from the Bundesliga would slow down the goalscoring prowess of the 22-year-old Norwegian vanished within a few weeks of the 2022-23 season. At the time of writing he has 25 goals in 19 English top-flight games and a further five in four Champions League fixtures. Norway not qualifying for the World Cup gave him a rest but one wonders how high he would have finished on this list with a good showing in Qatar. Haaland moves into our top five for the first time but did finish more than 600 points behind Karim Benzema in third.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -60,7 +60,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/5.svg",
       "largeImageUrl": "images/players/largeImage/5.svg",
-      "bio": "“We all know how many lovely words have been written about Luka and what he has done, not just for Croatia but the whole world. Age comes to everyone, but he is immortal,” Andrej Kramaric said before Croatia’s last game at the World Cup – but not, fortunately, Modric’s last game for his country. Few could have blamed him for bowing out with a third place in Qatar to go with his runners-up medal from Russia, aged 37 and on 162 caps, having just won a fifth Champions League, but Modric goes on. And that is a joy. Sid Lowe",
+      "bio": "“We all know how many lovely words have been written about Luka and what he has done, not just for Croatia but the whole world. Age comes to everyone, but he is immortal,” Andrej Kramaric said before Croatia’s last game at the World Cup – but not, fortunately, Modric’s last game for his country. Few could have blamed him for bowing out with a third place in Qatar to go with his runners-up medal from Russia, aged 37 and on 162 caps, having just won a fifth Champions League, but Modric goes on. And that is a joy.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -72,7 +72,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/6.svg",
       "largeImageUrl": "images/players/largeImage/6.svg",
-      "bio": "If there is a moment that sums up De Bruyne’s 2022 it has to be the driving run and low cross that led to İlkay Gündogan’s title-winning goal for Manchester City on the final day of last season. Once again City’s creator supreme came to the fore when they needed him most. De Bruyne assisted eight goals for Pep Guardiola’s team as they went about securing a fourth championship in five years and already had a further 10 this campaign prior to the World Cup. At the tournament itself the 31-year-old was an ineffective presence for a poor Belgium side but, overall, remains a supreme midfield talent. This is the fifth time he is in our top 10, a testament to his consistency. Sachin Nakrani",
+      "bio": "If there is a moment that sums up De Bruyne’s 2022 it has to be the driving run and low cross that led to İlkay Gündogan’s title-winning goal for Manchester City on the final day of last season. Once again City’s creator supreme came to the fore when they needed him most. De Bruyne assisted eight goals for Pep Guardiola’s team as they went about securing a fourth championship in five years and already had a further 10 this campaign prior to the World Cup. At the tournament itself the 31-year-old was an ineffective presence for a poor Belgium side but, overall, remains a supreme midfield talent. This is the fifth time he is in our top 10, a testament to his consistency.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -84,7 +84,7 @@ module.exports = {
       "club": "Barcelona",
       "smallImageUrl": "images/players/smallImage/7.svg",
       "largeImageUrl": "images/players/largeImage/7.svg",
-      "bio": "Everyone expected Lewandowski to be good as he joined Barcelona after eight prolific years at Bayern Munich, but he has been even better than anticipated. He has continued to score bucketloads of goals – 22 in 23 appearances in all competitions – and got Barça wins they arguably did not deserve, October’s 1-0 victory at Mallorca being a case in point. He also fulfilled a lifelong ambition by scoring at a World Cup for the first time. The joy on his face against Saudi Arabia said it all, showing that his love for goals has not diminished with age. Having been crowned the best player in the world by the Guardian two years in a row, he drops to seventh this time around. Marcus Christenson",
+      "bio": "Everyone expected Lewandowski to be good as he joined Barcelona after eight prolific years at Bayern Munich, but he has been even better than anticipated. He has continued to score bucketloads of goals – 22 in 23 appearances in all competitions – and got Barça wins they arguably did not deserve, October’s 1-0 victory at Mallorca being a case in point. He also fulfilled a lifelong ambition by scoring at a World Cup for the first time. The joy on his face against Saudi Arabia said it all, showing that his love for goals has not diminished with age. Having been crowned the best player in the world by the Guardian two years in a row, he drops to seventh this time around.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -96,7 +96,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/8.svg",
       "largeImageUrl": "images/players/largeImage/8.svg",
-      "bio": "Spain’s best Viní since Samways. Asked not long ago why he was calmer in front of goal, the days when one-on-ones were no guarantee long gone, Vinícius replied: “I was younger then.” It was a simple reply but maybe necessary, a reminder of how early footballers are exposed. One thing’s certain: no one doubts Vinícius any more. Electric, willing to take on anyone, the focus of so much of Real Madrid’s attacking, his fourth season at the Bernabéu ended with 22 goals, 20 assists, more dribbles than anyone and the winning goal in the Champions League final, all before his 22nd birthday. A new entry to the top 10, he looks set to stay here for some time. Sid Lowe",
+      "bio": "Spain’s best Viní since Samways. Asked not long ago why he was calmer in front of goal, the days when one-on-ones were no guarantee long gone, Vinícius replied: “I was younger then.” It was a simple reply but maybe necessary, a reminder of how early footballers are exposed. One thing’s certain: no one doubts Vinícius any more. Electric, willing to take on anyone, the focus of so much of Real Madrid’s attacking, his fourth season at the Bernabéu ended with 22 goals, 20 assists, more dribbles than anyone and the winning goal in the Champions League final, all before his 22nd birthday. A new entry to the top 10, he looks set to stay here for some time.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -108,7 +108,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/9.svg",
       "largeImageUrl": "images/players/largeImage/9.svg",
-      "bio": "“I don’t know what we’re supposed to do to beat Courtois. Pray maybe,” Rayo Vallecano’s Iván Balliu said. There was a bit of a fuss not long ago when one magazine left Courtois out of its list of the world’s 10 best goalkeepers. The only reasonable explanation was this was an “except Courtois” list, so manifestly superior was he to everyone else. Reached an absurd level in 2022, shown in the European Cup final and so many other nights. Made 59 Champions League saves, almost four times as many as Alisson. Up 44 places; genuinely could be up 50+. Sid Lowe",
+      "bio": "“I don’t know what we’re supposed to do to beat Courtois. Pray maybe,” Rayo Vallecano’s Iván Balliu said. There was a bit of a fuss not long ago when one magazine left Courtois out of its list of the world’s 10 best goalkeepers. The only reasonable explanation was this was an “except Courtois” list, so manifestly superior was he to everyone else. Reached an absurd level in 2022, shown in the European Cup final and so many other nights. Made 59 Champions League saves, almost four times as many as Alisson. Up 44 places; genuinely could be up 50+.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -120,7 +120,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/10.svg",
       "largeImageUrl": "images/players/largeImage/10.svg",
-      "bio": "It says everything about the Liverpool forward’s remarkable output over many seasons that 2022 was not considered a vintage year for a player occupying his lowest position in our poll since 2017. Salah scored 31 goals for Liverpool in 2021-22 and 25 in a calender year that saw Jürgen Klopp’s side reach the Champions League final for the third time in five seasons. There were considerable disappointments along the way, including losing both the Africa Cup of Nations final and World Cup play-off on penalties to Senegal with Egypt. That burden took its toll but Salah’s status at the top of the game was reflected in Liverpool’s award of a new £350,000-a-week, three year contract, the most lucrative in the club’s history. Andy Hunter",
+      "bio": "It says everything about the Liverpool forward’s remarkable output over many seasons that 2022 was not considered a vintage year for a player occupying his lowest position in our poll since 2017. Salah scored 31 goals for Liverpool in 2021-22 and 25 in a calender year that saw Jürgen Klopp’s side reach the Champions League final for the third time in five seasons. There were considerable disappointments along the way, including losing both the Africa Cup of Nations final and World Cup play-off on penalties to Senegal with Egypt. That burden took its toll but Salah’s status at the top of the game was reflected in Liverpool’s award of a new £350,000-a-week, three year contract, the most lucrative in the club’s history.",
       "bioAuthor": "Andy Hunter"
     }, 
     {
@@ -132,7 +132,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/11.svg",
       "largeImageUrl": "images/players/largeImage/11.svg",
-      "bio": "One of the most reliable forwards in world football wears more than just the one crown in this year’s list – he is the highest-placed Bundesliga player and the second highest African player. Yet the extent of Mané’s worth is really underlined by the void he has left in his absences; from Liverpool, where his reliability and integral role in the collective press has been missed by Jürgen Klopp’s team since he left for Germany, and from Senegal, where his injury just before the World Cup left the African champions – and the football world – cursing the loss of a bona fide star. Andy Brassell",
+      "bio": "One of the most reliable forwards in world football wears more than just the one crown in this year’s list – he is the highest-placed Bundesliga player and the second highest African player. Yet the extent of Mané’s worth is really underlined by the void he has left in his absences; from Liverpool, where his reliability and integral role in the collective press has been missed by Jürgen Klopp’s team since he left for Germany, and from Senegal, where his injury just before the World Cup left the African champions – and the football world – cursing the loss of a bona fide star.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -144,7 +144,7 @@ module.exports = {
       "club": "Paris Saint-Germain",
       "smallImageUrl": "images/players/smallImage/12.svg",
       "largeImageUrl": "images/players/largeImage/12.svg",
-      "bio": "“I am psychologically destroyed,” read the Brazilian’s post-World Cup message after the Seleção had lost to Croatia. Despite disappointment in Doha, though, Neymar has managed to dispel doubts over his mindset by turning in his best calendar year since joining PSG. He overcame an ankle injury and the ire of fans to bounce back, then take that form into the new campaign. His 16 goals and 15 assists so far have seen him shine in Christophe Galtier’s new-look side. His injury issues flared up yet again in a truncated and ultimately fruitless World Cup campaign, although he did draw level with the late Pelé to become Brazil’s joint all-time top scorer with his 77th goal in that quarter-final against Croatia. Raphaël Jucobin",
+      "bio": "“I am psychologically destroyed,” read the Brazilian’s post-World Cup message after the Seleção had lost to Croatia. Despite disappointment in Doha, though, Neymar has managed to dispel doubts over his mindset by turning in his best calendar year since joining PSG. He overcame an ankle injury and the ire of fans to bounce back, then take that form into the new campaign. His 16 goals and 15 assists so far have seen him shine in Christophe Galtier’s new-look side. His injury issues flared up yet again in a truncated and ultimately fruitless World Cup campaign, although he did draw level with the late Pelé to become Brazil’s joint all-time top scorer with his 77th goal in that quarter-final against Croatia.",
       "bioAuthor": "Raphaël Jucobin"
     }, 
     {
@@ -156,7 +156,7 @@ module.exports = {
       "club": "Tottenham",
       "smallImageUrl": "images/players/smallImage/13.svg",
       "largeImageUrl": "images/players/largeImage/13.svg",
-      "bio": "The England captain, an ever-present on the list since making his debut in 2015, moves up two places this year but a big part of his 2022 will be that penalty miss against France at the World Cup. “I’ll probably remember it for the rest of my life, but that’s part of the game,” he said after the 4-0 win against Crystal Palace in early January in which he scored twice in typically ruthless fashion. “It’s not going to affect me as a player or as a person. I’ll keep working hard to improve.” He continued to do what he does best, which is to score goals, in 2022, being on target 26 times in 37 Premier League appearances. Marcus Christenson",
+      "bio": "The England captain, an ever-present on the list since making his debut in 2015, moves up two places this year but a big part of his 2022 will be that penalty miss against France at the World Cup. “I’ll probably remember it for the rest of my life, but that’s part of the game,” he said after the 4-0 win against Crystal Palace in early January in which he scored twice in typically ruthless fashion. “It’s not going to affect me as a player or as a person. I’ll keep working hard to improve.” He continued to do what he does best, which is to score goals, in 2022, being on target 26 times in 37 Premier League appearances.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -168,7 +168,7 @@ module.exports = {
       "club": "Borussia Dortmund",
       "smallImageUrl": "images/players/smallImage/14.svg",
       "largeImageUrl": "images/players/largeImage/14.svg",
-      "bio": "The second highest Englishman on the list soars up 58 places, and that feels like a fair barometer of just how Bellingham’s influence has grown. The teenager has been Borussia Dortmund’s best midfielder for a while but has found an extra gear since the summer arrival of Salih Özcan, encouraged to burst forward more and scoring in each of his club’s first four Champions League games. A natural leader and responsibility taker, Bellingham also had an outstanding World Cup, opening England’s scoring for the tournament against Iran and adding a different dimension to the midfield of Gareth Southgate’s side. Andy Brassell",
+      "bio": "The second highest Englishman on the list soars up 58 places, and that feels like a fair barometer of just how Bellingham’s influence has grown. The teenager has been Borussia Dortmund’s best midfielder for a while but has found an extra gear since the summer arrival of Salih Özcan, encouraged to burst forward more and scoring in each of his club’s first four Champions League games. A natural leader and responsibility taker, Bellingham also had an outstanding World Cup, opening England’s scoring for the tournament against Iran and adding a different dimension to the midfield of Gareth Southgate’s side.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -180,7 +180,7 @@ module.exports = {
       "club": "Manchester United",
       "smallImageUrl": "images/players/smallImage/15.svg",
       "largeImageUrl": "images/players/largeImage/15.svg",
-      "bio": "The Brazil midfielder is in his highest ever position on the list, jumping up 53 places after helping secure his third La Liga title and fifth Champions League triumph before deciding he wanted a fresh challenge at Manchester United. The Premier League side were willing to part with £70m to bring in the 30-year-old and the outlay has started to pay dividends. Casemiro’s experience in front of the defence has transformed the side under Erik ten Hag’s tutelage. He may have hoped to add a World Cup winner’s medal to his haul but Brazil were knocked out at the quarter-final stage. Will Unwin",
+      "bio": "The Brazil midfielder is in his highest ever position on the list, jumping up 53 places after helping secure his third La Liga title and fifth Champions League triumph before deciding he wanted a fresh challenge at Manchester United. The Premier League side were willing to part with £70m to bring in the 30-year-old and the outlay has started to pay dividends. Casemiro’s experience in front of the defence has transformed the side under Erik ten Hag’s tutelage. He may have hoped to add a World Cup winner’s medal to his haul but Brazil were knocked out at the quarter-final stage.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -192,7 +192,7 @@ module.exports = {
       "club": "Paris Saint-Germain",
       "smallImageUrl": "images/players/smallImage/16.svg",
       "largeImageUrl": "images/players/largeImage/16.svg",
-      "bio": "After a somewhat indifferent start to the season, Hakimi sparked to life at the World Cup, albeit playing a more conservative role. It remains to be seen whether he can recapture that form for PSG in the new year, but he remains as exciting a young full-back as there is in the game. Able to affect play going forward as well as any full-back in the game, even if he is sometimes lacking in his positioning, his recovery pace and the threat he poses going forward makes him perfectly adept at pinning back opposing wingers – an archetypal modern full-back. Eric Devin",
+      "bio": "After a somewhat indifferent start to the season, Hakimi sparked to life at the World Cup, albeit playing a more conservative role. It remains to be seen whether he can recapture that form for PSG in the new year, but he remains as exciting a young full-back as there is in the game. Able to affect play going forward as well as any full-back in the game, even if he is sometimes lacking in his positioning, his recovery pace and the threat he poses going forward makes him perfectly adept at pinning back opposing wingers – an archetypal modern full-back.",
       "bioAuthor": "Eric Devin"
     }, 
     {
@@ -204,7 +204,7 @@ module.exports = {
       "club": "Atlético Madrid",
       "smallImageUrl": "images/players/smallImage/17.svg",
       "largeImageUrl": "images/players/largeImage/17.svg",
-      "bio": "The Frenchman returns to the top half of the list after a year in which he started to play his best football again, at a club he probably never should have left. All this despite the farcical contractual situation which meant that Atlético did not want him to play more than a half in many games because then they would have to pay Barcelona more for the two-year loan deal. Perhaps the reduced amount of minutes helped Griezmann at the World Cup because he was at his magical best in Qatar, the creative spark for the team as they reached the final – and nearly won it. Griezmann has made every top 100 list since his debut in 2014, finishing a career-high sixth in 2018 after France’s World Cup victory. Marcus Christenson",
+      "bio": "The Frenchman returns to the top half of the list after a year in which he started to play his best football again, at a club he probably never should have left. All this despite the farcical contractual situation which meant that Atlético did not want him to play more than a half in many games because then they would have to pay Barcelona more for the two-year loan deal. Perhaps the reduced amount of minutes helped Griezmann at the World Cup because he was at his magical best in Qatar, the creative spark for the team as they reached the final – and nearly won it. Griezmann has made every top 100 list since his debut in 2014, finishing a career-high sixth in 2018 after France’s World Cup victory.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -216,7 +216,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/18.svg",
       "largeImageUrl": "images/players/largeImage/18.svg",
-      "bio": "“Fede Valverde top three in the world right now,” Toni Kroos tweeted after the Uruguayan took Barcelona apart in October. A re-entry after a year’s absence from the list he is straight back in at No 18. The footballer with four lungs, Valverde has turned the pitch on its side: normally defined horizontally – defence, midfield, attack – his position is defined vertically. He plays on the right, the whole of the right. And inside a bit too. Provided the pass for the winner in the Champions League final. Thunderous shot, endless running, bursting through barriers, a subtlety and wider range of passing has been added to his game. Sid Lowe",
+      "bio": "“Fede Valverde top three in the world right now,” Toni Kroos tweeted after the Uruguayan took Barcelona apart in October. A re-entry after a year’s absence from the list he is straight back in at No 18. The footballer with four lungs, Valverde has turned the pitch on its side: normally defined horizontally – defence, midfield, attack – his position is defined vertically. He plays on the right, the whole of the right. And inside a bit too. Provided the pass for the winner in the Champions League final. Thunderous shot, endless running, bursting through barriers, a subtlety and wider range of passing has been added to his game.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -228,7 +228,7 @@ module.exports = {
       "club": "Barcelona",
       "smallImageUrl": "images/players/smallImage/19.svg",
       "largeImageUrl": "images/players/largeImage/19.svg",
-      "bio": "Some players get people up on their feet; Pedri gets them down on their backside. He does if it is Sevilla or Galatasaray defenders, anyway. A lovely goal against Sevilla in February, which was pretty much a copy of what he had done in Istanbul a fortnight earlier, offered a neat expression of his play: the touch, the pause, opponents sliding by out the way. All of it done with a smooth ease, socks low, that makes him feel like a footballer from another age. “It’s wonderful watching Pedri play. If we’re talking pure talent, he’s the best in the world,” says Xavi, his manager at Barcelona. Sid Lowe",
+      "bio": "Some players get people up on their feet; Pedri gets them down on their backside. He does if it is Sevilla or Galatasaray defenders, anyway. A lovely goal against Sevilla in February, which was pretty much a copy of what he had done in Istanbul a fortnight earlier, offered a neat expression of his play: the touch, the pause, opponents sliding by out the way. All of it done with a smooth ease, socks low, that makes him feel like a footballer from another age. “It’s wonderful watching Pedri play. If we’re talking pure talent, he’s the best in the world,” says Xavi, his manager at Barcelona.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -240,7 +240,7 @@ module.exports = {
       "club": "Aston Villa",
       "smallImageUrl": "images/players/smallImage/20.svg",
       "largeImageUrl": "images/players/largeImage/20.svg",
-      "bio": "In emulating Ubaldo Fillol and Nery Pumpido as Argentina’s World Cup-winning goalkeepers, Martínez wrote himself into legend. Neither of those predecessors were required to be the decisive actor in penalty shootouts, as Martínez was against the Netherlands in the quarter-finals and then again in the final itself. His gamesmanship in those pressure situations won him cult status but he also made a crucial, match-winning contribution in open play when France’s Randal Kolo Muani seemed set to score in the last minute of extra time. The one-time Rotherham and Oxford loanee with a London tinge to his accent has come a long way. John Brewin",
+      "bio": "In emulating Ubaldo Fillol and Nery Pumpido as Argentina’s World Cup-winning goalkeepers, Martínez wrote himself into legend. Neither of those predecessors were required to be the decisive actor in penalty shootouts, as Martínez was against the Netherlands in the quarter-finals and then again in the final itself. His gamesmanship in those pressure situations won him cult status but he also made a crucial, match-winning contribution in open play when France’s Randal Kolo Muani seemed set to score in the last minute of extra time. The one-time Rotherham and Oxford loanee with a London tinge to his accent has come a long way.",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -252,7 +252,7 @@ module.exports = {
       "club": "Benfica",
       "smallImageUrl": "images/players/smallImage/21.svg",
       "largeImageUrl": "images/players/largeImage/21.svg",
-      "bio": "No other player made quite such a breakthrough in 2022. Fernández went from promising River Plate playmaker to a talent coveted by the entirety of Europe’s elite. Having made his Argentina debut on 24 September, he was a World Cup winner by 18 December, voted the best young player in the tournament. After moving to Benfica in July, Champions League performances against Paris Saint-Germain and Juventus announced him as a modern, creative, box-to-box midfielder for whom suitors would be prepared to pay a £105m release clause. Once Lionel Scaloni plumped for Fernández in midfield in Qatar, Argentina became a winning proposition. John Brewin",
+      "bio": "No other player made quite such a breakthrough in 2022. Fernández went from promising River Plate playmaker to a talent coveted by the entirety of Europe’s elite. Having made his Argentina debut on 24 September, he was a World Cup winner by 18 December, voted the best young player in the tournament. After moving to Benfica in July, Champions League performances against Paris Saint-Germain and Juventus announced him as a modern, creative, box-to-box midfielder for whom suitors would be prepared to pay a £105m release clause. Once Lionel Scaloni plumped for Fernández in midfield in Qatar, Argentina became a winning proposition.",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -264,7 +264,7 @@ module.exports = {
       "club": "Arsenal",
       "smallImageUrl": "images/players/smallImage/22.svg",
       "largeImageUrl": "images/players/largeImage/22.svg",
-      "bio": "Saka is the most important player in, on the evidence of the past six months, the Premier League’s best team. So it is no surprise that he is the highest climber in this year’s list. A 73-place rise reflects the astonishing level of consistency produced by a player who is still only 21; Saka scored 12 top-flight goals in 2022 from his position on the right of Arsenal’s attack and brushed aside fears of tiredness to produce a stunning first half of 2022-23. Match-winning performances against Liverpool and Manchester United tell only part of the story for a player who is explosively quick but deft, precise and diligent with it. Three goals at the World Cup emphasised that he is crucial to England’s prospects, too. Nick Ames",
+      "bio": "Saka is the most important player in, on the evidence of the past six months, the Premier League’s best team. So it is no surprise that he is the highest climber in this year’s list. A 73-place rise reflects the astonishing level of consistency produced by a player who is still only 21; Saka scored 12 top-flight goals in 2022 from his position on the right of Arsenal’s attack and brushed aside fears of tiredness to produce a stunning first half of 2022-23. Match-winning performances against Liverpool and Manchester United tell only part of the story for a player who is explosively quick but deft, precise and diligent with it. Three goals at the World Cup emphasised that he is crucial to England’s prospects, too.",
       "bioAuthor": "Nick Ames"
     }, 
     {
@@ -276,7 +276,7 @@ module.exports = {
       "club": "Milan",
       "smallImageUrl": "images/players/smallImage/23.svg",
       "largeImageUrl": "images/players/largeImage/23.svg",
-      "bio": "Milan’s manager, Stefano Pioli, used to worry that Leão did not take football seriously enough, grinning and laughing as he ran at opponents. Those worries faded as the winger carried the Rossoneri to their first Serie A title for more than a decade, shredding defences with spectacular dribbles. Leão was named as the league’s MVP with 11 goals and eight assists and began the new campaign striking twice to sink Inter in the derby. He is the highest-ranked Portuguese player on our list yet was used only as an impact replacement at the World Cup, scoring twice in five substitute appearances. Nicky Bandini",
+      "bio": "Milan’s manager, Stefano Pioli, used to worry that Leão did not take football seriously enough, grinning and laughing as he ran at opponents. Those worries faded as the winger carried the Rossoneri to their first Serie A title for more than a decade, shredding defences with spectacular dribbles. Leão was named as the league’s MVP with 11 goals and eight assists and began the new campaign striking twice to sink Inter in the derby. He is the highest-ranked Portuguese player on our list yet was used only as an impact replacement at the World Cup, scoring twice in five substitute appearances.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -288,7 +288,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/24.svg",
       "largeImageUrl": "images/players/largeImage/24.svg",
-      "bio": "“I’ve never seen someone like Phil at that age, the ability he’s got is frightening.” That was John Stones’s assessment of his Manchester City teammate after they played together for England in the 3-0 victory over Wales at the World Cup and Foden more than lived up to the billing in the next game, providing two assists as Gareth Southgate’s side dismantled Senegal in the last 16. Overall, 2022 was a year in which the 22-year-old firmly established himself as one of the most technically gifted young talents in Europe. He is up one place on this list and looks set to continue his rise in years to come. Sachin Nakrani",
+      "bio": "“I’ve never seen someone like Phil at that age, the ability he’s got is frightening.” That was John Stones’s assessment of his Manchester City teammate after they played together for England in the 3-0 victory over Wales at the World Cup and Foden more than lived up to the billing in the next game, providing two assists as Gareth Southgate’s side dismantled Senegal in the last 16. Overall, 2022 was a year in which the 22-year-old firmly established himself as one of the most technically gifted young talents in Europe. He is up one place on this list and looks set to continue his rise in years to come.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -300,7 +300,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/25.svg",
       "largeImageUrl": "images/players/largeImage/25.svg",
-      "bio": "Germany’s World Cup campaign was heavily laced with disappointment but the bright spot was that they clearly have a new star on the horizon. Midfielder Musiala has been a talent for a while, and is always positive and confident on the ball. After Robert Lewandowski’s departure from Bayern the goalscoring load was always going to be a collective responsibility but Musiala has seized the mantle more than most, with nine goals and six assists in his first 15 Bundesliga games of this season. The numbers only partly describe his pace and incision, which made him Germany’s standout player in Qatar. Andy Brassell",
+      "bio": "Germany’s World Cup campaign was heavily laced with disappointment but the bright spot was that they clearly have a new star on the horizon. Midfielder Musiala has been a talent for a while, and is always positive and confident on the ball. After Robert Lewandowski’s departure from Bayern the goalscoring load was always going to be a collective responsibility but Musiala has seized the mantle more than most, with nine goals and six assists in his first 15 Bundesliga games of this season. The numbers only partly describe his pace and incision, which made him Germany’s standout player in Qatar.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -312,7 +312,7 @@ module.exports = {
       "club": "Tottenham",
       "smallImageUrl": "images/players/smallImage/26.svg",
       "largeImageUrl": "images/players/largeImage/26.svg",
-      "bio": "Son has risen 13 places and it is fair to say that is largely based on his performances in the first half of 2022. He was supreme for Tottenham as they went about securing a top-four place, scoring 15 goals and providing six assists from New Year’s Day up until the final day of last season. It meant he shared the Golden Boot award with Mohamed Salah. Ever since then, however, the forward has not been his usual self, literally in regards to having to wear a face mask after suffering an eye fracture in November. It was a prominent feature of the 30-year-old’s World Cup as he struggled to make an impact for South Korea. Sachin Nakrani",
+      "bio": "Son has risen 13 places and it is fair to say that is largely based on his performances in the first half of 2022. He was supreme for Tottenham as they went about securing a top-four place, scoring 15 goals and providing six assists from New Year’s Day up until the final day of last season. It meant he shared the Golden Boot award with Mohamed Salah. Ever since then, however, the forward has not been his usual self, literally in regards to having to wear a face mask after suffering an eye fracture in November. It was a prominent feature of the 30-year-old’s World Cup as he struggled to make an impact for South Korea.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -324,7 +324,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/27.svg",
       "largeImageUrl": "images/players/largeImage/27.svg",
-      "bio": "Questions over the Liverpool defender’s recovery from a serious knee injury – which accounted for him dropping down the ratings in 2021 – were answered in convincing style as Van Dijk recaptured the form and authority that makes him such a vital part of Jürgen Klopp’s team. Van Dijk played 51 games last season as Liverpool won the FA and Carabao Cups, reached the Champions League final and missed out on the Premier League title on the final day of the season. The 31-year-old was nominated for the Ballon d’Or once again in 2022 and was also included in the PFA Premier League team of the year. Andy Hunter",
+      "bio": "Questions over the Liverpool defender’s recovery from a serious knee injury – which accounted for him dropping down the ratings in 2021 – were answered in convincing style as Van Dijk recaptured the form and authority that makes him such a vital part of Jürgen Klopp’s team. Van Dijk played 51 games last season as Liverpool won the FA and Carabao Cups, reached the Champions League final and missed out on the Premier League title on the final day of the season. The 31-year-old was nominated for the Ballon d’Or once again in 2022 and was also included in the PFA Premier League team of the year.",
       "bioAuthor": "Andy Hunter"
     }, 
     {
@@ -336,7 +336,7 @@ module.exports = {
       "club": "Manchester United",
       "smallImageUrl": "images/players/smallImage/28.svg",
       "largeImageUrl": "images/players/largeImage/28.svg",
-      "bio": "Held things together for Manchester United during their meek ending to the 2021-22 season. Like many at Old Trafford, he has improved since Erik ten Hag’s arrival in the summer. Operating behind the central striker or occasionally out wide, the midfielder has been an integral part of the plan to turn United around this season, scoring the equaliser in a 2-1 win against City in the Manchester derby. Fernandes also enjoyed an impressive World Cup, scoring twice in a group-stage win over Uruguay and supplying three assists throughout the tournament. Will Unwin",
+      "bio": "Held things together for Manchester United during their meek ending to the 2021-22 season. Like many at Old Trafford, he has improved since Erik ten Hag’s arrival in the summer. Operating behind the central striker or occasionally out wide, the midfielder has been an integral part of the plan to turn United around this season, scoring the equaliser in a 2-1 win against City in the Manchester derby. Fernandes also enjoyed an impressive World Cup, scoring twice in a group-stage win over Uruguay and supplying three assists throughout the tournament.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -348,7 +348,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/29.svg",
       "largeImageUrl": "images/players/largeImage/29.svg",
-      "bio": "A second year of moving up the list after dropping from his 2019 high of 16. Much of the summer was spent listening to rumours about Silva’s future at Manchester City with Barcelona circling but Pep Guardiola was adamant that the midfielder did not leave, describing him as “irreplaceable”. Silva proved his manager right with five assists in his opening 13 appearances of the 2022-23 season, scoring crucial goals against Newcastle and Crystal Palace. He failed to match that form at the World Cup, however, as Portugal were unable to pick Morocco’s lock in their quarter-final and the national team were knocked out with him failing to create a goal in the tournament. Will Unwin",
+      "bio": "A second year of moving up the list after dropping from his 2019 high of 16. Much of the summer was spent listening to rumours about Silva’s future at Manchester City with Barcelona circling but Pep Guardiola was adamant that the midfielder did not leave, describing him as “irreplaceable”. Silva proved his manager right with five assists in his opening 13 appearances of the 2022-23 season, scoring crucial goals against Newcastle and Crystal Palace. He failed to match that form at the World Cup, however, as Portugal were unable to pick Morocco’s lock in their quarter-final and the national team were knocked out with him failing to create a goal in the tournament.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -360,7 +360,7 @@ module.exports = {
       "club": "Milan",
       "smallImageUrl": "images/players/smallImage/30.svg",
       "largeImageUrl": "images/players/largeImage/30.svg",
-      "bio": "With every passing year, the Giroud punchlines ring a little more hollow. For much of his time in the Premier League, the consensus was that, on a bad day, he could start up front for Banjo Rovers against AFC Barndoor and fail to get a shot on target. This is a player who, in 2022 alone, helped Milan to their first scudetto in over a decade and scored four goals at the World Cup, dumping out England along the way. He has now won major silverware in three different countries, including the Champions League with Chelsea, and come within a whisker of winning the World Cup for a second time. Ungainly but beautiful, inefficient but effective, adored but ridiculed: Giroud is a joyous enigma and ultimately a player who will live long in the memory. At the World Cup he overtook Thierry Henry as France’s record goalscorer. Will Magee",
+      "bio": "With every passing year, the Giroud punchlines ring a little more hollow. For much of his time in the Premier League, the consensus was that, on a bad day, he could start up front for Banjo Rovers against AFC Barndoor and fail to get a shot on target. This is a player who, in 2022 alone, helped Milan to their first scudetto in over a decade and scored four goals at the World Cup, dumping out England along the way. He has now won major silverware in three different countries, including the Champions League with Chelsea, and come within a whisker of winning the World Cup for a second time. Ungainly but beautiful, inefficient but effective, adored but ridiculed: Giroud is a joyous enigma and ultimately a player who will live long in the memory. At the World Cup he overtook Thierry Henry as France’s record goalscorer.",
       "bioAuthor": "Will Magee"
     }, 
     {
@@ -372,7 +372,7 @@ module.exports = {
       "club": "RB Leipzig",
       "smallImageUrl": "images/players/smallImage/31.svg",
       "largeImageUrl": "images/players/largeImage/31.svg",
-      "bio": "Gvardiol was clearly the best defender at the World Cup and a huge part of Croatia’s surprise snaring of third place in the tournament. Zlatko Dalic’s team are celebrated for their experience but their premier centre-back, who celebrated his 21st birthday this week, pointed the way to a bright future. After years of those in the game lamenting the paucity of top-quality centre-backs a plethora are surfacing, led by Gvardiol, who is the man for any number of situations;",
+      "bio": "Gvardiol was clearly the best defender at the World Cup and a huge part of Croatia’s surprise snaring of third place in the tournament. Zlatko Dalic’s team are celebrated for their experience but their premier centre-back, who celebrated his 21st birthday this week, pointed the way to a bright future. After years of those in the game lamenting the paucity of top-quality centre-backs a plethora are surfacing, led by Gvardiol, who is the man for any number of situations; strong and composed in a back four or a back three, and more than competent at left-back as well, leaving his club RB Leipzig sitting on a goldmine. A newcomer to this list but set to remain on it for years.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -384,7 +384,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/32.svg",
       "largeImageUrl": "images/players/largeImage/32.svg",
-      "bio": "The striker was way down in 91st place last year but has made a rapid rise thanks to his successful move to Manchester City and the little matter of winning a World Cup. His four goals for Argentina in Qatar put him joint third on the scoring lists. At club level Álvarez has had to spend time playing understudy to Erling Haaland, although there is no shame in that. Many expected him to go out on loan after joining City but he quickly impressed the coaching staff with Pep Guardiola saying: “I am surprised by how good he is.” Despite not being a regular, he has settled into life in Manchester well, looking especially effective in cup competitions, already scoring in the FA Cup, Carabao Cup and Champions League for City. Will Unwin",
+      "bio": "The striker was way down in 91st place last year but has made a rapid rise thanks to his successful move to Manchester City and the little matter of winning a World Cup. His four goals for Argentina in Qatar put him joint third on the scoring lists. At club level Álvarez has had to spend time playing understudy to Erling Haaland, although there is no shame in that. Many expected him to go out on loan after joining City but he quickly impressed the coaching staff with Pep Guardiola saying: “I am surprised by how good he is.” Despite not being a regular, he has settled into life in Manchester well, looking especially effective in cup competitions, already scoring in the FA Cup, Carabao Cup and Champions League for City.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -396,7 +396,7 @@ module.exports = {
       "club": "RB Leipzig",
       "smallImageUrl": "images/players/smallImage/33.svg",
       "largeImageUrl": "images/players/largeImage/33.svg",
-      "bio": "The 2021-22 Bundesliga player of the season is set to join Chelsea come the summer, following the same route from Leipzig to west London as Timo Werner, though it is hoped with rather more success. Chelsea fans were denied a close look at him when he missed France’s World Cup campaign with a knee ligament injury. Until that setback he had replicated the form of the previous season, entering the winter break as the Bundesliga’s leading scorer. In Germany, his mix of speed and movement has been near irresistible, with Chelsea happy to meet his £53m release clause to solve their striking problems. John Brewin",
+      "bio": "The 2021-22 Bundesliga player of the season is set to join Chelsea come the summer, following the same route from Leipzig to west London as Timo Werner, though it is hoped with rather more success. Chelsea fans were denied a close look at him when he missed France’s World Cup campaign with a knee ligament injury. Until that setback he had replicated the form of the previous season, entering the winter break as the Bundesliga’s leading scorer. In Germany, his mix of speed and movement has been near irresistible, with Chelsea happy to meet his £53m release clause to solve their striking problems.",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -408,7 +408,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/34.svg",
       "largeImageUrl": "images/players/largeImage/34.svg",
-      "bio": "The Brazil international’s reputation as one of the finest goalkeepers in the game may be long-established but there is no chance of Liverpool taking his consistent excellence for granted. Alisson won the Premier League’s Golden Gloves award for a second time in 2021-22 after keeping 20 clean sheets, sharing the prize with compatriot and Manchester City rival Ederson, while his penalty save from Mason Mount in the FA Cup final shootout enabled Kostas Tsimikas to win the trophy for Liverpool. Brazil’s No 1 at the World Cup, the 30-year-old has maintained his decisive standards this season despite Liverpool’s defensive problems in front of him. Andy Hunter",
+      "bio": "The Brazil international’s reputation as one of the finest goalkeepers in the game may be long-established but there is no chance of Liverpool taking his consistent excellence for granted. Alisson won the Premier League’s Golden Gloves award for a second time in 2021-22 after keeping 20 clean sheets, sharing the prize with compatriot and Manchester City rival Ederson, while his penalty save from Mason Mount in the FA Cup final shootout enabled Kostas Tsimikas to win the trophy for Liverpool. Brazil’s No 1 at the World Cup, the 30-year-old has maintained his decisive standards this season despite Liverpool’s defensive problems in front of him.",
       "bioAuthor": "Andy Hunter"
     }, 
     {
@@ -420,7 +420,7 @@ module.exports = {
       "club": "Arsenal",
       "smallImageUrl": "images/players/smallImage/35.svg",
       "largeImageUrl": "images/players/largeImage/35.svg",
-      "bio": "After so long lost in a labyrinth of dead ends, impossible staircases and sliding doors at the Bernabéu, Ødegaard finally seems to have realised the potential that convinced Real Madrid to sign him as a 16-year-old. Not only have his performances been crucial to Arsenal’s unexpected title push, he has gone from a quiet, boyish figure to a leader on the pitch. Rewarded with the armband by Mikel Arteta, he could feasibly become the first player to captain Arsenal to the title since Patrick Vieira. With the subtlety of Santi Cazorla, the forward motion of Tomas Rosicky and a final ball reminiscent of Mesut Özil at his best, he has the chance to stake his claim as one of Arsenal’s all-time great playmakers. Will Magee",
+      "bio": "After so long lost in a labyrinth of dead ends, impossible staircases and sliding doors at the Bernabéu, Ødegaard finally seems to have realised the potential that convinced Real Madrid to sign him as a 16-year-old. Not only have his performances been crucial to Arsenal’s unexpected title push, he has gone from a quiet, boyish figure to a leader on the pitch. Rewarded with the armband by Mikel Arteta, he could feasibly become the first player to captain Arsenal to the title since Patrick Vieira. With the subtlety of Santi Cazorla, the forward motion of Tomas Rosicky and a final ball reminiscent of Mesut Özil at his best, he has the chance to stake his claim as one of Arsenal’s all-time great playmakers.",
       "bioAuthor": "Will Magee"
     }, 
     {
@@ -432,7 +432,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/36.svg",
       "largeImageUrl": "images/players/largeImage/36.svg",
-      "bio": "The one-time reluctant defender who did not enjoy the physical side of the game was among Manchester City’s star performers in their 2021-22 Premier League title win. He is a most modern full-back, someone whose imagination shines brightly even when playing alongside Kevin De Bruyne and Bernardo Silva. Cancelo supplied seven assists and started all but two league matches last season. However, he had an indifferent end to 2022, losing his starting place for Portugal and often having to settle for the bench in Pep Guardiola’s City team. Would be a player much in demand should he come on the market. John Brewin",
+      "bio": "The one-time reluctant defender who did not enjoy the physical side of the game was among Manchester City’s star performers in their 2021-22 Premier League title win. He is a most modern full-back, someone whose imagination shines brightly even when playing alongside Kevin De Bruyne and Bernardo Silva. Cancelo supplied seven assists and started all but two league matches last season. However, he had an indifferent end to 2022, losing his starting place for Portugal and often having to settle for the bench in Pep Guardiola’s City team. Would be a player much in demand should he come on the market.",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -444,7 +444,7 @@ module.exports = {
       "club": "Barcelona",
       "smallImageUrl": "images/players/smallImage/37.svg",
       "largeImageUrl": "images/players/largeImage/37.svg",
-      "bio": "Gavi is Princess Leonor’s crush and everyone else loves him too. Unless they play against him, when they hate him. Chest out, in your face, “a competitive animal” in Sergio Busquets’ words, he’s a feisty competitor who doesn’t back down against anyone, and hasn’t done since his Spain debut in Italy aged 17. It’s not all character, though, Luis Enrique insisting in the summer: “With the ball I think he’s still unknown, even to those near him. He doesn’t just run, he’s dangerous, a pure inside midfielder who can score goals. At 18, he’s unique.” Xavi, his manager at the Camp Nou, says he “has no limit”. Sid Lowe",
+      "bio": "Gavi is Princess Leonor’s crush and everyone else loves him too. Unless they play against him, when they hate him. Chest out, in your face, “a competitive animal” in Sergio Busquets’ words, he’s a feisty competitor who doesn’t back down against anyone, and hasn’t done since his Spain debut in Italy aged 17. It’s not all character, though, Luis Enrique insisting in the summer: “With the ball I think he’s still unknown, even to those near him. He doesn’t just run, he’s dangerous, a pure inside midfielder who can score goals. At 18, he’s unique.” Xavi, his manager at the Camp Nou, says he “has no limit”.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -456,7 +456,7 @@ module.exports = {
       "club": "Juventus",
       "smallImageUrl": "images/players/smallImage/38.svg",
       "largeImageUrl": "images/players/largeImage/38.svg",
-      "bio": "Sometimes it’s not about punching the clock, but what you do with your time in the office. Di María had missed almost the entire knockout phase of the World Cup, playing only the last eight minutes of the semi-final, before he returned to star in the triumph over France, winning the penalty for Argentina’s first goal and scoring the second himself. The second half of the year was a constant battle against injury, much to the frustration of his new club Juventus, but the gliding ease with which he terrorised Jules Koundé on the biggest stage reaffirmed an undiminished talent. Nicky Bandini",
+      "bio": "Sometimes it’s not about punching the clock, but what you do with your time in the office. Di María had missed almost the entire knockout phase of the World Cup, playing only the last eight minutes of the semi-final, before he returned to star in the triumph over France, winning the penalty for Argentina’s first goal and scoring the second himself. The second half of the year was a constant battle against injury, much to the frustration of his new club Juventus, but the gliding ease with which he terrorised Jules Koundé on the biggest stage reaffirmed an undiminished talent.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -468,7 +468,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/39.svg",
       "largeImageUrl": "images/players/largeImage/39.svg",
-      "bio": "When Kroos tweeted that Federico Valverde was among the top three players in the world, the Uruguayan replied saying he had the best teacher. When he tweeted a picture of himself alongside Valverde and Spanish tennis star Carlos Alcaraz with the message: “The future. And me,” people begged him not to say that. “The best German midfielder ever,” according to Lothar Matthäus. The man Zinedine Zidane claims has never given the ball away is 33 now, his contract is up at the end of the season, and he is seemingly contemplating calling it a day, but watching him perform makes you feel that would be premature. Sid Lowe",
+      "bio": "When Kroos tweeted that Federico Valverde was among the top three players in the world, the Uruguayan replied saying he had the best teacher. When he tweeted a picture of himself alongside Valverde and Spanish tennis star Carlos Alcaraz with the message: “The future. And me,” people begged him not to say that. “The best German midfielder ever,” according to Lothar Matthäus. The man Zinedine Zidane claims has never given the ball away is 33 now, his contract is up at the end of the season, and he is seemingly contemplating calling it a day, but watching him perform makes you feel that would be premature.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -480,7 +480,7 @@ module.exports = {
       "club": "Napoli",
       "smallImageUrl": "images/players/smallImage/40.svg",
       "largeImageUrl": "images/players/largeImage/40.svg",
-      "bio": "Having made a name for himself at Rubin Kazan and Dinamo Batumi, Kvaratskhelia had flown under the radar, at least outside Russia and Georgia, before his arrival at Napoli last summer. The €10m (£8.7m) transfer fee the Serie A club paid for his services now seems like one of the biggest bargains in recent memory. With his thundering runs out wide and a hailstorm of goals and assists, his irrepressible form has helped to lift Napoli to the top of the table and put them in reach of a first scudetto since 1990. His nickname, Kvaradona, says it all. It takes something special to earn comparisons to El Diego in Naples, bad pun or otherwise. Will Magee",
+      "bio": "Having made a name for himself at Rubin Kazan and Dinamo Batumi, Kvaratskhelia had flown under the radar, at least outside Russia and Georgia, before his arrival at Napoli last summer. The €10m (£8.7m) transfer fee the Serie A club paid for his services now seems like one of the biggest bargains in recent memory. With his thundering runs out wide and a hailstorm of goals and assists, his irrepressible form has helped to lift Napoli to the top of the table and put them in reach of a first scudetto since 1990. His nickname, Kvaradona, says it all. It takes something special to earn comparisons to El Diego in Naples, bad pun or otherwise.",
       "bioAuthor": "Will Magee"
     }, 
     {
@@ -492,7 +492,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/41.svg",
       "largeImageUrl": "images/players/largeImage/41.svg",
-      "bio": "Kimmich has continued to be consistent for Bayern, but the fluctuation in his perceived value (he falls 23 places from 2021) is largely due to external forces. At Bayern, where he remains the cornerstone of midfield, he has been partly exposed by the injury absences of his perfect partner – and great friend – Leon Goretzka. Kimmich felt the lack of Goretzka at the World Cup too and in the context of the Germany team, the lack of a top-class right-back always threatens to pull him away from his preferred position. Whatever the midfield ends up being for Euro 2024, Kimmich will be at the heart of it. Andy Brassell",
+      "bio": "Kimmich has continued to be consistent for Bayern, but the fluctuation in his perceived value (he falls 23 places from 2021) is largely due to external forces. At Bayern, where he remains the cornerstone of midfield, he has been partly exposed by the injury absences of his perfect partner – and great friend – Leon Goretzka. Kimmich felt the lack of Goretzka at the World Cup too and in the context of the Germany team, the lack of a top-class right-back always threatens to pull him away from his preferred position. Whatever the midfield ends up being for Euro 2024, Kimmich will be at the heart of it.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -504,7 +504,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/42.svg",
       "largeImageUrl": "images/players/largeImage/42.svg",
-      "bio": "Alaba’s new celebration, waving a white plastic chair around, became one of the most enduring images of the 2021-22 season, the Austrian trying it for the first time after one of those remarkable Real Madrid Champions League comebacks, this one against Paris Saint-Germain. “It’s good to try new celebrations every now and then,” he said. “And the chair was there at just the right moment. I didn’t think about it, it was just the emotion of it all.” He made a stunning, probably tie-saving tackle on Kylian Mbappé and finished the season",
+      "bio": "Alaba’s new celebration, waving a white plastic chair around, became one of the most enduring images of the 2021-22 season, the Austrian trying it for the first time after one of those remarkable Real Madrid Champions League comebacks, this one against Paris Saint-Germain. “It’s good to try new celebrations every now and then,” he said. “And the chair was there at just the right moment. I didn’t think about it, it was just the emotion of it all.” He made a stunning, probably tie-saving tackle on Kylian Mbappé and finished the season. strongly. Made a few uncharacteristic errors at the start of the current campaign.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -516,7 +516,7 @@ module.exports = {
       "club": "Sevilla",
       "smallImageUrl": "images/players/smallImage/43.svg",
       "largeImageUrl": "images/players/largeImage/43.svg",
-      "bio": "Such was the Morocco goalkeeper's impact at the World Cup that it was him and Lionel Messi who were the two players depicted by Palestinian food artist Sarah Odeh. Yassine Bounou was outstanding, so I decided to use the well-known Palestinian ingredients za’atar and olive oil specifically for his drawing, she explained. Born in Canada but raised in Morocco, the 31-year-old has been one of the best goalkeepers in La Liga for some time after starting his career in Europe with Atlético Madrid and excelling for club and country. Bayern Munich and Tottenham are reported to be keeping close tabs after the exploits in Qatar that earned him a place in our top 100 for the first time. Ed Aarons",
+      "bio": "Such was the Morocco goalkeeper's impact at the World Cup that it was him and Lionel Messi who were the two players depicted by Palestinian food artist Sarah Odeh. Yassine Bounou was outstanding, so I decided to use the well-known Palestinian ingredients za’atar and olive oil specifically for his drawing, she explained. Born in Canada but raised in Morocco, the 31-year-old has been one of the best goalkeepers in La Liga for some time after starting his career in Europe with Atlético Madrid and excelling for club and country. Bayern Munich and Tottenham are reported to be keeping close tabs after the exploits in Qatar that earned him a place in our top 100 for the first time.",
       "bioAuthor": "Ed Aarons"
     }, 
     {
@@ -528,7 +528,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/44.svg",
       "largeImageUrl": "images/players/largeImage/44.svg",
-      "bio": "The Portuguese defender ended his second season in the Premier League with another title, although he was unable to match the quality and consistency shown in his first year at Manchester City, which could explain his drop of 30 places on this list. Yet Dias is still a key member of City’s five-man leadership group, a player who sets an example to others by his demeanour on and off the pitch. In Qatar he helped Portugal to the quarter-finals at which point they were surprisingly knocked out by Morocco, in a match that saw Dias suffer a hamstring injury. Will Unwin",
+      "bio": "The Portuguese defender ended his second season in the Premier League with another title, although he was unable to match the quality and consistency shown in his first year at Manchester City, which could explain his drop of 30 places on this list. Yet Dias is still a key member of City’s five-man leadership group, a player who sets an example to others by his demeanour on and off the pitch. In Qatar he helped Portugal to the quarter-finals at which point they were surprisingly knocked out by Morocco, in a match that saw Dias suffer a hamstring injury.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -540,7 +540,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/45.svg",
       "largeImageUrl": "images/players/largeImage/45.svg",
-      "bio": "Tchouaméni’s 2022 was going so well – until the very last kick. Aged just 22, by the end of his second full season at Monaco (he had been France’s young player of the year in his first), he had Kylian Mbappé on the phone trying to get him to join PSG and Liverpool calling too. Instead he signed for Real Madrid, the departure of Casemiro accelerating his inclusion, and has been outstanding since. The only footballer to start every game for France at the World Cup and a goalscorer in the quarter-final against England, Tchouaméni reached the final only to miss a vital shootout penalty. Sid Lowe",
+      "bio": "Tchouaméni’s 2022 was going so well – until the very last kick. Aged just 22, by the end of his second full season at Monaco (he had been France’s young player of the year in his first), he had Kylian Mbappé on the phone trying to get him to join PSG and Liverpool calling too. Instead he signed for Real Madrid, the departure of Casemiro accelerating his inclusion, and has been outstanding since. The only footballer to start every game for France at the World Cup and a goalscorer in the quarter-final against England, Tchouaméni reached the final only to miss a vital shootout penalty.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -552,7 +552,7 @@ module.exports = {
       "club": "Milan",
       "smallImageUrl": "images/players/smallImage/46.svg",
       "largeImageUrl": "images/players/largeImage/46.svg",
-      "bio": "Narrowly missed off this list in 2021, when he finished 102nd in our voting, Hernández leaps straight into the top half after winning a Serie A title and reaching the World Cup final. His defensive frailties were sometimes exposed after he replaced his injured brother, Lucas, for France in Qatar yet he had good moments as well, contributing two assists in the group stage and scoring the opener in a semi-final win over Morocco. At club level, he bagged Serie A’s goal of the 2021-22 season with a George Weah-esque coast-to-coast against Atalanta in May. Nicky Bandini",
+      "bio": "Narrowly missed off this list in 2021, when he finished 102nd in our voting, Hernández leaps straight into the top half after winning a Serie A title and reaching the World Cup final. His defensive frailties were sometimes exposed after he replaced his injured brother, Lucas, for France in Qatar yet he had good moments as well, contributing two assists in the group stage and scoring the opener in a semi-final win over Morocco. At club level, he bagged Serie A’s goal of the 2021-22 season with a George Weah-esque coast-to-coast against Atalanta in May.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -564,7 +564,7 @@ module.exports = {
       "club": "Brighton",
       "smallImageUrl": "images/players/smallImage/47.svg",
       "largeImageUrl": "images/players/largeImage/47.svg",
-      "bio": "Like his Argentina colleague Enzo Fernández, Mac Allister has the ability to play almost three positions at once, and after getting the call for the team’s second World Cup match with Poland, such flexibility proved key to his country’s triumph. His performances in Qatar make him much-coveted; a player it will cost a significant fee to prise away from Brighton. Under both Graham Potter and latterly Roberto De Zerbi, Mac Allister’s drive has been a crucial part of the south coast club’s continuing rise, and once Argentina made his wild card selection, after two-and-a-half-year absence, they reaped the ultimate reward. John Brewin",
+      "bio": "Like his Argentina colleague Enzo Fernández, Mac Allister has the ability to play almost three positions at once, and after getting the call for the team’s second World Cup match with Poland, such flexibility proved key to his country’s triumph. His performances in Qatar make him much-coveted; a player it will cost a significant fee to prise away from Brighton. Under both Graham Potter and latterly Roberto De Zerbi, Mac Allister’s drive has been a crucial part of the south coast club’s continuing rise, and once Argentina made his wild card selection, after two-and-a-half-year absence, they reaped the ultimate reward.",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -576,7 +576,7 @@ module.exports = {
       "club": "Atlético Madrid",
       "smallImageUrl": "images/players/smallImage/48.svg",
       "largeImageUrl": "images/players/largeImage/48.svg",
-      "bio": "De Paul was the last World Cup winner to return, his first club game coming a month after the final in Lusail – and no one missed him much. Accused of lacking commitment, his level slipping, many Atlético Madrid fans would question his inclusion here as much as Argentina fans would celebrate it. De Paul started every game at the World Cup, a tireless presence all over the pitch and the man who delivered on his written promise to Lionel Messi that they would win it. And yet 11 Atlético players have started more La Liga games. Sid Lowe",
+      "bio": "De Paul was the last World Cup winner to return, his first club game coming a month after the final in Lusail – and no one missed him much. Accused of lacking commitment, his level slipping, many Atlético Madrid fans would question his inclusion here as much as Argentina fans would celebrate it. De Paul started every game at the World Cup, a tireless presence all over the pitch and the man who delivered on his written promise to Lionel Messi that they would win it. And yet 11 Atlético players have started more La Liga games.",
       "bioAuthor": "Sid Lowe"
     }, 
     {
@@ -588,7 +588,7 @@ module.exports = {
       "club": "Fiorentina",
       "smallImageUrl": "images/players/smallImage/49.svg",
       "largeImageUrl": "images/players/largeImage/49.svg",
-      "bio": "That tackle on Kylian Mbappé in the World Cup semi-final summed up the indefatigable spirit that has earned Amrabat a place in the top 50 on his first appearance in our list. The fulcrum of Morocco’s historic run to the last four in Qatar is now recognised as one of the best in his position having developed significantly since leaving the Netherlands in 2018, with Fiorentina facing a fight to keep hold of the 26-year-old. Atlético Madrid, Paris Saint-Germain and Liverpool are among the clubs to have been linked with a big-money move for a player whose inspiration is his older brother, the former Watford winger Nordin. Ed Aarons",
+      "bio": "That tackle on Kylian Mbappé in the World Cup semi-final summed up the indefatigable spirit that has earned Amrabat a place in the top 50 on his first appearance in our list. The fulcrum of Morocco’s historic run to the last four in Qatar is now recognised as one of the best in his position having developed significantly since leaving the Netherlands in 2018, with Fiorentina facing a fight to keep hold of the 26-year-old. Atlético Madrid, Paris Saint-Germain and Liverpool are among the clubs to have been linked with a big-money move for a player whose inspiration is his older brother, the former Watford winger Nordin.",
       "bioAuthor": "Ed Aarons"
     }, 
     {
@@ -600,7 +600,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/50.svg",
       "largeImageUrl": "images/players/largeImage/50.svg",
-      "bio": "“He is a really, really good player and has the potential to become even better,” said Jürgen Klopp of Gakpo after Liverpool completed the £35m signing of the forward from PSV Eindhoven at the end of last year, and while the 23-year-old has struggled to show that for his new side, the proof of his talent was very much on display at the World Cup. Gakpo was excellent for the Netherlands, scoring in each of their group games and generally dazzled with his speed, athleticism and technical ability – as he had also done at PSV throughout 2022. Sachin Nakrani",
+      "bio": "“He is a really, really good player and has the potential to become even better,” said Jürgen Klopp of Gakpo after Liverpool completed the £35m signing of the forward from PSV Eindhoven at the end of last year, and while the 23-year-old has struggled to show that for his new side, the proof of his talent was very much on display at the World Cup. Gakpo was excellent for the Netherlands, scoring in each of their group games and generally dazzled with his speed, athleticism and technical ability – as he had also done at PSV throughout 2022.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -612,7 +612,7 @@ module.exports = {
       "club": "Al Nassr",
       "smallImageUrl": "images/players/smallImage/51.svg",
       "largeImageUrl": "images/players/largeImage/51.svg",
-      "bio": "All good things must come to an end, they say, and this was the year that Cristiano Ronaldo fell out of the top 10 for the first time since these rankings were introduced in 2012. A two-time winner of the Guardian’s top 100, the Portuguese drops to 51st in a year that included a fallout with Erik ten Hag and Manchester United, that Piers Morgan interview and a rather chastening World Cup, during which he was criticised by his coach, Fernando Santos, for his reaction to being substituted against South Korea and then benched. The 37-year-old joined Saudi Arabian club Al Nassr in December. Marcus Christenson",
+      "bio": "All good things must come to an end, they say, and this was the year that Cristiano Ronaldo fell out of the top 10 for the first time since these rankings were introduced in 2012. A two-time winner of the Guardian’s top 100, the Portuguese drops to 51st in a year that included a fallout with Erik ten Hag and Manchester United, that Piers Morgan interview and a rather chastening World Cup, during which he was criticised by his coach, Fernando Santos, for his reaction to being substituted against South Korea and then benched. The 37-year-old joined Saudi Arabian club Al Nassr in December.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -624,7 +624,7 @@ module.exports = {
       "club": "Napoli",
       "smallImageUrl": "images/players/smallImage/52.svg",
       "largeImageUrl": "images/players/largeImage/52.svg",
-      "bio": "Winner of Serie A’s best young player award for 2021-22, Osimhen is a frontrunner to claim the league’s MVP award this time around. A spectacular blend of go-go-gadget limbs, explosive finishing and breathtaking body control, he has the tools to become one of the very best players on the planet and an on-pitch enthusiasm that makes you want to jump out of your seat. He began the new Serie A season with nine goals in 10 games and bagged four in a single Africa Cup of Nations qualifier for Nigeria against São Tomé and Príncipe in June. Only injuries have slowed him down. Nicky Bandini",
+      "bio": "Winner of Serie A’s best young player award for 2021-22, Osimhen is a frontrunner to claim the league’s MVP award this time around. A spectacular blend of go-go-gadget limbs, explosive finishing and breathtaking body control, he has the tools to become one of the very best players on the planet and an on-pitch enthusiasm that makes you want to jump out of your seat. He began the new Serie A season with nine goals in 10 games and bagged four in a single Africa Cup of Nations qualifier for Nigeria against São Tomé and Príncipe in June. Only injuries have slowed him down.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -636,7 +636,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/53.svg",
       "largeImageUrl": "images/players/largeImage/53.svg",
-      "bio": "The metronome in front of the Manchester City defence, who maintains calm and reads the game superbly to snuff out attacks before they have begun, makes his highest entry on the list after landing at 92 last year. The Spanish midfielder sits atop the passing charts in the Premier League thanks to his keep-things-simple philosophy when it comes to possession. In Qatar he was unable to stop Spain from slumping out of the competition in the last 16 but he could at least boast he played every minute of the tournament for Luis Enrique’s side until they were dumped out by Morocco on penalties. Will Unwin",
+      "bio": "The metronome in front of the Manchester City defence, who maintains calm and reads the game superbly to snuff out attacks before they have begun, makes his highest entry on the list after landing at 92 last year. The Spanish midfielder sits atop the passing charts in the Premier League thanks to his keep-things-simple philosophy when it comes to possession. In Qatar he was unable to stop Spain from slumping out of the competition in the last 16 but he could at least boast he played every minute of the tournament for Luis Enrique’s side until they were dumped out by Morocco on penalties.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -648,7 +648,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/54.svg",
       "largeImageUrl": "images/players/largeImage/54.svg",
-      "bio": "Finished his fifth season in the Premier League with a fourth title and third Golden Glove award. The goalkeeper’s ability with his feet continues to make him an asset for Pep Guardiola and is one of the reasons he has moved up 21 places on this year’s list. Ederson collected the third assist of his Manchester City career with a perfect ball down the middle for Erling Haaland against Brighton in October. At international level he has to make do with being understudy to Liverpool's Alisson but did get to play a group game at the World Cup. Maybe Brazil would have made it through if he was on the pitch to take a ruthless penalty in the shootout defeat by Croatia. Will Unwin",
+      "bio": "Finished his fifth season in the Premier League with a fourth title and third Golden Glove award. The goalkeeper’s ability with his feet continues to make him an asset for Pep Guardiola and is one of the reasons he has moved up 21 places on this year’s list. Ederson collected the third assist of his Manchester City career with a perfect ball down the middle for Erling Haaland against Brighton in October. At international level he has to make do with being understudy to Liverpool's Alisson but did get to play a group game at the World Cup. Maybe Brazil would have made it through if he was on the pitch to take a ruthless penalty in the shootout defeat by Croatia.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -660,7 +660,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/55.svg",
       "largeImageUrl": "images/players/largeImage/55.svg",
-      "bio": "Scored the goal that sealed another Premier League title for Manchester City and, soon after, was named their new captain – it’s fair to say 2022 was a good year for Gündogan at club level. The story was different at international level, however, given he was part of a Germany squad that failed to qualify from the World Cup group stages for a second tournament in succession. Gündogan did score against Japan, however, and continues to be an assured and talented midfielder, albeit aged 32 he is perhaps on the slide, reflected in his fall on this list. Sachin Nakrani",
+      "bio": "Scored the goal that sealed another Premier League title for Manchester City and, soon after, was named their new captain – it’s fair to say 2022 was a good year for Gündogan at club level. The story was different at international level, however, given he was part of a Germany squad that failed to qualify from the World Cup group stages for a second tournament in succession. Gündogan did score against Japan, however, and continues to be an assured and talented midfielder, albeit aged 32 he is perhaps on the slide, reflected in his fall on this list.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -672,7 +672,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/56.svg",
       "largeImageUrl": "images/players/largeImage/56.svg",
-      "bio": "Real Madrid were delighted to sign the centre-back on a free from Chelsea and thus far he seems to have been first choice for Carlo Ancelotti but recent mistakes, including in the Super Cup match against Barcelona, have put question marks over the wisdom of the signing. A swashbuckling presence, he does add more physicality to the centre of defence than, say, David Alaba and his desire to win was exemplified by the late equaliser he scored against Shakhtar Donetsk, which left him bloodied and requiring stitches. He is down eight places on our list, most likely because he won the Champions League in 2021, and did not in 2022. Marcus Christenson",
+      "bio": "Real Madrid were delighted to sign the centre-back on a free from Chelsea and thus far he seems to have been first choice for Carlo Ancelotti but recent mistakes, including in the Super Cup match against Barcelona, have put question marks over the wisdom of the signing. A swashbuckling presence, he does add more physicality to the centre of defence than, say, David Alaba and his desire to win was exemplified by the late equaliser he scored against Shakhtar Donetsk, which left him bloodied and requiring stitches. He is down eight places on our list, most likely because he won the Champions League in 2021, and did not in 2022.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -684,7 +684,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/57.svg",
       "largeImageUrl": "images/players/largeImage/57.svg",
-      "bio": "Yet another Premier League title-winner's medal – his fourth – rounded off an excellent domestic 2021-22 campaign that saw Mahrez end up with 17 goals in all competitions for Manchester City and led to him finishing 12th in the Ballon d’Or standings in October. But while he is up three places from last year in our list, after starting 2022 by failing to inspire holders Algeria as they were embarrassed in the Africa Cup of Nations, the 31-year-old has been in and out of the team at City since the arrival of Erling Haaland. When playing, as he recently showed against Tottenham, he is still capable of being a match-winner in his own right. Ed Aarons",
+      "bio": "Yet another Premier League title-winner's medal – his fourth – rounded off an excellent domestic 2021-22 campaign that saw Mahrez end up with 17 goals in all competitions for Manchester City and led to him finishing 12th in the Ballon d’Or standings in October. But while he is up three places from last year in our list, after starting 2022 by failing to inspire holders Algeria as they were embarrassed in the Africa Cup of Nations, the 31-year-old has been in and out of the team at City since the arrival of Erling Haaland. When playing, as he recently showed against Tottenham, he is still capable of being a match-winner in his own right.",
       "bioAuthor": "Ed Aarons"
     }, 
     {
@@ -696,7 +696,7 @@ module.exports = {
       "club": "Manchester United",
       "smallImageUrl": "images/players/smallImage/58.svg",
       "largeImageUrl": "images/players/largeImage/58.svg",
-      "bio": "Back on the list after a one-year absence and a player who had an extraordinary 2022. For the first half of it, Rashford struggled badly in a poor Manchester United side, to the extent it appeared he was on his way out of his boyhood club. But then Erik ten Hag arrived and the rejuvenation began. Performances improved, as did output, and it was enough to see Rashford selected in England’s squad for the World Cup, where he continued to shine. The 25-year-old scored three times and generally impressed with his speed, skill and determination. It is fair to say Rashford is back and, if anything, is getting better. Sachin Nakrani",
+      "bio": "Back on the list after a one-year absence and a player who had an extraordinary 2022. For the first half of it, Rashford struggled badly in a poor Manchester United side, to the extent it appeared he was on his way out of his boyhood club. But then Erik ten Hag arrived and the rejuvenation began. Performances improved, as did output, and it was enough to see Rashford selected in England’s squad for the World Cup, where he continued to shine. The 25-year-old scored three times and generally impressed with his speed, skill and determination. It is fair to say Rashford is back and, if anything, is getting better.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -708,7 +708,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/59.svg",
       "largeImageUrl": "images/players/largeImage/59.svg",
-      "bio": "Jürgen Klopp planned to move for the gifted Porto winger last summer but, as soon as receiving word that Tottenham had agreed a fee for the Colombia international in the January window, Liverpool sprung into action. An identical fee rising to €60m was accepted, making Díaz the fourth most expensive signing in Liverpool’s history at the time, and staff were dispatched to Argentina to conduct a medical while the player was on international duty. Díaz immediately repaid Liverpool’s endeavours, slotting seamlessly into a side chasing the quadruple and adding a new dimension to their attack. The only Colombian on our list, his absence has been sorely felt at Anfield since suffering a serious knee injury in October. Andy Hunter",
+      "bio": "Jürgen Klopp planned to move for the gifted Porto winger last summer but, as soon as receiving word that Tottenham had agreed a fee for the Colombia international in the January window, Liverpool sprung into action. An identical fee rising to €60m was accepted, making Díaz the fourth most expensive signing in Liverpool’s history at the time, and staff were dispatched to Argentina to conduct a medical while the player was on international duty. Díaz immediately repaid Liverpool’s endeavours, slotting seamlessly into a side chasing the quadruple and adding a new dimension to their attack. The only Colombian on our list, his absence has been sorely felt at Anfield since suffering a serious knee injury in October.",
       "bioAuthor": "Andy Hunter"
     }, 
     {
@@ -720,7 +720,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/60.svg",
       "largeImageUrl": "images/players/largeImage/60.svg",
-      "bio": "The Liverpool right-back became the youngest player to complete the set of Champions League, Premier League, FA Cup, League Cup, Club World Cup and Uefa Super Cup winners’ medals when, at the age of 23 years and 219 days, his boyhood team beat Chelsea in last season’s FA Cup final. Only Cristiano Ronaldo has won the Champions League, Premier League, FA Cup and League Cup at a younger age. Alexander-Arnold’s creativity shone as Jürgen Klopp’s team chased the quadruple – only Mohamed Salah produced more Premier League assists than the defender’s 12 last season – but defensive lapses were costly as Liverpool came up short. Andy Hunter",
+      "bio": "The Liverpool right-back became the youngest player to complete the set of Champions League, Premier League, FA Cup, League Cup, Club World Cup and Uefa Super Cup winners’ medals when, at the age of 23 years and 219 days, his boyhood team beat Chelsea in last season’s FA Cup final. Only Cristiano Ronaldo has won the Champions League, Premier League, FA Cup and League Cup at a younger age. Alexander-Arnold’s creativity shone as Jürgen Klopp’s team chased the quadruple – only Mohamed Salah produced more Premier League assists than the defender’s 12 last season – but defensive lapses were costly as Liverpool came up short.",
       "bioAuthor": "Andy Hunter"
     }, 
     {
@@ -732,7 +732,7 @@ module.exports = {
       "club": "Tottenham",
       "smallImageUrl": "images/players/smallImage/61.svg",
       "largeImageUrl": "images/players/largeImage/61.svg",
-      "bio": "A player who is often loved by his own fans but hated by rival teams’ supporters, Richarlison is back on the list after a one-year absence. The summer saw him move to Tottenham from Everton in a £58m deal. He scored 10 league goals in his last season at Goodison and was one of the main reasons Everton stayed up. The start to his Spurs career has been interrupted by injuries but he was on good form for Brazil during the World Cup, finding the net three times and with his scissor-kick against Serbia rightly voted goal of the tournament. A role model off the pitch, “the Pigeon” has repeatedly spoken out on topics such as racism, poverty, police and gender violence, LGBTQ+ rights and environmental destruction. Marcus Christenson",
+      "bio": "A player who is often loved by his own fans but hated by rival teams’ supporters, Richarlison is back on the list after a one-year absence. The summer saw him move to Tottenham from Everton in a £58m deal. He scored 10 league goals in his last season at Goodison and was one of the main reasons Everton stayed up. The start to his Spurs career has been interrupted by injuries but he was on good form for Brazil during the World Cup, finding the net three times and with his scissor-kick against Serbia rightly voted goal of the tournament. A role model off the pitch, “the Pigeon” has repeatedly spoken out on topics such as racism, poverty, police and gender violence, LGBTQ+ rights and environmental destruction.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -744,7 +744,7 @@ module.exports = {
       "club": "Arsenal",
       "smallImageUrl": "images/players/smallImage/62.svg",
       "largeImageUrl": "images/players/largeImage/62.svg",
-      "bio": "Back on this list after a two-year absence, Jesus returns after sparking Arsenal's title challenge this season. His acquisition from Manchester City, where he was important to another Premier League triumph last year while never being the leading man, was a masterstroke: it gave Jesus the stage to emerge from others’ shadows while turbocharging Mikel Arteta’s entire attack. He has not been prolific but his effect on Arsenal’s pressing and buildup play has been profound; off the pitch, his knowledge of what it takes to win trophies has also been keenly felt. Arsenal have ticked along nicely in his absence after a knee injury picked up in the World Cup but his return is eagerly awaited. Nick Ames",
+      "bio": "Back on this list after a two-year absence, Jesus returns after sparking Arsenal's title challenge this season. His acquisition from Manchester City, where he was important to another Premier League triumph last year while never being the leading man, was a masterstroke: it gave Jesus the stage to emerge from others’ shadows while turbocharging Mikel Arteta’s entire attack. He has not been prolific but his effect on Arsenal’s pressing and buildup play has been profound; off the pitch, his knowledge of what it takes to win trophies has also been keenly felt. Arsenal have ticked along nicely in his absence after a knee injury picked up in the World Cup but his return is eagerly awaited.",
       "bioAuthor": "Nick Ames"
     }, 
     {
@@ -756,7 +756,7 @@ module.exports = {
       "club": "Chelsea",
       "smallImageUrl": "images/players/smallImage/63.svg",
       "largeImageUrl": "images/players/largeImage/63.svg",
-      "bio": "It is fair to say that Ziyech’s move to London has not gone according to plan but he was able to show everyone what he can do at the World Cup, being the creative force behind Morocco’s run to the semi-finals. The prospects of Ziyech starring for Morocco in Qatar looked bleak after he announced his international retirement in February, having fallen out with the coach, Vahid Halilhodzic, but the subsequent sacking of the Bosnian saw the winger return in time for the tournament. He started every game of Morocco’s historic campaign but had only played the full 90 minutes in the league for Chelsea once before the break. This year will be a big one for the winger. Marcus Christenson",
+      "bio": "It is fair to say that Ziyech’s move to London has not gone according to plan but he was able to show everyone what he can do at the World Cup, being the creative force behind Morocco’s run to the semi-finals. The prospects of Ziyech starring for Morocco in Qatar looked bleak after he announced his international retirement in February, having fallen out with the coach, Vahid Halilhodzic, but the subsequent sacking of the Bosnian saw the winger return in time for the tournament. He started every game of Morocco’s historic campaign but had only played the full 90 minutes in the league for Chelsea once before the break. This year will be a big one for the winger.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -768,7 +768,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/64.svg",
       "largeImageUrl": "images/players/largeImage/64.svg",
-      "bio": "In terms of sheer numbers, Davies has had a quiet 2022-23 season to date, not pitching in for Bayern’s attack in the dynamic way that we have come to expect. Yet after being forced to adapt to being a left-back while still young and green, he really has cracked it in terms of defensive positioning and remains an undisputed first-choice. His dilemma with Canada was apparent in the World Cup – in which he missed a vital penalty against Belgium – with his star status demanding he play higher up the pitch, which can curtail his asset of being able to burst from deep. Andy Brassell",
+      "bio": "In terms of sheer numbers, Davies has had a quiet 2022-23 season to date, not pitching in for Bayern’s attack in the dynamic way that we have come to expect. Yet after being forced to adapt to being a left-back while still young and green, he really has cracked it in terms of defensive positioning and remains an undisputed first-choice. His dilemma with Canada was apparent in the World Cup – in which he missed a vital penalty against Belgium – with his star status demanding he play higher up the pitch, which can curtail his asset of being able to burst from deep.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -780,7 +780,7 @@ module.exports = {
       "club": "Paris Saint-Germain",
       "smallImageUrl": "images/players/smallImage/65.svg",
       "largeImageUrl": "images/players/largeImage/65.svg",
-      "bio": "The PSG captain’s drop-off in form in 2022 was bookended by a pair of nightmare collapses. The first was inflicted by Karim Benzema in the Champions League, the second with Brazil at the World Cup, as he deflected in Croatia’s equaliser before missing in the shootout. Now closing in on 10 years in the French capital, Marquinhos has yet to step up into the Thiago Silva-shaped hole but is usually a reliable performer. He has adapted well to his team’s wavering between three- and four-man defences, and looks set to lead the club’s most credible Champions League charge yet. Raphaël Jucobin",
+      "bio": "The PSG captain’s drop-off in form in 2022 was bookended by a pair of nightmare collapses. The first was inflicted by Karim Benzema in the Champions League, the second with Brazil at the World Cup, as he deflected in Croatia’s equaliser before missing in the shootout. Now closing in on 10 years in the French capital, Marquinhos has yet to step up into the Thiago Silva-shaped hole but is usually a reliable performer. He has adapted well to his team’s wavering between three- and four-man defences, and looks set to lead the club’s most credible Champions League charge yet.",
       "bioAuthor": "Raphaël Jucobin"
     }, 
     {
@@ -792,7 +792,7 @@ module.exports = {
       "club": "Juventus",
       "smallImageUrl": "images/players/smallImage/66.svg",
       "largeImageUrl": "images/players/largeImage/66.svg",
-      "bio": "This was supposed to be the year when Vlahovic established himself alongside Erling Haaland and Kylian Mbappé as one of the hottest attacking talents in world football. Instead, reviews have been mixed since he joined Juventus for €70m. Vlahovic scored 13 goals in 25 Serie A appearances for the Bianconeri in 2022 but rarely took over games. His efforts on the biggest stages were overshadowed by poor results. He netted in the first minute of his Champions League debut, away at Villarreal, only for Juventus to lose 4-1 on aggregate, and put his team ahead in the Coppa Italia final, which ended in defeat by Inter. Nicky Bandini",
+      "bio": "This was supposed to be the year when Vlahovic established himself alongside Erling Haaland and Kylian Mbappé as one of the hottest attacking talents in world football. Instead, reviews have been mixed since he joined Juventus for €70m. Vlahovic scored 13 goals in 25 Serie A appearances for the Bianconeri in 2022 but rarely took over games. His efforts on the biggest stages were overshadowed by poor results. He netted in the first minute of his Champions League debut, away at Villarreal, only for Juventus to lose 4-1 on aggregate, and put his team ahead in the Coppa Italia final, which ended in defeat by Inter.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -804,7 +804,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/67.svg",
       "largeImageUrl": "images/players/largeImage/67.svg",
-      "bio": "Strong, aggressive and old-fashioned, the 25-year-old makes the list for the first time after an outstanding year during which he helped win La Liga and was a mainstay as Real secured their 14th European Cup. Militão has omitted most of the high-profile mistakes he was prone to make and formed a solid partnership with David Alaba, expelling fears that the team may struggle without Sergio Ramos and Raphaël Varane. Has the air of someone who is set to be part of the Real defence for most of the coming decade. At the World Cup he played at centre-back and right-back before Brazil’s dreams were crushed by Croatia. Marcus Christenson",
+      "bio": "Strong, aggressive and old-fashioned, the 25-year-old makes the list for the first time after an outstanding year during which he helped win La Liga and was a mainstay as Real secured their 14th European Cup. Militão has omitted most of the high-profile mistakes he was prone to make and formed a solid partnership with David Alaba, expelling fears that the team may struggle without Sergio Ramos and Raphaël Varane. Has the air of someone who is set to be part of the Real defence for most of the coming decade. At the World Cup he played at centre-back and right-back before Brazil’s dreams were crushed by Croatia.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -816,7 +816,7 @@ module.exports = {
       "club": "Internazionale",
       "smallImageUrl": "images/players/smallImage/68.svg",
       "largeImageUrl": "images/players/largeImage/68.svg",
-      "bio": "If you wanted one statistic to sum up Brozovic then it arrived at the end of Croatia’s draw with Japan, data showing that he had covered the most distance – 16.7km (10.4 miles) – of any player in a World Cup game. The previous record holder? Also Brozovic, who travelled 16.3km (10.1 miles) during the 2018 semi-final win over England. The midfielder’s tireless work screening the defence and making himself available as an outlet for teammates was a key component for Croatia on the way to their third-place finish and to a pair of domestic cup successes for Inter. Nicky Bandini",
+      "bio": "If you wanted one statistic to sum up Brozovic then it arrived at the end of Croatia’s draw with Japan, data showing that he had covered the most distance – 16.7km (10.4 miles) – of any player in a World Cup game. The previous record holder? Also Brozovic, who travelled 16.3km (10.1 miles) during the 2018 semi-final win over England. The midfielder’s tireless work screening the defence and making himself available as an outlet for teammates was a key component for Croatia on the way to their third-place finish and to a pair of domestic cup successes for Inter.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -828,7 +828,7 @@ module.exports = {
       "club": "Barcelona",
       "smallImageUrl": "images/players/smallImage/69.svg",
       "largeImageUrl": "images/players/largeImage/69.svg",
-      "bio": "The enigmatic winger makes his first appearance on the list since 2017, the year he joined Barcelona. His resurgence is largely down to one man: the Barça coach, Xavi, who pushed Dembélé to regain his best form and then for the club to renew his contract. Remarkably he finished the 2021-22 season as La Liga’s top assist maker, and it all happened in the second half of the campaign. It is fair to say that Barcelona have finally got the player they thought they signed five years ago. His fine form transferred on to the international scene as he was a key player in the France side that reached the World Cup final. Marcus Christenson",
+      "bio": "The enigmatic winger makes his first appearance on the list since 2017, the year he joined Barcelona. His resurgence is largely down to one man: the Barça coach, Xavi, who pushed Dembélé to regain his best form and then for the club to renew his contract. Remarkably he finished the 2021-22 season as La Liga’s top assist maker, and it all happened in the second half of the campaign. It is fair to say that Barcelona have finally got the player they thought they signed five years ago. His fine form transferred on to the international scene as he was a key player in the France side that reached the World Cup final.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -840,7 +840,7 @@ module.exports = {
       "club": "Internazionale",
       "smallImageUrl": "images/players/smallImage/70.svg",
       "largeImageUrl": "images/players/largeImage/70.svg",
-      "bio": "Lautaro might be the most perplexing player in our top 100. He began 2022 bagging goals that helped Inter to win a Supercoppa and Argentina to reach the World Cup – finishing alongside Lionel Messi as his team’s joint-most prolific player in qualifying. He finished it by winning the main event in Qatar but having lost his place in the starting XI, scoring only in the quarter-final penalty shootout. It is the same consistently inconsistent trend that saw him find the net 21 times in Serie A last season, yet also endure a stretch of eight games without any goals at all. Nicky Bandini",
+      "bio": "Lautaro might be the most perplexing player in our top 100. He began 2022 bagging goals that helped Inter to win a Supercoppa and Argentina to reach the World Cup – finishing alongside Lionel Messi as his team’s joint-most prolific player in qualifying. He finished it by winning the main event in Qatar but having lost his place in the starting XI, scoring only in the quarter-final penalty shootout. It is the same consistently inconsistent trend that saw him find the net 21 times in Serie A last season, yet also endure a stretch of eight games without any goals at all.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -852,7 +852,7 @@ module.exports = {
       "club": "Dinamo Zagreb",
       "smallImageUrl": "images/players/smallImage/71.svg",
       "largeImageUrl": "images/players/largeImage/71.svg",
-      "bio": "Hardly anyone would have picked Livakovic as one of Croatia’s possible World Cup heroes before the tournament. The Dinamo Zagreb goalkeeper had a rough time after the Euros: struggling with injury and form, he was dropped by Zlatko Dalic in some of the important World Cup qualifiers and Nations League matches. Offers for a desired big move abroad never came, which seemed to have affected his confidence. But in Qatar he somehow morphed into the best version of himself, producing more saves (25) than any other goalkeeper at the tournament and carrying Croatia into the semi-finals. His performance in the shootout against Japan was particularly spectacular, as were the 11 saves in the quarter-final against Brazil. Aleksandar Holiga",
+      "bio": "Hardly anyone would have picked Livakovic as one of Croatia’s possible World Cup heroes before the tournament. The Dinamo Zagreb goalkeeper had a rough time after the Euros: struggling with injury and form, he was dropped by Zlatko Dalic in some of the important World Cup qualifiers and Nations League matches. Offers for a desired big move abroad never came, which seemed to have affected his confidence. But in Qatar he somehow morphed into the best version of himself, producing more saves (25) than any other goalkeeper at the tournament and carrying Croatia into the semi-finals. His performance in the shootout against Japan was particularly spectacular, as were the 11 saves in the quarter-final against Brazil.",
       "bioAuthor": "Aleksandar Holiga"
     }, 
     {
@@ -864,7 +864,7 @@ module.exports = {
       "club": "Tottenham",
       "smallImageUrl": "images/players/smallImage/72.svg",
       "largeImageUrl": "images/players/largeImage/72.svg",
-      "bio": "One of 11 Argentinians included, Romero may well have made our list even without winning the World Cup, but the victory in Qatar helped showcase the grit, tenacity and developing tactical understanding to a wider audience. Took to the Premier League like a duck to water after joining Spurs initially on loan in the summer of 2021 and his performances led his coach, Antonio Conte, a difficult man to please, to label Romero as “perfect”. The Italian added: “He’s",
+      "bio": "One of 11 Argentinians included, Romero may well have made our list even without winning the World Cup, but the victory in Qatar helped showcase the grit, tenacity and developing tactical understanding to a wider audience. Took to the Premier League like a duck to water after joining Spurs initially on loan in the summer of 2021 and his performances led his coach, Antonio Conte, a difficult man to please, to label Romero as “perfect”. The Italian added: “He’s strong physically, he has the timing to anticipate and good personality to play with the ball. Despite being a young player, he has good experience, he’s strong. I like him.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -876,7 +876,7 @@ module.exports = {
       "club": "Internazionale",
       "smallImageUrl": "images/players/smallImage/73.svg",
       "largeImageUrl": "images/players/largeImage/73.svg",
-      "bio": "Out of sight and out of mind? Every Italian who made it into our top 100 last season took a sharp tumble down the rankings, as the Azzurri went from European champions to not even qualifying for the World Cup. Barella deservedly positions highest among his countrymen, a barnstorming creative force who hit new heights in 2022. His 12 assists last season were joint-most of any midfielder in Europe’s top five leagues, and he opened the scoring for Inter in the Coppa Italia final win over Juventus, as well as in a 3-3 draw with Barcelona at the Camp Nou. Nicky Bandini",
+      "bio": "Out of sight and out of mind? Every Italian who made it into our top 100 last season took a sharp tumble down the rankings, as the Azzurri went from European champions to not even qualifying for the World Cup. Barella deservedly positions highest among his countrymen, a barnstorming creative force who hit new heights in 2022. His 12 assists last season were joint-most of any midfielder in Europe’s top five leagues, and he opened the scoring for Inter in the Coppa Italia final win over Juventus, as well as in a 3-3 draw with Barcelona at the Camp Nou.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -888,7 +888,7 @@ module.exports = {
       "club": "Milan",
       "smallImageUrl": "images/players/smallImage/74.svg",
       "largeImageUrl": "images/players/largeImage/74.svg",
-      "bio": "Few Milan fans could have imagined when Gianluigi Donnarumma (12th on our list last year) departed in the summer of 2021 that his replacement might be an upgrade. Fewer still were missing the Italian by the time their team had lifted the scudetto in May, aided by Maignan’s league-best 17 clean sheets. He was unsurprisingly named as Serie A’s goalkeeper of the season and threatened to challenge Hugo Lloris for the starting role with France before a calf injury in September. Maignan missed the World Cup but our judges still voted him on to this list for the first time. Nicky Bandini",
+      "bio": "Few Milan fans could have imagined when Gianluigi Donnarumma (12th on our list last year) departed in the summer of 2021 that his replacement might be an upgrade. Fewer still were missing the Italian by the time their team had lifted the scudetto in May, aided by Maignan’s league-best 17 clean sheets. He was unsurprisingly named as Serie A’s goalkeeper of the season and threatened to challenge Hugo Lloris for the starting role with France before a calf injury in September. Maignan missed the World Cup but our judges still voted him on to this list for the first time",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -900,7 +900,7 @@ module.exports = {
       "club": "Chelsea",
       "smallImageUrl": "images/players/smallImage/75.svg",
       "largeImageUrl": "images/players/largeImage/75.svg",
-      "bio": "The chance for the best central defender of his generation to win the World Cup perished in Qatar, once Brazil succumbed to Croatia. At 38, he remained a calming influence on his compatriots, just as he is at Chelsea. His contract runs to the end of the current season and as the London club collect young defenders to one day supplant him, each has cherished the chance to work in tandem with the old master. “It’s a real honour to play alongside him,” Benoît Badiashile, a January arrival at Stamford Bridge, said. “For a young player like me, he’s someone that makes things easy.” John Brewin",
+      "bio": "The chance for the best central defender of his generation to win the World Cup perished in Qatar, once Brazil succumbed to Croatia. At 38, he remained a calming influence on his compatriots, just as he is at Chelsea. His contract runs to the end of the current season and as the London club collect young defenders to one day supplant him, each has cherished the chance to work in tandem with the old master. “It’s a real honour to play alongside him,” Benoît Badiashile, a January arrival at Stamford Bridge, said. “For a young player like me, he’s someone that makes things easy.”",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -912,7 +912,7 @@ module.exports = {
       "club": "Tottenham",
       "smallImageUrl": "images/players/smallImage/76.svg",
       "largeImageUrl": "images/players/largeImage/76.svg",
-      "bio": "It is fair to say 2022 was a notable year for Lloris. He celebrated his decade anniversary at Tottenham and moved into the club’s all-time top-10 appearance makers with a 416th display in the 2021-22 final-day victory over Norwich, one which saw Spurs secure a top-four place. Lloris played a significant role in that – the goalkeeper appeared in every league game and achieved a personal best of 16 clean sheets for the season. Towards the end of 2022 he captained France as they reached a second World Cup final in a row, breaking Lilian Thuram’s record as France’s most-capped player in the process before announcing his international retirement after 145 appearances. Sachin Nakrani",
+      "bio": "It is fair to say 2022 was a notable year for Lloris. He celebrated his decade anniversary at Tottenham and moved into the club’s all-time top-10 appearance makers with a 416th display in the 2021-22 final-day victory over Norwich, one which saw Spurs secure a top-four place. Lloris played a significant role in that – the goalkeeper appeared in every league game and achieved a personal best of 16 clean sheets for the season. Towards the end of 2022 he captained France as they reached a second World Cup final in a row, breaking Lilian Thuram’s record as France’s most-capped player in the process before announcing his international retirement after 145 appearances.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -924,7 +924,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/77.svg",
       "largeImageUrl": "images/players/largeImage/77.svg",
-      "bio": "The Brazilian is up 20 places and that is undeniably based on his displays in the first half of 2022. He was magnificent for Liverpool as they came agonisingly close to securing an unprecedented quadruple, offering his typical assurance, in and out of possession, from a deep-lying midfield role. During the current campaign, however, the 29-year-old has been poor. Athleticism and aggression have deserted him, as subsequently has confidence, and there are no signs of any of that returning. Fabinho also made little impact for Brazil at the World Cup, albeit he rarely featured for the Seleção. Sachin Nakrani",
+      "bio": "The Brazilian is up 20 places and that is undeniably based on his displays in the first half of 2022. He was magnificent for Liverpool as they came agonisingly close to securing an unprecedented quadruple, offering his typical assurance, in and out of possession, from a deep-lying midfield role. During the current campaign, however, the 29-year-old has been poor. Athleticism and aggression have deserted him, as subsequently has confidence, and there are no signs of any of that returning. Fabinho also made little impact for Brazil at the World Cup, albeit he rarely featured for the Seleção.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -936,7 +936,7 @@ module.exports = {
       "club": "Porto",
       "smallImageUrl": "images/players/smallImage/78.svg",
       "largeImageUrl": "images/players/largeImage/78.svg",
-      "bio": "The Iran striker carried his astonishing form for Porto that saw him score 20 goals and provide 12 assists as he won his first league title in Portugal into the World Cup with two goals against England. A powerful presence with a knack for scoring spectacular goals such as the brilliant bicycle kick against Chelsea in April 2021 that was nominated for the Puskas Award, Taremi was first spotted playing for Iran's national students' team but is now on the radar of some of Europe’s biggest clubs despite being 30. The first Iranian player to make the top 100. Ed Aarons",
+      "bio": "The Iran striker carried his astonishing form for Porto that saw him score 20 goals and provide 12 assists as he won his first league title in Portugal into the World Cup with two goals against England. A powerful presence with a knack for scoring spectacular goals such as the brilliant bicycle kick against Chelsea in April 2021 that was nominated for the Puskas Award, Taremi was first spotted playing for Iran's national students' team but is now on the radar of some of Europe’s biggest clubs despite being 30. The first Iranian player to make the top 100.",
       "bioAuthor": "Ed Aarons"
     }, 
     {
@@ -948,7 +948,7 @@ module.exports = {
       "club": "Angers",
       "smallImageUrl": "images/players/smallImage/79.svg",
       "largeImageUrl": "images/players/largeImage/79.svg",
-      "bio": "While the 22-year-old Moroccan’s breakthrough was a surprising left-field World Cup subplot, the realisation of his talent was anything but to Ligue 1 observers, despite a meandering year for the midfielder. Having oddly jumped in and out of a struggling Angers side under the now sacked Gérald Baticle last season, despite repeatedly affecting games, the club’s slide towards relegation this term has again distracted from Ounahi’s precise and intelligent midfield industry and subtle creativity. With many impressed bigger clubs now circling, much like his current employers, Ounahi’s continued stay in Ligue 1 will be short. Adam White",
+      "bio": "While the 22-year-old Moroccan’s breakthrough was a surprising left-field World Cup subplot, the realisation of his talent was anything but to Ligue 1 observers, despite a meandering year for the midfielder. Having oddly jumped in and out of a struggling Angers side under the now sacked Gérald Baticle last season, despite repeatedly affecting games, the club’s slide towards relegation this term has again distracted from Ounahi’s precise and intelligent midfield industry and subtle creativity. With many impressed bigger clubs now circling, much like his current employers, Ounahi’s continued stay in Ligue 1 will be short.",
       "bioAuthor": "Adam White"
     }, 
     {
@@ -960,7 +960,7 @@ module.exports = {
       "club": "Chelsea",
       "smallImageUrl": "images/players/smallImage/80.svg",
       "largeImageUrl": "images/players/largeImage/80.svg",
-      "bio": "Achieved a long-held ambition to play in the Premier League after joining Chelsea in the summer but has struggled to settle at Stamford Bridge after taking John Terry’s old shirt number. However, he is a re-entry into our top 100 this year after leading Senegal to their first ever Africa Nations Cup title. Also played every minute of his country’s World Cup campaign, which ended against England in the last 16. Remains the fierce competitor who served Napoli so loyally during almost a decade in Italy but his absence from the top 100 last year having peaked as high as 30th in 2019 was perhaps an indication of his declining powers. Ed Aarons",
+      "bio": "Achieved a long-held ambition to play in the Premier League after joining Chelsea in the summer but has struggled to settle at Stamford Bridge after taking John Terry’s old shirt number. However, he is a re-entry into our top 100 this year after leading Senegal to their first ever Africa Nations Cup title. Also played every minute of his country’s World Cup campaign, which ended against England in the last 16. Remains the fierce competitor who served Napoli so loyally during almost a decade in Italy but his absence from the top 100 last year having peaked as high as 30th in 2019 was perhaps an indication of his declining powers.",
       "bioAuthor": "Ed Aarons"
     }, 
     {
@@ -972,7 +972,7 @@ module.exports = {
       "club": "Manchester United",
       "smallImageUrl": "images/players/smallImage/81.svg",
       "largeImageUrl": "images/players/largeImage/81.svg",
-      "bio": "A superb season for Ajax earned the centre-back a move to Manchester United, following his former manager in Amsterdam Erik ten Hag. He quickly allayed fears that his height, or lack thereof, would be a problem in England, showing that his combative nature and ability to read the game were more than a match for strikers in England. Although not a regular in Lionel Scaloni’s starting lineup in Qatar, Martínez still made five appearances for Argentina on their way to lifting the trophy. Recently said growing up in the Entre Ríos region shaped him as a footballer. “I’d see things, as a kid, that maybe others didn’t. But life itself is tough, you’re always faced with tough times and that’s where you need to show your mental strength,” he told the United magazine. Will Unwin",
+      "bio": "A superb season for Ajax earned the centre-back a move to Manchester United, following his former manager in Amsterdam Erik ten Hag. He quickly allayed fears that his height, or lack thereof, would be a problem in England, showing that his combative nature and ability to read the game were more than a match for strikers in England. Although not a regular in Lionel Scaloni’s starting lineup in Qatar, Martínez still made five appearances for Argentina on their way to lifting the trophy. Recently said growing up in the Entre Ríos region shaped him as a footballer. “I’d see things, as a kid, that maybe others didn’t. But life itself is tough, you’re always faced with tough times and that’s where you need to show your mental strength,” he told the United magazine.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -984,7 +984,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/82.svg",
       "largeImageUrl": "images/players/largeImage/82.svg",
-      "bio": "The Uruguay international enjoyed a prolific season at Benfica, where he was top scorer in Portugal with 34 goals including one in each leg of their Champions League quarter-final defeat by Liverpool. His performances against Jürgen Klopp’s side helped convince Liverpool to agree to a potential club-record £85m deal to sign the striker as they prepared for the exit of Sadio Mané. Núñez's integration was interrupted by a red card for violent conduct on his Anfield debut. The 23-year-old’s all-round game has impressed and, despite criticism of his finishing, the forward has already reached double figures during his first season in England. Andy Hunter",
+      "bio": "The Uruguay international enjoyed a prolific season at Benfica, where he was top scorer in Portugal with 34 goals including one in each leg of their Champions League quarter-final defeat by Liverpool. His performances against Jürgen Klopp’s side helped convince Liverpool to agree to a potential club-record £85m deal to sign the striker as they prepared for the exit of Sadio Mané. Núñez's integration was interrupted by a red card for violent conduct on his Anfield debut. The 23-year-old’s all-round game has impressed and, despite criticism of his finishing, the forward has already reached double figures during his first season in England.",
       "bioAuthor": "Andy Hunter"
     }, 
     {
@@ -996,7 +996,7 @@ module.exports = {
       "club": "Fulham",
       "smallImageUrl": "images/players/smallImage/83.svg",
       "largeImageUrl": "images/players/largeImage/83.svg",
-      "bio": "A new entry who is fully deserving of his place on this list. Mitrovic had an incredible 2022, scoring 21 goals from the turn of the year as Fulham surged to the Championship title, a run that also saw him break the record for most goals scored in a 46-game English season – 43 goals in 44 appearances. Back in the Premier League he has continued to find the back of the net, as well as scoring twice for Serbia at the World Cup. Little wonder the 28-year-old’s club manager is full of praise for him. “Mitro is a top professional,” said Marco Silva. “I’m really pleased to have him with us.” Sachin Nakrani",
+      "bio": "A new entry who is fully deserving of his place on this list. Mitrovic had an incredible 2022, scoring 21 goals from the turn of the year as Fulham surged to the Championship title, a run that also saw him break the record for most goals scored in a 46-game English season – 43 goals in 44 appearances. Back in the Premier League he has continued to find the back of the net, as well as scoring twice for Serbia at the World Cup. Little wonder the 28-year-old’s club manager is full of praise for him. “Mitro is a top professional,” said Marco Silva. “I’m really pleased to have him with us.”",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -1008,7 +1008,7 @@ module.exports = {
       "club": "Manchester City",
       "smallImageUrl": "images/players/smallImage/84.svg",
       "largeImageUrl": "images/players/largeImage/84.svg",
-      "bio": "It says everything about Walker that, tasked with keeping Kylian Mbappé under wraps when England met France in the World Cup quarter-finals, he largely did what was asked of him even as Gareth Southgate's side went out. At 32, his trademark pace shows little sign of diminishing and, paired with his canny reading of the game, he remains one of the most formidable right-backs in European football. Having won his fourth Premier League title with Manchester City last May, he is also one of the most decorated. What's more, he gained a new superfan in 2022: Dave the cat. Will Magee",
+      "bio": "It says everything about Walker that, tasked with keeping Kylian Mbappé under wraps when England met France in the World Cup quarter-finals, he largely did what was asked of him even as Gareth Southgate's side went out. At 32, his trademark pace shows little sign of diminishing and, paired with his canny reading of the game, he remains one of the most formidable right-backs in European football. Having won his fourth Premier League title with Manchester City last May, he is also one of the most decorated. What's more, he gained a new superfan in 2022: Dave the cat.",
       "bioAuthor": "Will Magee"
     }, 
     {
@@ -1020,7 +1020,7 @@ module.exports = {
       "club": "Manchester United",
       "smallImageUrl": "images/players/smallImage/85.svg",
       "largeImageUrl": "images/players/largeImage/85.svg",
-      "bio": "After problems with injury upon arrival at Old Trafford, 2022 was the year the centre-back made his mark in the Premier League. Varane has become a mainstay in the heart of United’s defence, seemingly unflustered by playing next to a different partner most weeks. He helped France get to the World Cup final playing through illness to make sure they took Argentina to penalties but sometimes even the best defenders are not a match for the great Lionel Messi. His performances in Qatar have helped Varane return to the top 100 after a two-year absence. Will Unwin",
+      "bio": "After problems with injury upon arrival at Old Trafford, 2022 was the year the centre-back made his mark in the Premier League. Varane has become a mainstay in the heart of United’s defence, seemingly unflustered by playing next to a different partner most weeks. He helped France get to the World Cup final playing through illness to make sure they took Argentina to penalties but sometimes even the best defenders are not a match for the great Lionel Messi. His performances in Qatar have helped Varane return to the top 100 after a two-year absence.",
       "bioAuthor": "Will Unwin"
     }, 
     {
@@ -1032,7 +1032,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/86.svg",
       "largeImageUrl": "images/players/largeImage/86.svg",
-      "bio": "It hasn’t been easy for Upamecano since he arrived in Munich in 2021, and his uneven performances cast doubt over his long-term future at Bayern. 2022 was better, and his improved form at club level allowed him to be ready to receive the opportunity when a tidal wave of injuries struck France before the World Cup. Upamecano was excellent in Qatar, give or take a quarter-final chasing from Harry Kane, sealing a return to the 100 and putting himself at the front of the queue to lead France’s next generation with his fine anticipation and adventurous manner when he steps out. Andy Brassell",
+      "bio": "It hasn’t been easy for Upamecano since he arrived in Munich in 2021, and his uneven performances cast doubt over his long-term future at Bayern. 2022 was better, and his improved form at club level allowed him to be ready to receive the opportunity when a tidal wave of injuries struck France before the World Cup. Upamecano was excellent in Qatar, give or take a quarter-final chasing from Harry Kane, sealing a return to the 100 and putting himself at the front of the queue to lead France’s next generation with his fine anticipation and adventurous manner when he steps out.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -1044,7 +1044,7 @@ module.exports = {
       "club": "Lazio",
       "smallImageUrl": "images/players/smallImage/87.svg",
       "largeImageUrl": "images/players/largeImage/87.svg",
-      "bio": "Few players have made our top 100 list as consistently as Immobile, appearing for the sixth consecutive year, but the criticism of him remains the same as ever: that he is ruthless for his club and toothless for his country. With Lazio, he finished as Serie A’s capocannoniere (top scorer) again last season, becoming the first Italian to do so four times in a career. Yet he failed to find the net while wearing the captain’s armband for Italy’s humiliating World Cup qualifying playoff defeat to North Macedonia, placing just one of his seven attempts on target. Nicky Bandini",
+      "bio": "Few players have made our top 100 list as consistently as Immobile, appearing for the sixth consecutive year, but the criticism of him remains the same as ever: that he is ruthless for his club and toothless for his country. With Lazio, he finished as Serie A’s capocannoniere (top scorer) again last season, becoming the first Italian to do so four times in a career. Yet he failed to find the net while wearing the captain’s armband for Italy’s humiliating World Cup qualifying playoff defeat to North Macedonia, placing just one of his seven attempts on target.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -1056,7 +1056,7 @@ module.exports = {
       "club": "West Ham",
       "smallImageUrl": "images/players/smallImage/88.svg",
       "largeImageUrl": "images/players/largeImage/88.svg",
-      "bio": "Jude Bellingham captured the headlines in Qatar for England as Rice, who turned 24 in January, continued his development into being the national team’s dependable, durable midfield mainstay. The England captaincy may beckon soon enough and, before that, an exit from West Ham. Rice has talked of wanting to play Champions League football, and such opportunities will not be forthcoming at the London Stadium. With many of the Premier League’s elite clubs having a vacancy in central midfield, an auction is likely for such a capable player. How West Ham might get on without him is a question that troubles the club’s fans. John Brewin",
+      "bio": "Jude Bellingham captured the headlines in Qatar for England as Rice, who turned 24 in January, continued his development into being the national team’s dependable, durable midfield mainstay. The England captaincy may beckon soon enough and, before that, an exit from West Ham. Rice has talked of wanting to play Champions League football, and such opportunities will not be forthcoming at the London Stadium. With many of the Premier League’s elite clubs having a vacancy in central midfield, an auction is likely for such a capable player. How West Ham might get on without him is a question that troubles the club’s fans.",
       "bioAuthor": "John Brewin"
     }, 
     {
@@ -1068,7 +1068,7 @@ module.exports = {
       "club": "Barcelona",
       "smallImageUrl": "images/players/smallImage/89.svg",
       "largeImageUrl": "images/players/largeImage/89.svg",
-      "bio": "Is anyone as fundamentally associated with the words Manchester United transfer saga as Frenkie de Jong? Wesley Sneijder, Nicolás Gaitán and Gareth Bale might give him a run for his money, but the Barcelona midfielder has turned elusiveness into an art form. Having reached the Champions League semi-finals with Ajax in 2019, winning a domestic double that same season, Erik ten Hag has good reason to admire his compatriot. While De Jong has not had an easy ride at Barça, in part because of the tumultuous situation off the field, he has been crucial to their gradual resurgence under Xavi. He also remains indispensable to his national side, starting all five of the Netherlands' games in their run to the World Cup quarter-finals. Will Magee",
+      "bio": "Is anyone as fundamentally associated with the words Manchester United transfer saga as Frenkie de Jong? Wesley Sneijder, Nicolás Gaitán and Gareth Bale might give him a run for his money, but the Barcelona midfielder has turned elusiveness into an art form. Having reached the Champions League semi-finals with Ajax in 2019, winning a domestic double that same season, Erik ten Hag has good reason to admire his compatriot. While De Jong has not had an easy ride at Barça, in part because of the tumultuous situation off the field, he has been crucial to their gradual resurgence under Xavi. He also remains indispensable to his national side, starting all five of the Netherlands' games in their run to the World Cup quarter-finals.",
       "bioAuthor": "Will Magee"
     }, 
     {
@@ -1080,7 +1080,7 @@ module.exports = {
       "club": "Newcastle",
       "smallImageUrl": "images/players/smallImage/90.svg",
       "largeImageUrl": "images/players/largeImage/90.svg",
-      "bio": "Newcastle fans often sing about their Brazil midfielder wearing a “magic hat” and Guimarães has certainly cast his spell at St James’ Park where the £35m signing from Lyon last January is now a firm cult hero. If it helps that he chose Eddie Howe’s side over Arsenal, the ease with which the 25-year-old has proved capable of alternately assuming both the No 6 and No 8 roles has seen him hailed as the club’s best midfielder since Rob Lee. Like Lee, the technically assured Guimarães is capable of controlling games and possesses a keen eye for goal. He wears the No 39 shirt in homage to his father, a former taxi driver whose car’s call sign was 39. Louise Taylor",
+      "bio": "Newcastle fans often sing about their Brazil midfielder wearing a “magic hat” and Guimarães has certainly cast his spell at St James’ Park where the £35m signing from Lyon last January is now a firm cult hero. If it helps that he chose Eddie Howe’s side over Arsenal, the ease with which the 25-year-old has proved capable of alternately assuming both the No 6 and No 8 roles has seen him hailed as the club’s best midfielder since Rob Lee. Like Lee, the technically assured Guimarães is capable of controlling games and possesses a keen eye for goal. He wears the No 39 shirt in homage to his father, a former taxi driver whose car’s call sign was 39.",
       "bioAuthor": "Louise Taylor"
     }, 
     {
@@ -1092,7 +1092,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/91.svg",
       "largeImageUrl": "images/players/largeImage/91.svg",
-      "bio": "Neuer’s excellent form for Bayern is taken for granted at this point, and he had another solid year at club level. The coda to his 2022 could, however, be career-defining. He had a poor World Cup, with his mistakes magnified as Germany fell at the first hurdle. He then broke his leg skiing shortly after returning from Qatar to rule him out for the rest of the season. At 36, with Barcelona’s Marc-André ter Stegen in fine form and with Bayern searching for an elite backup/replacement in goal, this could possibly be Neuer’s last time on the list. Andy Brassell",
+      "bio": "Neuer’s excellent form for Bayern is taken for granted at this point, and he had another solid year at club level. The coda to his 2022 could, however, be career-defining. He had a poor World Cup, with his mistakes magnified as Germany fell at the first hurdle. He then broke his leg skiing shortly after returning from Qatar to rule him out for the rest of the season. At 36, with Barcelona’s Marc-André ter Stegen in fine form and with Bayern searching for an elite backup/replacement in goal, this could possibly be Neuer’s last time on the list.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -1104,7 +1104,7 @@ module.exports = {
       "club": "Flamengo",
       "smallImageUrl": "images/players/smallImage/92.svg",
       "largeImageUrl": "images/players/largeImage/92.svg",
-      "bio": "The magisterial Uruguayan yet again underlined why he is the best playmaker on the continent, pulling the strings for a Flamengo side that did the Libertadores and Copa do Brasil double. Blessed with vision, poise and technique, De Arrascaeta laid on a career-best 20 assists across all competitions, leading Rivaldo to claim that “any manager would want him on their team”. “Cocho” was the only Uruguayan to score at the World Cup – an ultimately fruitless double against Ghana – and you can’t help but think that La Celeste might have missed a trick by not using their little magician more often. Tom Robinson",
+      "bio": "The magisterial Uruguayan yet again underlined why he is the best playmaker on the continent, pulling the strings for a Flamengo side that did the Libertadores and Copa do Brasil double. Blessed with vision, poise and technique, De Arrascaeta laid on a career-best 20 assists across all competitions, leading Rivaldo to claim that “any manager would want him on their team”. “Cocho” was the only Uruguayan to score at the World Cup – an ultimately fruitless double against Ghana – and you can’t help but think that La Celeste might have missed a trick by not using their little magician more often.",
       "bioAuthor": "Tom Robinson"
     }, 
     {
@@ -1116,7 +1116,7 @@ module.exports = {
       "club": "Real Madrid",
       "smallImageUrl": "images/players/smallImage/93.svg",
       "largeImageUrl": "images/players/largeImage/93.svg",
-      "bio": "Not always in Carlo Ancelotti’s starting XI but 2022 was still a good year for Rodrygo, who played a crucial role in Real Madrid winning their 14th European Cup. He scored five goals along the way, none more important than the two late, late goals in the second leg of the semi-final against Manchester City. Has at times been the victim of Ancelotti deploying Federico Valverde on the right but the Brazilian is often a gamechanger when he comes on. Skilful and clinical in front of goal, he is also a mature speaker off the pitch. His compatriot Ronaldo is a fan, saying Rodrygo would get “into any team in the world” ignoring perhaps the two teams he is playing for, Real and Brazil. Marcus Christenson",
+      "bio": "Not always in Carlo Ancelotti’s starting XI but 2022 was still a good year for Rodrygo, who played a crucial role in Real Madrid winning their 14th European Cup. He scored five goals along the way, none more important than the two late, late goals in the second leg of the semi-final against Manchester City. Has at times been the victim of Ancelotti deploying Federico Valverde on the right but the Brazilian is often a gamechanger when he comes on. Skilful and clinical in front of goal, he is also a mature speaker off the pitch. His compatriot Ronaldo is a fan, saying Rodrygo would get “into any team in the world” ignoring perhaps the two teams he is playing for, Real and Brazil.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -1128,7 +1128,7 @@ module.exports = {
       "club": "Chelsea",
       "smallImageUrl": "images/players/smallImage/94.svg",
       "largeImageUrl": "images/players/largeImage/94.svg",
-      "bio": "The full-back often shone for Chelsea in 2022, playing an important part in them reaching two cup finals and securing a top-four finish. But James was also dogged by injuries, the most devastating of which was the knee injury he sustained in the Champions League group victory away at Milan in October that resulted in the 23-year-old missing the World Cup. He returned for the Premier League win against Bournemouth at the end of the year but was subsequently struck down by the same problem in the second half of that game. A hugely talented player, clearly, but he falls 24 places on the list. Sachin Nakrani",
+      "bio": "The full-back often shone for Chelsea in 2022, playing an important part in them reaching two cup finals and securing a top-four finish. But James was also dogged by injuries, the most devastating of which was the knee injury he sustained in the Champions League group victory away at Milan in October that resulted in the 23-year-old missing the World Cup. He returned for the Premier League win against Bournemouth at the end of the year but was subsequently struck down by the same problem in the second half of that game. A hugely talented player, clearly, but he falls 24 places on the list.",
       "bioAuthor": "Sachin Nakrani"
     }, 
     {
@@ -1140,7 +1140,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/95.svg",
       "largeImageUrl": "images/players/largeImage/95.svg",
-      "bio": "Gnabry falls a huge 54 places, despite a perfectly good year in many senses. He struck 17 times in all competitions in 2021-22 and has gone along at almost a goal per start for Bayern this time around, often pushed into a striking role in a 4-4-2 by Julian Nagelsmann following Robert Lewandowski’s exit. His association with Germany’s World Cup failure has cost him, with Hansi Flick’s team undermined by repeatedly missing chances as well as defensive slip-ups. Having signed a lucrative new deal in 2022, Gnabry will continue to be influential for club and country. Andy Brassell",
+      "bio": "Gnabry falls a huge 54 places, despite a perfectly good year in many senses. He struck 17 times in all competitions in 2021-22 and has gone along at almost a goal per start for Bayern this time around, often pushed into a striking role in a 4-4-2 by Julian Nagelsmann following Robert Lewandowski’s exit. His association with Germany’s World Cup failure has cost him, with Hansi Flick’s team undermined by repeatedly missing chances as well as defensive slip-ups. Having signed a lucrative new deal in 2022, Gnabry will continue to be influential for club and country.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -1152,7 +1152,7 @@ module.exports = {
       "club": "Milan",
       "smallImageUrl": "images/players/smallImage/96.svg",
       "largeImageUrl": "images/players/largeImage/96.svg",
-      "bio": "For years, Tonali was billed as the “next Andrea Pirlo”. The midfielder always thought his playing style aligned closer to Gennaro Gattuso but his manager, Stefano Pioli, sees shades of Daniele De Rossi in there too. Everyone can at least agree now that Tonali has flourished with the Rossoneri, playing his way into a starting position last season even when that meant breaking up the established partnership of Franck Kessié and Ismaël Bennacer. He scored crucial goals away at Lazio and Verona in the spring to keep Milan on course for the scudetto, and help earn himself a first appearance on this list. Nicky Bandini",
+      "bio": "For years, Tonali was billed as the “next Andrea Pirlo”. The midfielder always thought his playing style aligned closer to Gennaro Gattuso but his manager, Stefano Pioli, sees shades of Daniele De Rossi in there too. Everyone can at least agree now that Tonali has flourished with the Rossoneri, playing his way into a starting position last season even when that meant breaking up the established partnership of Franck Kessié and Ismaël Bennacer. He scored crucial goals away at Lazio and Verona in the spring to keep Milan on course for the scudetto, and help earn himself a first appearance on this list.",
       "bioAuthor": "Nicky Bandini"
     }, 
     {
@@ -1164,7 +1164,7 @@ module.exports = {
       "club": "Liverpool",
       "smallImageUrl": "images/players/smallImage/97.svg",
       "largeImageUrl": "images/players/largeImage/97.svg",
-      "bio": "In December the full-back broke the record for most Premier League assists by a defender as he set up Mohamed Salah for Liverpool’s opener at Aston Villa on Boxing Day. It was Robertson’s 54th assist in the English top flight – with 50 of them coming at Liverpool – and it meant he overtook Everton’s Leighton Baines at the top of the list. After the game Jürgen Klopp said: “I just remember the guy we bought from Hull. Offensively he was great, defensively not so good. Now he can do both.” His energy levels have dropped somewhat in 2022-23, along with the rest of the Liverpool team. Marcus Christenson",
+      "bio": "In December the full-back broke the record for most Premier League assists by a defender as he set up Mohamed Salah for Liverpool’s opener at Aston Villa on Boxing Day. It was Robertson’s 54th assist in the English top flight – with 50 of them coming at Liverpool – and it meant he overtook Everton’s Leighton Baines at the top of the list. After the game Jürgen Klopp said: “I just remember the guy we bought from Hull. Offensively he was great, defensively not so good. Now he can do both.” His energy levels have dropped somewhat in 2022-23, along with the rest of the Liverpool team.",
       "bioAuthor": "Marcus Christenson"
     }, 
     {
@@ -1176,7 +1176,7 @@ module.exports = {
       "club": "Bayern Munich",
       "smallImageUrl": "images/players/smallImage/98.svg",
       "largeImageUrl": "images/players/largeImage/98.svg",
-      "bio": "Sané returns to the list after a year’s absence and is as perplexing a talent as ever. His status at Bayern rose during 2022, having previously drawn the ire of Karl-Heinz Rummenigge for a perceived lack of defensive effort and Sané has been the subject of much fretting due to his colossal wages. On his day he looks like one of the world’s best, with his combination of pace, skill and finishing power, and he is having more of those days for Bayern than he did before. Even at the age of 27 it still feels as if he is on the outside looking in for Germany, taken to the World Cup but hardly used even in times of difficulty. Andy Brassell",
+      "bio": "Sané returns to the list after a year’s absence and is as perplexing a talent as ever. His status at Bayern rose during 2022, having previously drawn the ire of Karl-Heinz Rummenigge for a perceived lack of defensive effort and Sané has been the subject of much fretting due to his colossal wages. On his day he looks like one of the world’s best, with his combination of pace, skill and finishing power, and he is having more of those days for Bayern than he did before. Even at the age of 27 it still feels as if he is on the outside looking in for Germany, taken to the World Cup but hardly used even in times of difficulty.",
       "bioAuthor": "Andy Brassell"
     }, 
     {
@@ -1188,7 +1188,7 @@ module.exports = {
       "club": "Flamengo",
       "smallImageUrl": "images/players/smallImage/99.svg",
       "largeImageUrl": "images/players/largeImage/99.svg",
-      "bio": "Always the man for the big occasion, the artist formerly known as Gabigol popped up with the winner in the Copa Libertadores final – just as he had in 2019 – to give Flamengo their second continental title in four years. That goal made him the joint top Brazilian scorer in Libertadores history and, despite not making Tite’s World Cup squad, 29 goals in 2022 sees Barbosa sneak on to the list. While the prolific forward may not have lived up to the “next Neymar” hype, he cemented his place as a Flamengo legend and even inherited the hallowed No 10 shirt – not before seeking Zico’s approval, of course. Tom Robinson",
+      "bio": "Always the man for the big occasion, the artist formerly known as Gabigol popped up with the winner in the Copa Libertadores final – just as he had in 2019 – to give Flamengo their second continental title in four years. That goal made him the joint top Brazilian scorer in Libertadores history and, despite not making Tite’s World Cup squad, 29 goals in 2022 sees Barbosa sneak on to the list. While the prolific forward may not have lived up to the “next Neymar” hype, he cemented his place as a Flamengo legend and even inherited the hallowed No 10 shirt – not before seeking Zico’s approval, of course.",
       "bioAuthor": "Tom Robinson"
     }, 
     {
@@ -1200,7 +1200,7 @@ module.exports = {
       "club": "Benfica",
       "smallImageUrl": "images/players/smallImage/100.svg",
       "largeImageUrl": "images/players/largeImage/100.svg",
-      "bio": "On our list for the first time, the 34-year-old can look back at a wildly successful 2022 that was crowned by the World Cup victory in December. The former Manchester City defender started every game and played every minute in Qatar, the coach, Lionel Scaloni, sticking by him despite the opening defeat against Saudi Arabia. At club level Otamendi played an integral part as Benfica finished third in 2021-22. The club then went on to win their Champions League group ahead of PSG and Juventus. His coach, Roger Schmidt, is a fan and recently said the club are keen to extend the veteran’s contract. Marcus Christenson",
+      "bio": "On our list for the first time, the 34-year-old can look back at a wildly successful 2022 that was crowned by the World Cup victory in December. The former Manchester City defender started every game and played every minute in Qatar, the coach, Lionel Scaloni, sticking by him despite the opening defeat against Saudi Arabia. At club level Otamendi played an integral part as Benfica finished third in 2021-22. The club then went on to win their Champions League group ahead of PSG and Juventus. His coach, Roger Schmidt, is a fan and recently said the club are keen to extend the veteran’s contract.",
       "bioAuthor": "Marcus Christenson"
     }]
     )

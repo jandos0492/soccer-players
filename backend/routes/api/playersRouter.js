@@ -13,10 +13,14 @@ router.get("/players", async (req, res) => {
 });
 
 // Get one player by id
-router.get("/players/:id", async (req, res) => {
-  const playerId = req.params.id;
+router.get("/players/:no", async (req, res) => {
+  const playerNo = req.params.no;
   try {
-    const player = await Player.findByPk(playerId);
+    const player = await Player.findOne({
+      where: {
+        no: playerNo,
+      }
+    });
 
     if (!player) {
       return res.status(404).json({ message: "Player not found" });
@@ -66,12 +70,16 @@ router.post("/players", async (req, res) => {
 });
 
 // Update the player
-router.put("/players/:id", async (req, res) => {
-  const playerId = req.params.id;
+router.put("/players/:no", async (req, res) => {
+  const playerNo = req.params.no;
   const updatedPlayerData = req.body;
 
   try {
-    const player = await Player.findByPk(playerId);
+    const player = await Player.findOne({
+      where: {
+        no: playerNo,
+      }
+    })
 
     if (!player) {
       return res.json(404).json({ message: "Player not found" });
@@ -86,10 +94,14 @@ router.put("/players/:id", async (req, res) => {
 });
 
 // Delete the player
-router.delete("/players/:id", async (req, res) => {
-  const playerId = req.params.id;
+router.delete("/players/:no", async (req, res) => {
+  const playerNo = req.params.no;
   
-  const player = await Player.findByPk(playerId);
+  const player = await Player.findOne({
+    where: {
+      no: playerNo,
+    }
+  })
   if (!player) {
     return res.status(404).json({ message: "Player not found" });
   }
