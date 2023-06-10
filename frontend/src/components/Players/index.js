@@ -1,17 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext } from "react";
 import PlayerLink from "../PlayerLink";
 import "./Players.css";
+import { PlayerContext } from "../../context/PlayerContext";
 
 const Players = () => {
-  const [players, setPlayers] = useState([]);
-
-  useEffect(() => {
-    // Getting all the players from the db
-    fetch("/players")
-      .then((response) => response.json())
-      .then((data) => setPlayers(data))
-      .catch((error) => console.error(console.error()));
-  }, []);
+  const { players } = useContext(PlayerContext);
 
   return (
     <div className="player-list">
@@ -19,7 +12,7 @@ const Players = () => {
         <PlayerLink key={player.id} player={player} />
       ))}
     </div>
-  )
-}
+  );
+};
 
 export default Players;

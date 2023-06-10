@@ -13,7 +13,7 @@ function App() {
         </div>
         <div className="main-content">
           <Routes>
-            <Route path="/players/:no" element={<PlayerDetail />} />
+            <Route path="/players/:id" element={<PlayerDetail />} />
           </Routes>
         </div>
       </div>
@@ -22,3 +22,4 @@ function App() {
 }
 
 export default App;
+

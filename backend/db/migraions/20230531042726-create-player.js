@@ -41,11 +41,11 @@ module.exports = {
         type: Sequelize.STRING,
       },
       smallImageUrl: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: false,
       },
       largeImageUrl: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: false,
       },
       createdAt: {

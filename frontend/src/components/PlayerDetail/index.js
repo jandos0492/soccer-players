@@ -1,52 +1,61 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./PlayerDetail.css";
 import EditPlayerModal from "../EditPlayerModal";
+import { PlayerContext } from "../../context/PlayerContext";
 
 const PlayerDetail = () => {
   const [player, setPlayer] = useState(null);
-  const { no } = useParams();
-  console.log(no);
+  const { id } = useParams();
   const [editModalOpen, setEditModalOpen] = useState(false);
   const navigate = useNavigate();
-
-  // Getting the player from the db;
+  const { deletePlayer, players, setPlayers } = useContext(PlayerContext);
+  
   useEffect(() => {
-    fetch(`/players/${no}`)
-      .then((response) => response.json())
-      .then((data) => {
-        setPlayer(data);
-      })
-      .catch((error) => console.error(error));
-  }, [no]);
-
+    fetch(`/players/${id}`)
+    .then((response) => response.json())
+    .then((data) => {
+      setPlayer(data);
+    })
+    .catch((error) => console.error(error));
+  }, [id]);
+  
   const handleEdit = () => {
     setEditModalOpen(true);
   };
-
-
-  // Delete the player
+  
   const handleDelete = () => {
-    fetch(`/players/${no}`, {
-      method: "DELETE",
+    console.log("Deleting player with ID", id);
+    const playerIndex = players.findIndex((play) => play.id === +id);
+    const nextPlayerId = playerIndex !== players.length - 1 ? players[playerIndex + 1].id : players[0].id;
+    
+    deletePlayer(id)
+    .then((success) => {
+      if (success) {
+        navigate(`/players/${nextPlayerId}`);
+      }
     })
-      .then((response) => {
-        if (response.ok) {
-          navigate("/players");
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      })
+    .catch((error) => {
+      console.error(error);
+    });
+  };
+
+
+  const image = () => {
+    if (player.largeImageUrl.startsWith("http")) {
+      return player.largeImageUrl;
+    } else {
+      return `/${player.largeImageUrl}`;
+    }
   }
 
   if (!player) {
-    return <div>Loading...</div>
+    return <div>Loading...</div>;
   }
 
   return (
     <div className="player-detail">
-      <img src={`/${player.largeImageUrl}`} alt={player.name} className="player-image" />
+      <img src={image()} alt={player.name} className="player-image" />
       <h2 className="player-name">{player.name}</h2>
       <p className="player-info">Age: {player.age}</p>
       <p className="player-info">Position: {player.position}</p>
@@ -56,12 +65,22 @@ const PlayerDetail = () => {
       <p className="player-bio-author">Author of the Bio: {player.bioAuthor}</p>
 
       <div className="buttons">
-        <button onClick={handleEdit}>Edit</button>
-        <button onClick={handleDelete}>Delete</button>
+        <button className="button edit-button" onClick={handleEdit}>Edit</button>
+        <button className="button delete-button" onClick={handleDelete}>Delete</button>
       </div>
+
+      {editModalOpen && (
+        <EditPlayerModal
+          player={player}
+          onClose={() => setEditModalOpen(false)}
+          onUpdate={(updatedPlayer) => {
+            setPlayer(updatedPlayer);
+            setEditModalOpen(false);
+          }}
+        />
+      )}
     </div>
-  )
-}
+  );
+};
 
 export default PlayerDetail;
-
