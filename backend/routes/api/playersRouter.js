@@ -70,7 +70,7 @@ router.post("/players", async (req, res) => {
 });
 
 // Update the player
-router.put("/players/:no", async (req, res) => {
+router.put("/players/:no/edit", async (req, res) => {
   const playerNo = req.params.no;
   const updatedPlayerData = req.body;
 

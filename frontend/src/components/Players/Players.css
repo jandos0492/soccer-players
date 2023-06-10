@@ -1,5 +1,19 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+.arrow-container {
+  position: fixed;
+  top: 50px;
+  left: 62px;
+}
+
+.arrow {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrow:hover {
+  background-color: #e0e0e0;
 }

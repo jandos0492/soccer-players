@@ -1,0 +1,76 @@
+.player-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.player-image {
+  max-width: 1200px;
+  border-radius: 3%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.player-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.player-info {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.player-bio {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  text-align: justify;
+  max-width: 1200px;
+}
+
+.player-bio-author {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: right;
+  font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+  .player-detail .player-name {
+    font-size: 22px;
+  }
+
+  .player-info {
+    font-size: 14px;
+  }
+
+  .player-bio {
+    font-size: 14px;
+  }
+
+  .player-bio-author {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .player-detail .player-name {
+    font-size: 20px;
+  }
+
+  .player-info {
+    font-size: 12px;
+  }
+
+  .player-bio {
+    font-size: 12px;
+  }
+
+  .player-bio-author {
+    font-size: 10px;
+  }
+}

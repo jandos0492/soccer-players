@@ -1,13 +1,22 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Players from "./components/Players";
+import PlayerDetail from "./components/PlayerDetail";
 
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route path="/players" element={<Players />} />
-      </Routes>
+    <div>
+      <h1 className="header">Best Soccer players in the world</h1>
+      <div className="app">
+        <div className="sidebar">
+          <Players />
+        </div>
+        <div className="main-content">
+          <Routes>
+            <Route path="/players/:no" element={<PlayerDetail />} />
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }

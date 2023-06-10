@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PlayerCard from "../PlayerCard";
+import PlayerLink from "../PlayerLink";
 import "./Players.css";
 
 const Players = () => {
@@ -13,14 +13,13 @@ const Players = () => {
       .catch((error) => console.error(console.error()));
   }, []);
 
-  return <div className="players-container">
-    <h1>Players</h1>
-    <div className="grid">
+  return (
+    <div className="player-list">
       {players.map((player) => (
-        <PlayerCard key={player.id} player={player} />
+        <PlayerLink key={player.id} player={player} />
       ))}
     </div>
-  </div>
+  )
 }
 
 export default Players;
