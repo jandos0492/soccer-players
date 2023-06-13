@@ -6,10 +6,9 @@ import { PlayerContext } from "../../context/PlayerContext";
 
 const PlayerDetail = () => {
   const [editModalOpen, setEditModalOpen] = useState(false);
-  const [player, setPlayer] = useState(null);
   const { id } = useParams();
   const navigate = useNavigate();
-  const { deletePlayer, players } = useContext(PlayerContext);
+  const { deletePlayer, players, player, setPlayer } = useContext(PlayerContext);
 
   useEffect(() => {
     fetch(`/players/${id}`)
@@ -23,7 +22,6 @@ const PlayerDetail = () => {
 
 
   const handleDelete = () => {
-    console.log("Deleting player with ID", id);
     const playerIndex = players.findIndex((play) => play.id === +id);
     const nextPlayerId = playerIndex !== players.length - 1 ? players[playerIndex + 1].id : players[0].id;
 

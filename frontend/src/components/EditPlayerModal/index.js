@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { PlayerContext } from "../../context/PlayerContext";
 import "./EditPlayerModal.css";
@@ -28,10 +28,43 @@ const EditPlayerModal = ({ editModalOpen, setEditModalOpen, player }) => {
   const updateSmallImageUrl = (e) => setSmallImageUrl(e.target.value);
   const updateLargeImageUrl = (e) => setLargeImageUrl(e.target.value);
 
+  // Handle update the player
+  const { id } = useParams();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const updatedPlayer = {
+      no,
+      name,
+      age,
+      position,
+      country,
+      club,
+      bio,
+      bioAuthor,
+      smallImageUrl,
+      largeImageUrl,
+    };
+    console.log("Updating player:", updatedPlayer);
+    updatePlayer(id, updatedPlayer)
+      .then((success) => {
+        if (success) {
+          console.log("Player updated successfully");
+        } else {
+          console.log("Failed to update player");
+        }
+      })
+      .catch((error) => {
+        console.error("Error updating player:", error);
+      });
+    setEditModalOpen(false);
+  };
+
+
 
   return (
     <section>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           type="number"
           min="1"
@@ -55,7 +88,7 @@ const EditPlayerModal = ({ editModalOpen, setEditModalOpen, player }) => {
           value={age}
           onChange={updateAge}
         />
-        <select value={position} onChange={updatePosition} >
+        <select value={position} onChange={updatePosition} menuposition="fixed" >
           {positions.map((position) =>
             <option key={position}>{position}</option>
           )}
@@ -102,11 +135,11 @@ const EditPlayerModal = ({ editModalOpen, setEditModalOpen, player }) => {
           value={largeImageUrl}
           onChange={updateLargeImageUrl}
         />
+        <div className="edit-buttons">
+          <button type="submit" className="submit-button" >Update</button>
+          <button className="cancel-button" onClick={() => setEditModalOpen(false)}>Cancel</button>
+        </div>
       </form>
-      <div className="edit-buttons">
-        <button className="submit-button" type="submit">Update</button>
-        <button className="cancel-button" onClick={() => setEditModalOpen(false)}>Cancel</button>
-      </div>
     </section>
   )
 }

@@ -4,6 +4,7 @@ export const PlayerContext = createContext();
 
 export const PlayerProvider = ({ children }) => {
   const [players, setPlayers] = useState([]);
+  const [player, setPlayer] = useState(null);
 
   useEffect(() => {
     fetch("/players")
@@ -36,33 +37,35 @@ export const PlayerProvider = ({ children }) => {
 
   // Update Player
   const updatePlayer = (id, updatedData) => {
-    return fetch(`players/${id}/edit`, {
+    return fetch(`/players/${id}/edit`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(updatedData),
     })
-    .then((response) => {
-      if (response.ok) {
-        setPlayers((prevPlayers) => 
-          prevPlayers.map((player) => 
-            player.id === +id ? { ...player, ...updatedData } : player
-          )
-        );
-        console.log("Player updated successfully");
-        return true;
-      }
-      throw new Error("Failed to update player");
-    })
-    .catch((error) => {
-      console.error(error);
-      return false;
-    });
-  }
+      .then((response) => {
+        if (response.ok) {
+          setPlayers((prevPlayers) =>
+            prevPlayers.map((player) =>
+              player.id === +id ? { ...player, ...updatedData } : player
+            )
+          );
+
+          const updatedPlayer = { ...player, ...updatedData };
+          setPlayer(updatedPlayer);
+          return true;
+        }
+      })
+      .catch((error) => {
+        return false;
+      });
+  };
+
+
 
   return (
-    <PlayerContext.Provider value={{ players, deletePlayer }}>
+    <PlayerContext.Provider value={{ players, setPlayers, deletePlayer, updatePlayer, player, setPlayer }}>
       {children}
     </PlayerContext.Provider>
   );
