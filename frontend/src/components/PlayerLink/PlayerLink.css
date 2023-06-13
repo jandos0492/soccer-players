@@ -12,6 +12,7 @@
   background-color: #d5d5d5;
   position: relative;
   object-fit: cover;
+  max-width: 500px;
 }
 
 .playerNo {

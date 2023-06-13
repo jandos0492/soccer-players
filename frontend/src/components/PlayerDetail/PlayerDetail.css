@@ -6,13 +6,18 @@
   height: 1100px;
   background-color: #f2f2f2;
   height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
 .player-image {
-  max-width: 1200px;
+  max-width: 100%;
+  height: auto;
   border-radius: 3%;
   object-fit: cover;
   margin-bottom: 20px;
+  max-height: 650px;
+
 }
 
 .player-name {
@@ -46,7 +51,6 @@
 }
 
 .edit-button {
-  /* position: absolute; */
   bottom: 40px;
   left: 40px;
   background-color: #ffeb3b;
@@ -60,7 +64,6 @@
 }
 
 .delete-button {
-  /* position: absolute; */
   bottom: 40px;
   right: 40px;
   background-color: #f44336;
@@ -72,7 +75,47 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 550px) {
+.player-name {
+  visibility: visible;
+}
+
+.player-info {
+  visibility: visible;
+}
+
+.player-bio {
+  visibility: visible;
+}
+
+.player-bio-author {
+  visibility: visible;
+}
+
+.buttons {
+  visibility: visible;
+}
+
+.modal-open .player-name {
+  visibility: hidden;
+}
+
+.modal-open .buttons {
+  visibility: hidden;
+}
+
+.modal-open .player-info {
+  visibility: hidden;
+}
+
+.modal-open .player-bio {
+  visibility: hidden;
+}
+
+.modal-open .player-bio-author {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
   .player-detail .player-name {
     font-size: 22px;
   }
@@ -122,5 +165,46 @@
 
   .delete-button {
     right: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .player-detail .player-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .player-info {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .player-bio {
+    margin-top: 5px;
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .player-bio-author {
+    font-size: 8px;
+  }
+
+  .button {
+    margin-top: 5px;
+    width: 40px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .edit-button {
+    left: 20px;
+  }
+
+  .delete-button {
+    right: 20px;
+  }
+
+  .player-detail {
+    padding: 5px;
   }
 }

@@ -34,6 +34,33 @@ export const PlayerProvider = ({ children }) => {
       })
   }
 
+  // Update Player
+  const updatePlayer = (id, updatedData) => {
+    return fetch(`players/${id}/edit`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(updatedData),
+    })
+    .then((response) => {
+      if (response.ok) {
+        setPlayers((prevPlayers) => 
+          prevPlayers.map((player) => 
+            player.id === +id ? { ...player, ...updatedData } : player
+          )
+        );
+        console.log("Player updated successfully");
+        return true;
+      }
+      throw new Error("Failed to update player");
+    })
+    .catch((error) => {
+      console.error(error);
+      return false;
+    });
+  }
+
   return (
     <PlayerContext.Provider value={{ players, deletePlayer }}>
       {children}
