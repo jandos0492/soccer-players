@@ -78,11 +78,11 @@ const CreatePlayerModal = ({ setCreateModalOpen }) => {
           value={age}
           onChange={updateAge}
         />
-        <select value={position} onChange={updatePosition} menuposition="fixed" >
-          <option key="player position" disabled>Player Position</option>
-          {positions.map((position) =>
+        <select value={position} onChange={updatePosition} menuposition="fixed">
+          <option disabled>Player Position</option>
+          {positions.map((position) => (
             <option key={position}>{position}</option>
-          )}
+          ))}
         </select>
         <input
           type="text"

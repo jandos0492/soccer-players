@@ -71,6 +71,7 @@ export const PlayerProvider = ({ children }) => {
 
     if (response.ok) {
       const createdPlayer = await response.json();
+      setPlayers([...players, createdPlayer]);
       return createdPlayer;
     } else {
       throw new Error("Failed to create player");
