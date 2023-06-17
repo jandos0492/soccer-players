@@ -49,18 +49,30 @@ select {
 }
 
 .submit-button {
-  font-weight: 700;
-  margin-right: 40px;
-  cursor: pointer;
   background-color: green;
-  color: white;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .cancel-button {
-  font-weight: 700;
-  cursor: pointer;
   background-color: #ff0000;
-  color: white;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.submit-button:hover,
+.cancel-button:hover {
+  opacity: 0.8;
 }
 
 button {
