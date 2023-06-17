@@ -5,9 +5,9 @@ import EditPlayerModal from "../EditPlayerModal";
 import CreatePlayerModal from "../CreatePlayerModal";
 import { PlayerContext } from "../../context/PlayerContext";
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
+import { faCirclePlus, faCircleArrowRight, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(faCirclePlus);
+library.add(faCirclePlus, faCircleArrowRight, faCircleArrowLeft);
 
 const PlayerDetail = () => {
   const [createModalOpen, setCreateModalOpen] = useState(false);
@@ -15,7 +15,7 @@ const PlayerDetail = () => {
   const [deleteConfirmationOpen, setDeleteConfirmationOpen] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const { deletePlayer, players, player, setPlayer, createPlayer } = useContext(PlayerContext);
+  const { deletePlayer, players, player, setPlayer } = useContext(PlayerContext);
 
   useEffect(() => {
     fetch(`/players/${id}`)
@@ -77,6 +77,37 @@ const PlayerDetail = () => {
     }
   }
 
+  // Handling the next player button
+  const handleNextPlayer = () => {
+    const playerIndex = players.findIndex((player) => player.id === +id);
+    let nextPlayerIndex;
+
+    if (playerIndex === players.length - 1) {
+      nextPlayerIndex = 0;
+    } else {
+      nextPlayerIndex = playerIndex + 1;
+    }
+
+    const nextPlayerId = players[nextPlayerIndex].id;
+    navigate(`/players/${nextPlayerId}`);
+  };
+
+
+  // Handling the previous player button
+  const handlePreviousPlayer = () => {
+    const playerIndex = players.findIndex((player) => player.id === +id);
+    let previousPlayerIndex;
+
+    if (playerIndex === 0) {
+      previousPlayerIndex = players.length - 1;
+    } else {
+      previousPlayerIndex = playerIndex - 1;
+    }
+
+    const previousPlayerId = players[previousPlayerIndex].id;
+    navigate(`/players/${previousPlayerId}`);
+  };
+
 
   if (!player) {
     return <div>Loading...</div>;
@@ -90,8 +121,14 @@ const PlayerDetail = () => {
       <div className="buttons">
         {!editModalOpen && !deleteConfirmationOpen && (
           <>
+            <button className="previous-player-button" onClick={handlePreviousPlayer}>
+              <FontAwesomeIcon className="previous-icon" icon={faCircleArrowLeft} />
+            </button>
             <button className="button edit-button" onClick={handleEdit}>Edit</button>
             <button className="button delete-button" onClick={handleDelete}>Delete</button>
+            <button className="next-player-button" onClick={handleNextPlayer}>
+              <FontAwesomeIcon className="next-icon" icon={faCircleArrowRight} />
+            </button>
           </>
         )}
       </div>
