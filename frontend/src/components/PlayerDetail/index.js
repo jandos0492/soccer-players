@@ -6,6 +6,7 @@ import { PlayerContext } from "../../context/PlayerContext";
 
 const PlayerDetail = () => {
   const [editModalOpen, setEditModalOpen] = useState(false);
+  const [deleteConfirmationOpen, setDeleteConfirmationOpen] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
   const { deletePlayer, players, player, setPlayer } = useContext(PlayerContext);
@@ -18,10 +19,16 @@ const PlayerDetail = () => {
         setPlayer(data);
       })
       .catch((error) => console.error(error));
-  }, [id]);
-
+  }, [id, setPlayer]);
 
   const handleDelete = () => {
+    if (!editModalOpen && !deleteConfirmationOpen) {
+      setDeleteConfirmationOpen(true);
+    }
+  }
+
+
+  const handleConfirmDelete = () => {
     const playerIndex = players.findIndex((play) => play.id === +id);
     const nextPlayerId = playerIndex !== players.length - 1 ? players[playerIndex + 1].id : players[0].id;
 
@@ -34,7 +41,13 @@ const PlayerDetail = () => {
       .catch((error) => {
         console.error(error);
       });
+
+      setDeleteConfirmationOpen(false);
   };
+
+  const handleCancelDelete = () => {
+    setDeleteConfirmationOpen(false);
+  }
 
   const image = () => {
     if (player.largeImageUrl.startsWith("http")) {
@@ -45,9 +58,7 @@ const PlayerDetail = () => {
   }
 
   const handleEdit = () => {
-    if (editModalOpen) {
-      setEditModalOpen(false);
-    } else {
+    if (!editModalOpen && !deleteConfirmationOpen) {
       setEditModalOpen(true);
     }
   }
@@ -58,12 +69,26 @@ const PlayerDetail = () => {
   }
 
   return (
-    <div className={`player-detail${editModalOpen ? " edit-modal-open" : ""}`}>
+    <div className={`player-detail${editModalOpen ? " edit-modal-open" : ""} 
+          ${deleteConfirmationOpen ? " delete-confirmation-open" : ""}`}>
       <img src={image()} alt={player.name} className="player-image" />
       <div className="buttons">
-        <button className="button edit-button" onClick={handleEdit} >Edit</button>
-        <button className="button delete-button" onClick={handleDelete}>Delete</button>
+        {!editModalOpen && !deleteConfirmationOpen && (
+          <>
+            <button className="button edit-button" onClick={handleEdit}>Edit</button>
+            <button className="button delete-button" onClick={handleDelete}>Delete</button>
+          </>
+        )}
       </div>
+      {deleteConfirmationOpen && (
+        <div className="delete-confirmation">
+          <h3>Are you sure you want to delete {player.name}?</h3>
+          <div className="confirmation-buttons">
+            <button className="confirm-button confirm-delete-button" onClick={handleConfirmDelete}>Yes</button>
+            <button className="confirm-button confirm-cancel-button" onClick={handleCancelDelete}>No</button>
+          </div>
+        </div>
+      )}
       {editModalOpen && (
         <div className="edit-form">
           <EditPlayerModal
@@ -72,14 +97,15 @@ const PlayerDetail = () => {
           />
         </div>
       )}
-      
-      <h2 className="player-name">{player.name}</h2>
-      <p className="player-info">Age: {player.age}</p>
-      <p className="player-info">Position: {player.position}</p>
-      <p className="player-info">Country: {player.country}</p>
-      <p className="player-info">Club: {player.club}</p>
-      <p className="player-bio">{player.bio}</p>
-      <p className="player-bio-author">Author of the Bio: {player.bioAuthor}</p>
+      <div className="player-detail-info">
+        <h2 className="player-name">{player.name}</h2>
+        <p className="player-info">Age: {player.age}</p>
+        <p className="player-info">Position: {player.position}</p>
+        <p className="player-info">Country: {player.country}</p>
+        <p className="player-info">Club: {player.club}</p>
+        <p className="player-bio">{player.bio}</p>
+        <p className="player-bio-author">Author of the Bio: {player.bioAuthor}</p>
+      </div>
     </div>
   );
 };

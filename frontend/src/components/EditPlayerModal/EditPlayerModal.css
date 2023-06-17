@@ -1,4 +1,5 @@
 section {
+  margin-top: 10px;
   width: 1000px;
 }
 
@@ -44,20 +45,21 @@ select {
   justify-content: center;
   margin-top: 20px;
   height: 50px;
+  border: none;
 }
 
 .submit-button {
   font-weight: 700;
   margin-right: 40px;
   cursor: pointer;
-  background-color: #428542;
+  background-color: green;
   color: white;
 }
 
 .cancel-button {
   font-weight: 700;
   cursor: pointer;
-  background-color: #F44336;
+  background-color: #ff0000;
   color: white;
 }
 

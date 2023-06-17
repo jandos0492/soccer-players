@@ -13,11 +13,7 @@ function App() {
   const [createModalOpen, setCreateModalOpen] = useState(false);
 
   const handleCreate = () => {
-    if (createModalOpen) {
-      setCreateModalOpen(false);
-    } else {
-      setCreateModalOpen(true);
-    }
+    setCreateModalOpen(!createModalOpen);
   }
 
   return (
@@ -36,15 +32,18 @@ function App() {
         <div className="create-form">
           {createModalOpen && (
             <CreatePlayerModal
+              className="create-modal"
               setCreateModalOpen={setCreateModalOpen}
             />
           )}
         </div>
-        <div className="main-content">
-          <Routes>
-            <Route path="/players/:id" element={<PlayerDetail />} />
-          </Routes>
-        </div>
+        {!createModalOpen && (
+          <div className="main-content">
+            <Routes>
+              <Route path="/players/:id" element={<PlayerDetail />} />
+            </Routes>
+          </div>
+        )}
       </div>
     </div>
   );

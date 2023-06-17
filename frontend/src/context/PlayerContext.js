@@ -60,29 +60,23 @@ export const PlayerProvider = ({ children }) => {
       });
   };
 
-  const addPlayer = (newPlayerData) => {
-    return fetch("/players", {
+  const createPlayer = async (playerData) => {
+    const response = await fetch("/players", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(newPlayerData),
-    })
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          throw new Error("Failed to add the player");
-        }
-      })
-      .then((responseData) => {
-        setPlayers((prevPlayers) => [...prevPlayers, responseData]);
-        console.log("Player added successfully");
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }
+      body: JSON.stringify(playerData),
+    });
+
+    if (response.ok) {
+      const createdPlayer = await response.json();
+      return createdPlayer;
+    } else {
+      throw new Error("Failed to create player");
+    }
+  };
+
 
 
   const providerValues = {
@@ -92,7 +86,7 @@ export const PlayerProvider = ({ children }) => {
     updatePlayer,
     player,
     setPlayer,
-    addPlayer
+    createPlayer,
   }
 
   return (

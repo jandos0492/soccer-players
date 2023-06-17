@@ -24,6 +24,7 @@
   overflow-y: auto;
   border-right: 1px solid #ccc;
   padding: 20px;
+  max-width: 550px;
 }
 
 .main-content {
@@ -33,6 +34,14 @@
   padding: 20px;
   width: 100%;
   max-width: none;
+}
+
+.create-modal {
+  flex: 3;
+  height: 100%;
+  padding: 20px;
+  width: 100%;
+  margin-left: 60px;
 }
 
 .create-player-button {
