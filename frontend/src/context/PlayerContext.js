@@ -14,7 +14,6 @@ export const PlayerProvider = ({ children }) => {
   }, []);
 
   const deletePlayer = (id) => {
-    console.log("Deleting player:", id);
 
     return fetch(`/players/${id}`, {
       method: "DELETE",
@@ -24,7 +23,6 @@ export const PlayerProvider = ({ children }) => {
           setPlayers((prevPlayers) => 
             prevPlayers.filter((player) => player.id !== +id)
           );
-          console.log("Player deleted successfully");
           return true;
         }
         throw new Error("Failed to delete player");
@@ -62,10 +60,43 @@ export const PlayerProvider = ({ children }) => {
       });
   };
 
+  const addPlayer = (newPlayerData) => {
+    return fetch("/players", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newPlayerData),
+    })
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        } else {
+          throw new Error("Failed to add the player");
+        }
+      })
+      .then((responseData) => {
+        setPlayers((prevPlayers) => [...prevPlayers, responseData]);
+        console.log("Player added successfully");
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
 
+
+  const providerValues = {
+    players,
+    setPlayers,
+    deletePlayer,
+    updatePlayer,
+    player,
+    setPlayer,
+    addPlayer
+  }
 
   return (
-    <PlayerContext.Provider value={{ players, setPlayers, deletePlayer, updatePlayer, player, setPlayer }}>
+    <PlayerContext.Provider value={ providerValues }>
       {children}
     </PlayerContext.Provider>
   );

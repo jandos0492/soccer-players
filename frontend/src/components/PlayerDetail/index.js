@@ -44,7 +44,6 @@ const PlayerDetail = () => {
     }
   }
 
-  // Full Logic of the Edit button 
   const handleEdit = () => {
     if (editModalOpen) {
       setEditModalOpen(false);
@@ -59,7 +58,7 @@ const PlayerDetail = () => {
   }
 
   return (
-    <div className={`player-detail${editModalOpen ? " modal-open" : ""}`}>
+    <div className={`player-detail${editModalOpen ? " edit-modal-open" : ""}`}>
       <img src={image()} alt={player.name} className="player-image" />
       <div className="buttons">
         <button className="button edit-button" onClick={handleEdit} >Edit</button>
@@ -68,12 +67,12 @@ const PlayerDetail = () => {
       {editModalOpen && (
         <div className="edit-form">
           <EditPlayerModal
-            editModalOpen={editModalOpen}
             setEditModalOpen={setEditModalOpen}
             player={player}
           />
         </div>
       )}
+      
       <h2 className="player-name">{player.name}</h2>
       <p className="player-info">Age: {player.age}</p>
       <p className="player-info">Position: {player.position}</p>
@@ -81,7 +80,6 @@ const PlayerDetail = () => {
       <p className="player-info">Club: {player.club}</p>
       <p className="player-bio">{player.bio}</p>
       <p className="player-bio-author">Author of the Bio: {player.bioAuthor}</p>
-
     </div>
   );
 };

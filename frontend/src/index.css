@@ -2,13 +2,20 @@
   display: flex;
   height: 100vh;
   margin-top: 30px;
+  position: relative;
 }
 
 .header {
-  margin: 30px, auto, auto, 0;
-  text-align: center;
-  background-color: #f4f0ff;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.header img {
+  margin-right: 10px;
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .sidebar {
@@ -28,18 +35,133 @@
   max-width: none;
 }
 
-@media screen and (max-width: 550px) {
+.create-player-button {
+  position: fixed;
+  top: 80%;
+  left: 560px;
+  transform: translate(0, -50%);
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  right: 0;
+
+}
+
+.plus-icon {
+  width: 40px;
+  height: 40px;
+  color: green;
+}
+
+@media screen and (max-width: 2300px) {
+  .create-player-button {
+    left: 500px;
+  }
+}
+
+@media screen and (max-width: 2100px) {
+  .create-player-button {
+    left: 480px;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .create-player-button {
+    left: 460px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .create-player-button {
+    left: 420px;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .create-player-button {
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .create-player-button {
+    left: 380px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .create-player-button {
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .create-player-button {
+    left: 260px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .create-player-button {
+    left: 240px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .create-player-button {
+    left: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .create-player-button {
+    left: 150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .create-player-button {
+    left: 120px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .create-player-button {
+    left: 90px;
+  }
+}
+
+@media screen and (max-width: 520px) {
   .sidebar {
     flex: 2;
     padding: 5px;
+  }
+
+  .create-player-button {
+    left: 120px;
+  }
+
+  .plus-icon {
+    width: 30px;
+    height: 30px;
   }
 
   .main-content {
     flex: 3;
   }
 
-  .header {
-    font-size: 24px;
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .header img {
+    width: 30px;
   }
 }
 
+@media screen and (max-width: 450px) {
+  .create-player-button {
+    left: 90px;
+  }
+}

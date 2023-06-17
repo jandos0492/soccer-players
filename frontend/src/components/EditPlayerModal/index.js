@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { PlayerContext } from "../../context/PlayerContext";
 import "./EditPlayerModal.css";
 
-const EditPlayerModal = ({ editModalOpen, setEditModalOpen, player }) => {
+const EditPlayerModal = ({ setEditModalOpen, player }) => {
   const positions = ["Goalkeeper", "Defender", "Midfielder", "Forward"];
   const { updatePlayer } = useContext(PlayerContext);
   const [no, setNo] = useState(player.no);
@@ -45,18 +45,8 @@ const EditPlayerModal = ({ editModalOpen, setEditModalOpen, player }) => {
       smallImageUrl,
       largeImageUrl,
     };
-    console.log("Updating player:", updatedPlayer);
-    updatePlayer(id, updatedPlayer)
-      .then((success) => {
-        if (success) {
-          console.log("Player updated successfully");
-        } else {
-          console.log("Failed to update player");
-        }
-      })
-      .catch((error) => {
-        console.error("Error updating player:", error);
-      });
+
+    updatePlayer(id, updatedPlayer);
     setEditModalOpen(false);
   };
 
@@ -89,6 +79,7 @@ const EditPlayerModal = ({ editModalOpen, setEditModalOpen, player }) => {
           onChange={updateAge}
         />
         <select value={position} onChange={updatePosition} menuposition="fixed" >
+          <option key="player position" disabled>Player Position</option>
           {positions.map((position) =>
             <option key={position}>{position}</option>
           )}

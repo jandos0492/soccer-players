@@ -24,7 +24,8 @@ form input {
 }
 
 select {
-  height: 30px;
+  padding: 10px 0;
+  line-height: 1.2;
 }
 
 input,
@@ -93,7 +94,9 @@ button {
     width: 200px;
   }
 
-  input, textarea, select {
+  input,
+  textarea,
+  select {
     font-size: 11px;
   }
 
@@ -119,17 +122,23 @@ button {
     padding: 10px;
   }
 
-    input,
-    textarea,
-    select {
-      font-size: 9px;
-    }
+  input,
+  textarea,
+  select {
+    font-size: 9px;
+  }
 
-    select, input {
-      height: 20px;
-    }
+  select,
+  input {
+    height: 20px;
+  }
 
-    form * {
-      margin-bottom: 5px;
-    }
+  form * {
+    margin-bottom: 5px;
+  }
+
+  button {
+    max-height: 10px;
+    font-size: 10px;
+  }
 }

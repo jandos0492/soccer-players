@@ -95,23 +95,23 @@
   visibility: visible;
 }
 
-.modal-open .player-name {
+.edit-modal-open .player-name {
   visibility: hidden;
 }
 
-.modal-open .buttons {
+.edit-modal-open .buttons {
   visibility: hidden;
 }
 
-.modal-open .player-info {
+.edit-modal-open .player-info {
   visibility: hidden;
 }
 
-.modal-open .player-bio {
+.edit-modal-open .player-bio {
   visibility: hidden;
 }
 
-.modal-open .player-bio-author {
+.edit-modal-open .player-bio-author {
   visibility: hidden;
 }
 
@@ -183,6 +183,7 @@
     margin-top: 5px;
     font-size: 10px;
     margin-bottom: 5px;
+    padding: 0 5px;
   }
 
   .player-bio-author {
@@ -206,5 +207,7 @@
 
   .player-detail {
     padding: 5px;
+    max-height: 600px;
+    overflow: auto;
   }
 }
