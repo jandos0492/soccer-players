@@ -5,7 +5,7 @@
   padding: 20px;
   height: 1100px;
   background-color: #f2f2f2;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
 }
@@ -23,32 +23,30 @@
 .player-name {
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
 .player-info {
   font-size: 1.2rem;
-  margin-bottom: 5px;
 }
 
 .player-bio {
   font-size: 1.1rem;
-  margin-top: 20px;
   text-align: justify;
   max-width: 1200px;
 }
 
 .player-bio-author {
   font-size: 0.9rem;
-  margin-top: 10px;
   text-align: right;
   font-style: italic;
 }
 
 .buttons {
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .edit-button {
@@ -81,7 +79,11 @@
   font-size: 24px;
   cursor: pointer;
   width: 50px;
-  color: #333333;
+  color: #262626;
+}
+
+.next-player-button:hover, .previous-player-button:hover {
+  opacity: 0.8;
 }
 
 .previous-player-button {

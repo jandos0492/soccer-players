@@ -162,10 +162,10 @@ const PlayerDetail = () => {
       </div>
       <div className="player-detail-info">
         <h2 className="player-name">{player.name}</h2>
-        <p className="player-info">Age: {player.age}</p>
-        <p className="player-info">Position: {player.position}</p>
-        <p className="player-info">Country: {player.country}</p>
-        <p className="player-info">Club: {player.club}</p>
+        <p className="player-info"><strong>Age:</strong> {player.age}</p>
+        <p className="player-info"><strong>Position:</strong> {player.position}</p>
+        <p className="player-info"><strong>Country:</strong> {player.country}</p>
+        <p className="player-info"><strong>Club:</strong> {player.club}</p>
         <p className="player-bio">{player.bio}</p>
         <p className="player-bio-author">Author of the Bio: {player.bioAuthor}</p>
       </div>
