@@ -2,14 +2,20 @@ import React, { useContext, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./PlayerDetail.css";
 import EditPlayerModal from "../EditPlayerModal";
+import CreatePlayerModal from "../CreatePlayerModal";
 import { PlayerContext } from "../../context/PlayerContext";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+library.add(faCirclePlus);
 
 const PlayerDetail = () => {
+  const [createModalOpen, setCreateModalOpen] = useState(false);
   const [editModalOpen, setEditModalOpen] = useState(false);
   const [deleteConfirmationOpen, setDeleteConfirmationOpen] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const { deletePlayer, players, player, setPlayer } = useContext(PlayerContext);
+  const { deletePlayer, players, player, setPlayer, createPlayer } = useContext(PlayerContext);
 
   useEffect(() => {
     fetch(`/players/${id}`)
@@ -22,8 +28,16 @@ const PlayerDetail = () => {
   }, [id, setPlayer]);
 
   const handleDelete = () => {
-    if (!editModalOpen && !deleteConfirmationOpen) {
+    if (!editModalOpen && !deleteConfirmationOpen && !createModalOpen) {
       setDeleteConfirmationOpen(true);
+    }
+  }
+
+  const handleCreate = () => {
+    if (!editModalOpen && !deleteConfirmationOpen && !createModalOpen) {
+      setCreateModalOpen(true);
+    } else {
+      setCreateModalOpen(false);
     }
   }
 
@@ -42,7 +56,7 @@ const PlayerDetail = () => {
         console.error(error);
       });
 
-      setDeleteConfirmationOpen(false);
+    setDeleteConfirmationOpen(false);
   };
 
   const handleCancelDelete = () => {
@@ -58,7 +72,7 @@ const PlayerDetail = () => {
   }
 
   const handleEdit = () => {
-    if (!editModalOpen && !deleteConfirmationOpen) {
+    if (!editModalOpen && !deleteConfirmationOpen && !createModalOpen) {
       setEditModalOpen(true);
     }
   }
@@ -70,7 +84,8 @@ const PlayerDetail = () => {
 
   return (
     <div className={`player-detail${editModalOpen ? " edit-modal-open" : ""} 
-          ${deleteConfirmationOpen ? " delete-confirmation-open" : ""}`}>
+          ${deleteConfirmationOpen ? " delete-confirmation-open" : ""}
+          ${createModalOpen ? " create-modal-open" : ""}`}>
       <img src={image()} alt={player.name} className="player-image" />
       <div className="buttons">
         {!editModalOpen && !deleteConfirmationOpen && (
@@ -89,14 +104,25 @@ const PlayerDetail = () => {
           </div>
         </div>
       )}
-      {editModalOpen && (
-        <div className="edit-form">
+      <button className="create-player-button" onClick={handleCreate}>
+        <FontAwesomeIcon className="plus-icon" icon="fa-solid fa-circle-plus" />
+      </button>
+      <div className="create-form">
+        {createModalOpen && (
+          <CreatePlayerModal
+            className="create-modal"
+            setCreateModalOpen={setCreateModalOpen}
+          />
+        )}
+      </div>
+      <div className="edit-form">
+        {editModalOpen && (
           <EditPlayerModal
             setEditModalOpen={setEditModalOpen}
             player={player}
           />
-        </div>
-      )}
+        )}
+      </div>
       <div className="player-detail-info">
         <h2 className="player-name">{player.name}</h2>
         <p className="player-info">Age: {player.age}</p>

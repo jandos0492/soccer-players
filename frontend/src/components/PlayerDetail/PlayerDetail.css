@@ -92,13 +92,38 @@
   visibility: hidden;
 }
 
-
 .player-detail-info {
   visibility: visible;
 }
 
 .delete-confirmation-open .player-detail-info {
   visibility: hidden;
+}
+
+/* create modal styles */
+.create-modal-open .player-detail-info {
+  visibility: hidden;
+}
+
+.buttons {
+  visibility: visible;
+}
+
+.create-modal-open .buttons {
+  visibility: hidden;
+}
+
+.player-image {
+  visibility: visible;
+}
+
+.create-modal-open .player-image {
+  visibility: hidden;
+}
+
+.create-form {
+  position: absolute;
+  z-index: 2;
 }
 
 /* delete confirmation styles */
