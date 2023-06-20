@@ -1,12 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Players from "./components/Players";
 import PlayerDetail from "./components/PlayerDetail";
-import CreatePlayerModal from "./components/CreatePlayerModal";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(faCirclePlus);
+import DefaultRoute from "./components/DefaultRoute";
 
 function App() {
 
@@ -20,15 +16,15 @@ function App() {
         <div className="sidebar">
           <Players />
         </div>
-          <div className="main-content">
-            <Routes>
-              <Route path="/players/:id" element={<PlayerDetail />} />
-            </Routes>
-          </div>
+        <div className="main-content">
+          <Routes>
+            <Route path="/players/:id" element={<PlayerDetail />} />
+            <Route path="*" element={<DefaultRoute />} />
+          </Routes>
+        </div>
       </div>
     </div>
   );
 }
 
 export default App;
-

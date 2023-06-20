@@ -3,6 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import "./PlayerDetail.css";
 import EditPlayerModal from "../EditPlayerModal";
 import CreatePlayerModal from "../CreatePlayerModal";
+import DefaultRoute from "../DefaultRoute";
 import { PlayerContext } from "../../context/PlayerContext";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faCirclePlus, faCircleArrowRight, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -17,15 +18,15 @@ const PlayerDetail = () => {
   const navigate = useNavigate();
   const { deletePlayer, players, player, setPlayer } = useContext(PlayerContext);
 
+
+  // Handle the case when the player not found
   useEffect(() => {
-    fetch(`/players/${id}`)
-      .then((response) => response.json())
-      .then((data) => {
-        setEditModalOpen(false);
-        setPlayer(data);
-      })
-      .catch((error) => console.error(error));
-  }, [id, setPlayer]);
+    const playerData = players.find((p) => p.id === +id);
+    if (playerData) {
+      setEditModalOpen(false);
+      setPlayer(playerData);
+    } 
+  }, [id, players, setPlayer]);
 
   const handleDelete = () => {
     if (!editModalOpen && !deleteConfirmationOpen && !createModalOpen) {
@@ -34,42 +35,57 @@ const PlayerDetail = () => {
   }
 
   const handleCreate = () => {
-    if (!editModalOpen && !deleteConfirmationOpen && !createModalOpen) {
-      setCreateModalOpen(true);
-    } else {
-      setCreateModalOpen(false);
+    if (!editModalOpen && !deleteConfirmationOpen) {
+      setCreateModalOpen((prevState) => !prevState);
     }
-  }
+  };
+
+  useEffect(() => {
+    setCreateModalOpen(false); // Close create modal when id changes
+  }, [id]);
+
 
 
   const handleConfirmDelete = () => {
     const playerIndex = players.findIndex((play) => play.id === +id);
-    const nextPlayerId = playerIndex !== players.length - 1 ? players[playerIndex + 1].id : players[0].id;
 
-    deletePlayer(id)
-      .then((success) => {
-        if (success) {
-          navigate(`/players/${nextPlayerId}`);
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
+    if (playerIndex !== -1) {
+      const nextPlayerIndex = playerIndex !== players.length - 1 ? playerIndex + 1 : 0;
+      const nextPlayerId = players[nextPlayerIndex].id;
+
+      deletePlayer(id)
+        .then((success) => {
+          if (success) {
+            navigate(`/players/${nextPlayerId}`);
+          } else {
+            navigate("/404");
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+        });
+    } else {
+      navigate("/404");
+    }
 
     setDeleteConfirmationOpen(false);
   };
+
+
 
   const handleCancelDelete = () => {
     setDeleteConfirmationOpen(false);
   }
 
   const image = () => {
-    if (player.largeImageUrl.startsWith("http")) {
+    if (player && player.largeImageUrl && player.largeImageUrl.startsWith("http")) {
       return player.largeImageUrl;
-    } else {
+    } else if (player && player.largeImageUrl) {
       return `/${player.largeImageUrl}`;
+    } else {
+      return "";
     }
-  }
+  };
 
   const handleEdit = () => {
     if (!editModalOpen && !deleteConfirmationOpen && !createModalOpen) {
@@ -110,7 +126,7 @@ const PlayerDetail = () => {
 
 
   if (!player) {
-    return <div>Loading...</div>;
+    return <DefaultRoute />
   }
 
   return (

@@ -14,24 +14,25 @@ export const PlayerProvider = ({ children }) => {
   }, []);
 
   const deletePlayer = (id) => {
+    return new Promise((resolve, reject) => {
+      fetch(`/players/${id}`, {
+        method: "DELETE",
+      })
+        .then((response) => {
+          if (response.ok) {
+            setPlayers((prevPlayers) => prevPlayers.filter((player) => player.id !== +id));
+            resolve(true);
+          } else {
+            throw new Error("Failed to delete player");
+          }
+        })
+        .catch((error) => {
+          console.error(error);
+          reject(false);
+        });
+    });
+  };
 
-    return fetch(`/players/${id}`, {
-      method: "DELETE",
-    })
-      .then((response) => {
-        if (response.ok) {
-          setPlayers((prevPlayers) => 
-            prevPlayers.filter((player) => player.id !== +id)
-          );
-          return true;
-        }
-        throw new Error("Failed to delete player");
-      })
-      .catch((error) => {
-        console.error(error);
-        return false;
-      })
-  }
 
   // Update Player
   const updatePlayer = (id, updatedData) => {
@@ -91,7 +92,7 @@ export const PlayerProvider = ({ children }) => {
   }
 
   return (
-    <PlayerContext.Provider value={ providerValues }>
+    <PlayerContext.Provider value={providerValues}>
       {children}
     </PlayerContext.Provider>
   );
