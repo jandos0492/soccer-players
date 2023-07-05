@@ -13,7 +13,9 @@
     "seed:generate": "sequelize-cli seed:generate",
     "start": "per-env",
     "start:development": "dotenv nodemon ./bin/www",
-    "start:production": "dotenv ./bin/www"
+    "start:production": "dotenv ./bin/www",
+    "sequelize": "sequelize",
+    "sequelize-cli": "sequelize-cli"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",
