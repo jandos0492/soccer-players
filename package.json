@@ -15,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Coverman9/API-project.git"
+    "url": "git+https://github.com/jandos0492/soccer-players.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zhandos Arinov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Coverman9/API-project/issues"
