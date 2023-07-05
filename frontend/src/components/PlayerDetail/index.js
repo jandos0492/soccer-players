@@ -40,8 +40,9 @@ const PlayerDetail = () => {
     }
   };
 
+  // Closing create modal when id changes
   useEffect(() => {
-    setCreateModalOpen(false); // Close create modal when id changes
+    setCreateModalOpen(false); 
   }, [id]);
 
 
