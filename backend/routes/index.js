@@ -1,4 +1,6 @@
-const router = require("express").Router();
+const express = require("express");
+
+const router = express.Router();
 const api = require("./api/playersRouter");
 
 router.use("/api", api);
@@ -34,7 +36,5 @@ if (process.env.NODE_ENV !== 'production') {
     res.status(201).json({});
   });
 }
-
-module.exports = router;
 
 module.exports = router;
