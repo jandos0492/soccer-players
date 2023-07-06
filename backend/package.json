@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "soccer-players",
   "scripts": {
     "db:create": "sequelize-cli db:create",
     "db:drop": "sequelize-cli db:drop",
