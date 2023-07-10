@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const  { Player }  = require("../../db/models");
+const { Player } = require("../../db/models");
 
 // Get all the players
 router.get("/", async (req, res) => {
@@ -15,7 +15,7 @@ router.get("/", async (req, res) => {
 // Get one player by id
 router.get("/:id", async (req, res) => {
   const playerId = req.params.id;
-  console.log(playerId)
+  console.log(playerId);
   try {
     const player = await Player.findByPk(playerId);
 
@@ -26,9 +26,9 @@ router.get("/:id", async (req, res) => {
     res.json(player);
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: "Server Error"});
+    res.status(500).json({ message: "Server Error" });
   }
-})
+});
 
 // create a new player
 router.post("/", async (req, res) => {
@@ -56,7 +56,7 @@ router.post("/", async (req, res) => {
       bio,
       bioAuthor,
       smallImageUrl,
-      largeImageUrl
+      largeImageUrl,
     });
 
     res.status(201).json(newPlayer);
@@ -89,7 +89,7 @@ router.put("/:id/edit", async (req, res) => {
 // Delete the player
 router.delete("/:id", async (req, res) => {
   const playerId = req.params.id;
-  
+
   const player = await Player.findByPk(playerId);
   if (!player) {
     return res.status(404).json({ message: "Player not found" });
@@ -97,8 +97,6 @@ router.delete("/:id", async (req, res) => {
 
   await player.destroy();
   res.json({ message: "Player deleted successfully" });
-})
-
-
+});
 
 module.exports = router;

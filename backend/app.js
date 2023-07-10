@@ -5,7 +5,6 @@ const cors = require("cors");
 const helmet = require("helmet");
 const cookieParser = require("cookie-parser");
 const { ValidationError } = require("sequelize");
-const corsOptions = require("./corsConfig");
 
 const { environment } = require("./config");
 const isProduction = environment === "production";
@@ -19,16 +18,11 @@ app.use(cookieParser()); // Parse cookies in requests
 app.use(express.json()); // Parse JSON request bodies
 app.use(express.urlencoded({ extended: false })); // Parse URL-encoded request bodies
 
-if (!isProduction) {
-  app.use(cors()); // Enable CORS in development
-}
+// Enable CORS
+app.use(cors());
 
 // helmet helps set a variety of headers to better secure your app
-app.use(
-  helmet.crossOriginResourcePolicy({
-    policy: "cross-origin",
-  })
-);
+app.use(helmet());
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
@@ -39,9 +33,9 @@ router.get("/hello", (req, res) => {
 });
 
 app.use((_req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
   next();
-})
+});
 
 app.use(router); // Mount the router to the app
 
@@ -73,6 +67,4 @@ app.use((err, _req, res, _next) => {
   });
 });
 
-
-
-module.exports = app; 
+module.exports = app;
