@@ -8,7 +8,6 @@ const { ValidationError } = require("sequelize");
 
 const { environment } = require("./config");
 const isProduction = environment === "production";
-const corsOptions = require("./corsConfig");
 
 // Initialize the Express app
 const app = express();
