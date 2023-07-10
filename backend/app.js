@@ -28,6 +28,10 @@ if (!isProduction) {
 app.use(
   helmet.crossOriginResourcePolicy({
     policy: "cross-origin",
+    directives: {
+      defaultSrc: ["'self'"],
+      connectSrc: ["'self'", "http://localhost:8081"],
+    }
   })
 );
 
