@@ -19,9 +19,5 @@
   },
   "keywords": [],
   "author": "Zhandos Arinov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Coverman9/API-project/issues"
-  },
-  "homepage": "https://github.com/Coverman9/API-project#readme"
+  "license": "ISC"
 }
