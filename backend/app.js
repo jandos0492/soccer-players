@@ -26,7 +26,8 @@ app.use(helmet({
   contentSecurityPolicy: {
     directives: {
       defaultSrc: ["'self'"],
-      connectSrc: ["'self'", 'http://localhost:8081', 'https://soccer-players.onrender.com']
+      connectSrc: ["'self'", 'http://localhost:8081', 'https://soccer-players.onrender.com'],
+      styleSrc: ["'self'", "'unsafe-inline'"],
     }
   }
 }));
