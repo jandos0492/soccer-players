@@ -22,6 +22,10 @@ if (!isProduction) {
   app.use(cors()); // Enable CORS in development
 }
 
+app.use(cors({
+  origin: "https://soccer-players.onrender.com" // Add your frontend URL here
+}));
+
 app.use(helmet({
   contentSecurityPolicy: false
 })); // Set various security-related headers
