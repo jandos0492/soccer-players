@@ -8,6 +8,7 @@ const { ValidationError } = require("sequelize");
 
 const { environment } = require("./config");
 const isProduction = environment === "production";
+const corsOprions = require("./corsConfig");
 
 // Initialize the Express app
 const app = express();
@@ -22,9 +23,7 @@ if (!isProduction) {
   app.use(cors()); // Enable CORS in development
 }
 
-app.use(cors({
-  origin: "https://soccer-players.onrender.com" // Add your frontend URL here
-}));
+app.use(cors(corsOprions));
 
 app.use(helmet({
   contentSecurityPolicy: false
