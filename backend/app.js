@@ -8,7 +8,7 @@ const { ValidationError } = require("sequelize");
 
 const { environment } = require("./config");
 const isProduction = environment === "production";
-const corsOprions = require("./corsConfig");
+const corsOptions = require("./corsConfig");
 
 // Initialize the Express app
 const app = express();
@@ -23,11 +23,12 @@ if (!isProduction) {
   app.use(cors()); // Enable CORS in development
 }
 
-app.use(cors(corsOprions));
-
-app.use(helmet({
-  contentSecurityPolicy: false
-})); // Set various security-related headers
+// helmet helps set a variety of headers to better secure your app
+app.use(
+  helmet.crossOriginResourcePolicy({
+    policy: "cross-origin",
+  })
+);
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
