@@ -62,7 +62,7 @@ module.exports = {
         type: Sequelize.DATE,
         defaultValue: Sequelize.fn('now'),
       }
-    });
+    }, options);
   },
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('Players');

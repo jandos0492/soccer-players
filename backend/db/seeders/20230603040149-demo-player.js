@@ -8,7 +8,18 @@ if (process.env.NODE_ENV === 'production') {
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    return queryInterface.bulkInsert("Players", [{
+    /**
+     * Add seed commands here.
+     *
+     * Example:
+     * await queryInterface.bulkInsert('People', [{
+     *   name: 'John Doe',
+     *   isBetaMember: false
+     * }], {});
+    */
+    options.tableName = "Players"
+    return queryInterface.bulkInsert(options, [
+      {
       "no": 1,
       "name": "Lionel Messi",
       "age": 35,
@@ -1207,7 +1218,7 @@ module.exports = {
       "largeImageUrl": "images/players/largeImage/100.svg",
       "bio": "On our list for the first time, the 34-year-old can look back at a wildly successful 2022 that was crowned by the World Cup victory in December. The former Manchester City defender started every game and played every minute in Qatar, the coach, Lionel Scaloni, sticking by him despite the opening defeat against Saudi Arabia. At club level Otamendi played an integral part as Benfica finished third in 2021-22. The club then went on to win their Champions League group ahead of PSG and Juventus. His coach, Roger Schmidt, is a fan and recently said the club are keen to extend the veteran’s contract.",
       "bioAuthor": "Marcus Christenson"
-    }]
+    }], {}
     )
   },
 
