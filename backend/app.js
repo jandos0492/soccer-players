@@ -5,6 +5,8 @@ const cors = require("cors");
 const helmet = require("helmet");
 const cookieParser = require("cookie-parser");
 const { ValidationError } = require("sequelize");
+const corsOptions = require("./corsConfig");
+console.log(corsOptions);
 
 const { environment } = require("./config");
 const isProduction = environment === "production";
@@ -36,6 +38,11 @@ const router = require("./routes/index");
 router.get("/hello", (req, res) => {
   res.send("<h1>Test passed</h1>");
 });
+
+app.use((_req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+})
 
 app.use(router); // Mount the router to the app
 
