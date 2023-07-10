@@ -37,6 +37,12 @@ app.use((_req, res, next) => {
   next();
 });
 
+app.use((req, res, next) => {
+  res.setHeader('Content-Security-Policy', "default-src 'self' http://localhost:8081");
+  next();
+});
+
+
 app.use(router); // Mount the router to the app
 
 // Error Handling Middleware
