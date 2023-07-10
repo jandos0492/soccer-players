@@ -6,7 +6,7 @@ const helmet = require("helmet");
 const cookieParser = require("cookie-parser");
 const { ValidationError } = require("sequelize");
 const corsOptions = require("./corsConfig");
-console.log(corsOptions);
+const axios = require("axios");
 
 const { environment } = require("./config");
 const isProduction = environment === "production";
@@ -33,6 +33,16 @@ app.use(
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
+
+// Trying to avoid the cors in cliend side adding the axios to the origin
+app.get("/proxy", async (req, res) => {
+  try {
+    const response = await axios.get("https://hog.simplify.jobs/decide/?v=3&ip=1&_=1688963719380&ver=1.57.2");
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: "An error occured while making the request" });
+  }
+});
 // Example route
 const router = require("./routes/index");
 router.get("/hello", (req, res) => {
