@@ -22,7 +22,9 @@ app.use(express.urlencoded({ extended: false })); // Parse URL-encoded request b
 if (!isProduction) {
   // enable cors only in development
   app.use(cors());
-}
+};
+
+app.use(cors({ origin: "https://soccer-players.onrender.com" }));
 
 // helmet helps set a variety of headers to better secure your app
 app.use(
@@ -37,12 +39,11 @@ app.use(
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
-// Example route
-const router = require("./routes/index");
-router.get("/hello", (req, res) => {
-  res.send("<h1>Test passed</h1>");
-});
-
+// app.use((_req, res, next) => {
+//   res.setHeader("Access-Control-Allow-Origin", "https://soccer-players.onrender.com");
+//   res.setHeader("Access-Control-Allow-Origin", "GET", "POST", "PUT", "DELETE");
+//   res.setHeader("Access-Control-Allow-Origin", "Content-Type");
+// });
 
 app.use(router); // Mount the router to the app
 
