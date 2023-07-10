@@ -13,7 +13,7 @@ const PlayerLink = ({ player }) => {
   }
 
   return (
-    <Link to={`/players/${player.id}`} className="player-link">
+    <Link to={`/${player.id}`} className="player-link">
       <div className="player-info">
         <h4 className="playerNo">{player.no}</h4>
         <img src={image()} alt={player.name} className="player-image" />

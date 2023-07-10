@@ -57,7 +57,7 @@ const PlayerDetail = () => {
       deletePlayer(id)
         .then((success) => {
           if (success) {
-            navigate(`/players/${nextPlayerId}`);
+            navigate(`/${nextPlayerId}`);
           } else {
             navigate("/404");
           }
@@ -106,7 +106,7 @@ const PlayerDetail = () => {
     }
 
     const nextPlayerId = players[nextPlayerIndex].id;
-    navigate(`/players/${nextPlayerId}`);
+    navigate(`/${nextPlayerId}`);
   };
 
 
@@ -122,7 +122,7 @@ const PlayerDetail = () => {
     }
 
     const previousPlayerId = players[previousPlayerIndex].id;
-    navigate(`/players/${previousPlayerId}`);
+    navigate(`/${previousPlayerId}`);
   };
 
 

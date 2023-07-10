@@ -7,7 +7,7 @@ export const PlayerProvider = ({ children }) => {
   const [player, setPlayer] = useState(null);
 
   useEffect(() => {
-    fetch("/players")
+    fetch("http://localhost:8081/api/")
       .then((response) => response.json())
       .then((data) => setPlayers(data))
       .catch((error) => console.error(error));
@@ -15,7 +15,7 @@ export const PlayerProvider = ({ children }) => {
 
   const deletePlayer = (id) => {
     return new Promise((resolve, reject) => {
-      fetch(`/players/${id}`, {
+      fetch(`http://localhost:8081/api/${id}`, {
         method: "DELETE",
       })
         .then((response) => {
@@ -36,7 +36,7 @@ export const PlayerProvider = ({ children }) => {
 
   // Update Player
   const updatePlayer = (id, updatedData) => {
-    return fetch(`/players/${id}/edit`, {
+    return fetch(`http://localhost:8081/api/${id}/edit`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -62,7 +62,7 @@ export const PlayerProvider = ({ children }) => {
   };
 
   const createPlayer = async (playerData) => {
-    const response = await fetch("/players", {
+    const response = await fetch("http://localhost:8081/api/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

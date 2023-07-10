@@ -47,7 +47,7 @@ const CreatePlayerModal = ({ setCreateModalOpen }) => {
     const createdPlayer = await createPlayer(createdPlayerData);
     const { id } = createdPlayer;
     setCreateModalOpen(false);
-    navigate(`/players/${id}`);
+    navigate(`/${id}`);
   };
 
 
