@@ -18,19 +18,18 @@ app.use(cookieParser()); // Parse cookies in requests
 app.use(express.json()); // Parse JSON request bodies
 app.use(express.urlencoded({ extended: false })); // Parse URL-encoded request bodies
 
-// Enable CORS
-app.use(cors());
+// Security Middleware
+if (!isProduction) {
+  // enable cors only in development
+  app.use(cors());
+}
 
 // helmet helps set a variety of headers to better secure your app
-app.use(helmet({
-  contentSecurityPolicy: {
-    directives: {
-      defaultSrc: ["'self'"],
-      connectSrc: ["'self'", 'http://localhost:8081', 'https://soccer-players.onrender.com'],
-      styleSrc: ["'self'", "'unsafe-inline'"],
-    }
-  }
-}));
+app.use(
+  helmet.crossOriginResourcePolicy({
+    policy: "cross-origin",
+  })
+);
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
@@ -40,15 +39,15 @@ router.get("/hello", (req, res) => {
   res.send("<h1>Test passed</h1>");
 });
 
-// app.use((_req, res, next) => {
-//   res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-//   next();
-// });
+app.use((_req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  next();
+});
 
-// app.use((req, res, next) => {
-//   res.setHeader('Content-Security-Policy', "default-src 'self' http://localhost:8081");
-//   next();
-// });
+app.use((req, res, next) => {
+  res.setHeader('Content-Security-Policy', "default-src 'self' http://localhost:8081");
+  next();
+});
 
 
 app.use(router); // Mount the router to the app
