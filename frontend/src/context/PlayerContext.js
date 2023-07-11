@@ -9,10 +9,7 @@ export const PlayerProvider = ({ children }) => {
   useEffect(() => {
     fetch("/api")
       .then((response) => response.json())
-      .then((data) => {
-        console.log(data)
-        setPlayers(data)
-      })
+      .then((data) => setPlayers(data))
       .catch((error) => console.error(error));
   }, []);
 

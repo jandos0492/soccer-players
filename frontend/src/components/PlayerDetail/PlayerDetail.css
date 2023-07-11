@@ -283,7 +283,12 @@
   }
 
   .delete-button, .edit-button {
-    padding: 0;
+    padding: 0; 
+  }
+
+  .button {
+    padding: 0 !important;
+    font-size: 8px !important;
   }
 }
 
