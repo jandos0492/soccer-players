@@ -47,6 +47,7 @@
   display: flex;
   margin-top: 20px;
   margin-bottom: 10px;
+  max-height: 200px;
 }
 
 .edit-button {
@@ -78,12 +79,11 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
-  width: 50px;
   color: #262626;
   background-color: transparent;
   border: none;
   width: 30px;
-  height: 40px;
+  padding-bottom: 15px;
 }
 
 .next-player-button:hover, .previous-player-button:hover {
@@ -283,7 +283,7 @@
   }
 
   .next-player-button, .previous-player-button, .edit-button, .delete-button {
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .delete-button, .edit-button {
