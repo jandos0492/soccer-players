@@ -24,7 +24,7 @@ if (!isProduction) {
   app.use(cors());
 };
 
-app.use(cors({ origin: "https://soccer-players.onrender.com" }));
+app.use(cors({ origin: ["http://localhost:8081", "https://soccer-players.onrender.com"] }));
 
 // helmet helps set a variety of headers to better secure your app
 app.use(
@@ -32,24 +32,25 @@ app.use(
     policy: "cross-origin",
     directives: {
       defaultSrc: ["'self'"],
-      connectSrc: ["'self'", "http://localhost:8081"],
+      connectSrc: ["'self'", "http://localhost:8081/api"],
     }
   })
 );
 
-app.use((_req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://soccer-players.onrender.com");
-  res.setHeader("Access-Control-Allow-Origin", "GET", "POST", "PUT", "DELETE");
-  res.setHeader("Access-Control-Allow-Origin", "Content-Type");
-});
 
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
 // app.use((_req, res, next) => {
-//   res.setHeader("Access-Control-Allow-Origin", "https://soccer-players.onrender.com");
-//   res.setHeader("Access-Control-Allow-Origin", "GET", "POST", "PUT", "DELETE");
-//   res.setHeader("Access-Control-Allow-Origin", "Content-Type");
-// });
+  //   res.setHeader("Access-Control-Allow-Origin", "https://soccer-players.onrender.com");
+  //   res.setHeader("Access-Control-Allow-Origin", "GET", "POST", "PUT", "DELETE");
+  //   res.setHeader("Access-Control-Allow-Origin", "Content-Type");
+  // });
+  
+  // Example route
+  const router = require("./routes/index");
+  router.get("/hello", (req, res) => {
+    res.send("<h1>Test passed</h1>");
+  });
 
 app.use(router); // Mount the router to the app
 
