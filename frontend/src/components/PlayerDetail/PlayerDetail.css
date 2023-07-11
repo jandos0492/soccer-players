@@ -80,6 +80,9 @@
   cursor: pointer;
   width: 50px;
   color: #262626;
+  background-color: transparent;
+  border: none;
+  width: 30px;
 }
 
 .next-player-button:hover, .previous-player-button:hover {
@@ -235,7 +238,7 @@
 
   .delete-button, .edit-button {
     width: 80px;
-    padding: 5px 10px;
+    padding: 5px 1px;
   }
 }
 

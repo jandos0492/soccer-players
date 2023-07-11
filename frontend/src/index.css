@@ -137,7 +137,7 @@
 
 @media screen and (max-width: 600px) {
   .create-player-button {
-    left: 90px;
+    left: 100px;
   }
 }
 
@@ -149,6 +149,10 @@
 
   .create-player-button {
     left: 120px;
+  }
+
+  .edit-button {
+    margin: 6px;
   }
 
   .plus-icon {
@@ -171,6 +175,6 @@
 
 @media screen and (max-width: 450px) {
   .create-player-button {
-    left: 90px;
+    left: 100px;
   }
 }
