@@ -294,6 +294,12 @@
     padding: 0 !important;
     font-size: 8px !important;
   }
+
+  .confirm-button {
+    padding: 0;
+    height: 20px;
+    font-size: 8px;
+  }
 }
 
 @media screen and (max-width: 400px) {
