@@ -83,6 +83,7 @@
   background-color: transparent;
   border: none;
   width: 30px;
+  height: 40px;
 }
 
 .next-player-button:hover, .previous-player-button:hover {

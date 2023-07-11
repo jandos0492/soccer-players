@@ -45,6 +45,7 @@
 }
 
 .create-player-button {
+  height: 40px;
   position: fixed;
   top: 80%;
   left: 560px;
