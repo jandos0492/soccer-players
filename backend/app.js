@@ -37,6 +37,12 @@ app.use(
   })
 );
 
+app.use((_req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "https://soccer-players.onrender.com");
+  res.setHeader("Access-Control-Allow-Origin", "GET", "POST", "PUT", "DELETE");
+  res.setHeader("Access-Control-Allow-Origin", "Content-Type");
+});
+
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files from the "public" directory
 
 // app.use((_req, res, next) => {
