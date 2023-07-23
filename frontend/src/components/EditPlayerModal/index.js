@@ -128,7 +128,7 @@ const EditPlayerModal = ({ setEditModalOpen, player }) => {
         />
         <div className="edit-buttons">
           <button type="submit" className="submit-button" >Update</button>
-          <button className="cancel-button" onClick={() => setEditModalOpen(false)}>Cancel</button>
+          <button className="cancel-button" onClick={() => setEditModalOpen(false)} type="button">Cancel</button>
         </div>
       </form>
     </section>

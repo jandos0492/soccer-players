@@ -5,8 +5,7 @@ import "./CreatePlayerModal.css";
 
 const CreatePlayerModal = ({ setCreateModalOpen }) => {
   const positions = ["Goalkeeper", "Defender", "Midfielder", "Forward"];
-  const { createPlayer } = useContext(PlayerContext);
-  const [no, setNo] = useState("");
+  const { createPlayer, players } = useContext(PlayerContext);
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [position, setPosition] = useState("");
@@ -17,7 +16,11 @@ const CreatePlayerModal = ({ setCreateModalOpen }) => {
   const [smallImageUrl, setSmallImageUrl] = useState("");
   const [largeImageUrl, setLargeImageUrl] = useState("");
 
-  const updateNo = (e) => setNo(e.target.value);
+  // Setting the no of the new created player automatically
+  const noArray = [];
+  players.map((player) => noArray.push(player.no));
+  const no = Math.max(...noArray) + 1 || 1;
+
   const updateName = (e) => setName(e.target.value);
   const updateAge = (e) => setAge(e.target.value);
   const updatePosition = (e) => setPosition(e.target.value);
@@ -60,8 +63,7 @@ const CreatePlayerModal = ({ setCreateModalOpen }) => {
           min="1"
           required
           placeholder="Player Number"
-          value={no}
-          onChange={updateNo}
+          defaultValue={no}
         />
         <input
           type="text"
@@ -128,7 +130,7 @@ const CreatePlayerModal = ({ setCreateModalOpen }) => {
         />
         <div className="edit-buttons">
           <button type="submit" className="submit-button" >Create</button>
-          <button className="cancel-button" onClick={() => setCreateModalOpen(false)}>Cancel</button>
+          <button className="cancel-button" onClick={() => setCreateModalOpen(false)} type="button">Cancel</button>
         </div>
       </form>
     </section>
