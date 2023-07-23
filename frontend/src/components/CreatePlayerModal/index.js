@@ -5,7 +5,8 @@ import "./CreatePlayerModal.css";
 
 const CreatePlayerModal = ({ setCreateModalOpen }) => {
   const positions = ["Goalkeeper", "Defender", "Midfielder", "Forward"];
-  const { createPlayer, players } = useContext(PlayerContext);
+  const { createPlayer } = useContext(PlayerContext);
+  const [no, setNo] = useState("");
   const [name, setName] = useState("");
   const [age, setAge] = useState("");
   const [position, setPosition] = useState("");

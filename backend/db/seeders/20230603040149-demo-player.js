@@ -17,7 +17,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    options.tableName = "Players"
+    options.tableName = "Players";
     return queryInterface.bulkInsert(options, [
       {
       "no": 1,
