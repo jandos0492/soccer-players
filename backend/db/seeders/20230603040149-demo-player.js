@@ -25,7 +25,7 @@ module.exports = {
       "age": 35,
       "position": "Forward",
       "country": " Argentina",
-      "club": "Paris Saint-Germain",
+      "club": "Inter Miami",
       "smallImageUrl": "images/players/smallImage/1.svg",
       "largeImageUrl": "images/players/largeImage/1.svg",
       "bio": "After a low-key 2021-22 season, his first at PSG, no one knew quite what to expect from Messi in this World Cup-interrupted campaign. However, he came back after the summer firing on all cylinders. There were goals or assists in all but four Ligue 1 games he played before the World Cup and in Qatar, of course, he led Argentina to glory for the first time since 1986. Messi played with abandon as Argentina bounced back from their opening defeat to Saudi Arabia to go all the way, Messi scoring seven goals, including two in the final. He tops our list for a remarkable sixth time with every single judge of the 206-strong panel having him on their voting slip and with 156 of them putting him at No 1.",
