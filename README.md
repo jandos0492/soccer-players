@@ -8,7 +8,8 @@ You can access the live project here: [Best Soccer Players](https://soccer-playe
 ## Table of Contents
 
 - [Screenshots](#screenshots)
-- [Features](#features);
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -42,6 +43,19 @@ Here are some screenshots of the Best Soccer Players Website:
 - **Edit Player Info:** Update and edit player details to ensure accurate and up-to-date information.
 - **Add New Players:** Easily add new players to the database, including their personal information and career highlights.
 - **Delete Players:** Remove players from the database when necessary, providing a streamlined way to manage player data.
+
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+- HTML5
+- CSS
+- JavaScript
+- React.js
+- Context API
+- React Router
+- Express
+- Postgres
+- Sequelize
 
 
 <h2 id="getting-started">Getting Started</h2>
