@@ -84,18 +84,25 @@ app.use((err, _req, res, _next) => {
 });
 
 // Keep-Alive Function (Cyclic Task)
-const keepAliveRequest = async () => {
-  try {
-    // Make a request to your backend endpoint
-    await axios.get("https://your_backend_endpoint_here/keep-alive");
-    console.log("Keep-alive request successful.");
-  } catch (error) {
-    console.error("Error in keep-alive request:", error);
-    setTimeout(keepAliveRequest, 60000); // Retry after 1 minute if it fails
+const cyclicFunc = async () => {
+  while (true) {
+    try {
+      // Send request to your /api/keep-alive endpoint
+      await axios.get('http://localhost:3000/api/keep-alive');
+      console.log('Keep-alive request made to the server');
+
+      // Wait for 14 minutes (14 * 60 * 1000 milliseconds)
+      await new Promise(resolve => setTimeout(resolve, 840000));
+
+    } catch (error) {
+      console.error('Error in cyclicFunc:', error);
+      // Wait 1 minute before retrying in case of an error
+      await new Promise(resolve => setTimeout(resolve, 60000));
+    }
   }
 };
 
-// Start the cyclic function (make request every 14 minutes)
-setInterval(keepAliveRequest, 840000);
+// Start the cyclic function
+cyclicFunc();
 
 module.exports = app;

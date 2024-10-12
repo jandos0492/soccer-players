@@ -2,8 +2,10 @@ const express = require("express");
 
 const router = express.Router();
 const api = require("./api/playersRouter");
+const keepAlive = require("./api/keepAliveRouter");
 
 router.use("/api", api);
+router.use("/api", keepAlive);
 
 // Static routes
 // Serve React build files in production
