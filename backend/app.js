@@ -1,3 +1,4 @@
+const axios = require("axios");
 const path = require("path");
 const express = require("express");
 const morgan = require("morgan");
@@ -81,5 +82,20 @@ app.use((err, _req, res, _next) => {
     stack: isProduction ? null : err.stack,
   });
 });
+
+// Keep-Alive Function (Cyclic Task)
+const keepAliveRequest = async () => {
+  try {
+    // Make a request to your backend endpoint
+    await axios.get("https://your_backend_endpoint_here/keep-alive");
+    console.log("Keep-alive request successful.");
+  } catch (error) {
+    console.error("Error in keep-alive request:", error);
+    setTimeout(keepAliveRequest, 60000); // Retry after 1 minute if it fails
+  }
+};
+
+// Start the cyclic function (make request every 14 minutes)
+setInterval(keepAliveRequest, 840000);
 
 module.exports = app;
