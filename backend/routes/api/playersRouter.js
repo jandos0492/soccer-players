@@ -2,7 +2,7 @@ const router = require("express").Router();
 const { Player } = require("../../db/models");
 
 // Get all the players
-router.get("/", async (req, res) => {
+router.get("/players", async (req, res) => {
   try {
     const players = await Player.findAll();
     res.json(players);
@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
 });
 
 // Get one player by id
-router.get("/:id", async (req, res) => {
+router.get("/players/:id", async (req, res) => {
   const playerId = req.params.id;
   console.log(playerId);
   try {
@@ -31,7 +31,7 @@ router.get("/:id", async (req, res) => {
 });
 
 // create a new player
-router.post("/", async (req, res) => {
+router.post("/players", async (req, res) => {
   const {
     no,
     name,
@@ -67,7 +67,7 @@ router.post("/", async (req, res) => {
 });
 
 // Update the player
-router.put("/:id/edit", async (req, res) => {
+router.put("/players/:id/edit", async (req, res) => {
   const playerId = req.params.id;
   const updatedPlayerData = req.body;
 
@@ -87,7 +87,7 @@ router.put("/:id/edit", async (req, res) => {
 });
 
 // Delete the player
-router.delete("/:id", async (req, res) => {
+router.delete("/players/:id", async (req, res) => {
   const playerId = req.params.id;
 
   const player = await Player.findByPk(playerId);
