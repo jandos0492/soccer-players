@@ -88,7 +88,7 @@ const cyclicFunc = async () => {
   while (true) {
     try {
       // Send request to your /api/keep-alive endpoint
-      await axios.get('https://soccer-player.onrender.com/api/keep-alive');
+      await axios.get('https://soccer-players.onrender.com/api/keep-alive');
       console.log('Keep-alive request made to the server');
 
       // Wait for 14 minutes (14 * 60 * 1000 milliseconds)
